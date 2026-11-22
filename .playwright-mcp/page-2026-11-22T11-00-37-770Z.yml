@@ -1,0 +1,1226 @@
+- generic [active] [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - generic [ref=f16e3]:
+      - generic [ref=f16e4]:
+        - link "044 585 50 40" [ref=f16e5] [cursor=pointer]:
+          - /url: tel:0445855040
+        - generic [ref=f16e6]:
+          - generic [ref=f16e7]: Помощь
+          - list:
+            - listitem [ref=f16e8]:
+              - link "Оплата и доставка" [ref=f16e9] [cursor=pointer]:
+                - /url: /ru/site/payment-shipping
+            - listitem [ref=f16e10]:
+              - link "Вопросы и ответы" [ref=f16e11] [cursor=pointer]:
+                - /url: /ru/site/questions-answers
+            - listitem [ref=f16e12]:
+              - link "Клубная программа" [ref=f16e13] [cursor=pointer]:
+                - /url: "/ru/site/loyalty "
+            - listitem [ref=f16e14]:
+              - link "Гарантия" [ref=f16e15] [cursor=pointer]:
+                - /url: "/ru/guarantee "
+        - link "Журнал" [ref=f16e16] [cursor=pointer]:
+          - /url: /ru/news
+      - generic [ref=f16e17]:
+        - paragraph [ref=f16e18]:
+          - link "Войти" [ref=f16e19] [cursor=pointer]:
+            - /url: /ru/auth/login
+          - text: /
+          - link "Зарегистрироваться" [ref=f16e20] [cursor=pointer]:
+            - /url: /ru/auth/signup
+        - link [ref=f16e21] [cursor=pointer]:
+          - /url: /ru/favorites
+        - link [ref=f16e22] [cursor=pointer]:
+          - /url: /ru/cart/index
+        - generic [ref=f16e23]:
+          - generic [ref=f16e24]: Рус
+          - list:
+            - listitem [ref=f16e25]:
+              - link "Укр" [ref=f16e26] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store?s=%D0%BF%D0%BB%D0%B0%D1%82%D1%8C%D0%B5
+            - listitem [ref=f16e27]: Рус
+    - generic [ref=f16e28]:
+      - link [ref=f16e29] [cursor=pointer]:
+        - /url: /ru/
+        - img "mdfashion" [ref=f16e30]
+      - list [ref=f16e31]:
+        - listitem [ref=f16e32]:
+          - link "Новинки" [ref=f16e33] [cursor=pointer]:
+            - /url: /ru/store/new
+        - listitem [ref=f16e34]:
+          - link "Женщинам" [ref=f16e35] [cursor=pointer]:
+            - /url: /ru/store/women
+        - listitem [ref=f16e36]:
+          - link "Мужчинам" [ref=f16e37] [cursor=pointer]:
+            - /url: /ru/store/man
+        - listitem [ref=f16e38]:
+          - link "Детям" [ref=f16e39] [cursor=pointer]:
+            - /url: /ru/store/boys+girls
+        - listitem [ref=f16e40]:
+          - link "Спорт" [ref=f16e41] [cursor=pointer]:
+            - /url: /ru/store/sport
+        - listitem [ref=f16e42]:
+          - link "Дом" [ref=f16e43] [cursor=pointer]:
+            - /url: /store/dom-1
+        - listitem [ref=f16e44]:
+          - link "Sale" [ref=f16e45] [cursor=pointer]:
+            - /url: /ru/store/sale
+        - listitem [ref=f16e46]:
+          - link "Бренды" [ref=f16e47] [cursor=pointer]:
+            - /url: /ru/brands
+        - listitem [ref=f16e48]:
+          - link "Акции" [ref=f16e49] [cursor=pointer]:
+            - /url: https://md-fashion.ua/ru/discount-news
+        - listitem [ref=f16e50]:
+          - link "Премиум" [ref=f16e51] [cursor=pointer]:
+            - /url: /ru/store/premium
+      - searchbox "Поиск" [ref=f16e54]
+  - generic [ref=f16e55]:
+    - list [ref=f16e58]:
+      - listitem [ref=f16e59]:
+        - link "Главная страница" [ref=f16e60] [cursor=pointer]:
+          - /url: /ru/
+      - listitem [ref=f16e61]:
+        - link "Новинки" [ref=f16e62] [cursor=pointer]:
+          - /url: /ru/store/new
+      - listitem [ref=f16e63]:
+        - link "Женщинам" [ref=f16e65] [cursor=pointer]:
+          - /url: /ru/store/women
+        - generic [ref=f16e66]:
+          - generic [ref=f16e68]: Женщинам
+          - list [ref=f16e71]:
+            - listitem [ref=f16e72]:
+              - generic [ref=f16e73]: Одежда
+              - list [ref=f16e74]:
+                - listitem [ref=f16e75]:
+                  - link "Верхняя одежда" [ref=f16e76] [cursor=pointer]:
+                    - /url: /store/women/odezhda/verkhnyaya-odezhda
+                - listitem [ref=f16e77]:
+                  - link "Джинсы" [ref=f16e78] [cursor=pointer]:
+                    - /url: /store/women/odezhda/dzhinsy
+                - listitem [ref=f16e79]:
+                  - link "Брюки и штаны" [ref=f16e80] [cursor=pointer]:
+                    - /url: /store/women/odezhda/bryuki
+                - listitem [ref=f16e81]:
+                  - link "Трикотажные кофты" [ref=f16e82] [cursor=pointer]:
+                    - /url: /store/women/odezhda/trikotazh
+                - listitem [ref=f16e83]:
+                  - link "Футболки и поло" [ref=f16e84] [cursor=pointer]:
+                    - /url: /store/women/odezhda/futbolki-i-polo
+                - listitem [ref=f16e85]:
+                  - link "Джемперы и свитеры" [ref=f16e86] [cursor=pointer]:
+                    - /url: /store/women/odezhda/dzhempery-i-svitery
+                - listitem [ref=f16e87]:
+                  - link "Кардиганы и кофты" [ref=f16e88] [cursor=pointer]:
+                    - /url: /store/women/odezhda/kardigany-i-kofty
+                - listitem [ref=f16e89]:
+                  - link "Платья" [ref=f16e90] [cursor=pointer]:
+                    - /url: /store/women/odezhda/platya
+                - listitem [ref=f16e91]:
+                  - link "Пиджаки и костюмы" [ref=f16e92] [cursor=pointer]:
+                    - /url: /store/women/odezhda/pidzhaki-i-kostyumy
+                - listitem [ref=f16e93]:
+                  - link "Вся одежда" [ref=f16e94] [cursor=pointer]:
+                    - /url: /store/women/odezhda
+            - listitem [ref=f16e95]:
+              - generic [ref=f16e96]: Обувь
+              - list [ref=f16e97]:
+                - listitem [ref=f16e98]:
+                  - link "Кроссовки" [ref=f16e99] [cursor=pointer]:
+                    - /url: /store/women/obuv/krossovki
+                - listitem [ref=f16e100]:
+                  - link "Ботинки" [ref=f16e101] [cursor=pointer]:
+                    - /url: /store/women/obuv/botinki
+                - listitem [ref=f16e102]:
+                  - link "Сапоги" [ref=f16e103] [cursor=pointer]:
+                    - /url: /store/women/obuv/sapogi
+                - listitem [ref=f16e104]:
+                  - link "Ботильоны" [ref=f16e105] [cursor=pointer]:
+                    - /url: /store/women/obuv/botilony
+                - listitem [ref=f16e106]:
+                  - link "Туфли" [ref=f16e107] [cursor=pointer]:
+                    - /url: /store/women/obuv/tufli
+                - listitem [ref=f16e108]:
+                  - link "Обувь без задника" [ref=f16e109] [cursor=pointer]:
+                    - /url: /store/women/obuv/obuv-bez-zadnika
+                - listitem [ref=f16e110]:
+                  - link "Домашние тапочки" [ref=f16e111] [cursor=pointer]:
+                    - /url: /store/women/obuv/domashnie-tapochki
+                - listitem [ref=f16e112]:
+                  - link "Резиновые сапоги" [ref=f16e113] [cursor=pointer]:
+                    - /url: /store/women/obuv/rezinovye-sapogi
+                - listitem [ref=f16e114]:
+                  - link "Средства по уходу за обувью" [ref=f16e115] [cursor=pointer]:
+                    - /url: /store/women/obuv/sredstva-po-ukhodu-za-obuvyu
+                - listitem [ref=f16e116]:
+                  - link "Вся обувь" [ref=f16e117] [cursor=pointer]:
+                    - /url: /store/women/obuv
+            - listitem [ref=f16e118]:
+              - generic [ref=f16e119]: Аксессуары
+              - list [ref=f16e120]:
+                - listitem [ref=f16e121]:
+                  - link "Сумки и рюкзаки" [ref=f16e122] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/sumki-i-ryukzaki
+                - listitem [ref=f16e123]:
+                  - link "Головные уборы" [ref=f16e124] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/golovnye-ubory
+                - listitem [ref=f16e125]:
+                  - link "Носки" [ref=f16e126] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/noski
+                - listitem [ref=f16e127]:
+                  - link "Другие аксессуары" [ref=f16e128] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/drugie-aksessuary
+                - listitem [ref=f16e129]:
+                  - link "Ремни и подтяжки" [ref=f16e130] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/remni-i-podtyazhki
+                - listitem [ref=f16e131]:
+                  - link "Украшения" [ref=f16e132] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/ukrasheniya
+                - listitem [ref=f16e133]:
+                  - link "Очки и оправы" [ref=f16e134] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/ochki-i-opravy
+                - listitem [ref=f16e135]:
+                  - link "Шарфы и перчатки" [ref=f16e136] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/sharfy-i-perchatki
+                - listitem [ref=f16e137]:
+                  - link "Колготки и чулки" [ref=f16e138] [cursor=pointer]:
+                    - /url: /store/women/aksessuary/kolgotki-i-chulki
+                - listitem [ref=f16e139]:
+                  - link "Все аксессуары" [ref=f16e140] [cursor=pointer]:
+                    - /url: /store/women/aksessuary
+            - listitem [ref=f16e141]:
+              - generic [ref=f16e142]: Белье
+              - list [ref=f16e143]:
+                - listitem [ref=f16e144]:
+                  - link "Нижнее белье" [ref=f16e145] [cursor=pointer]:
+                    - /url: /store/women/bele/nizhnee-bele
+                - listitem [ref=f16e146]:
+                  - link "Наборы белья" [ref=f16e147] [cursor=pointer]:
+                    - /url: /store/women/bele/nabory-belya
+                - listitem [ref=f16e148]:
+                  - link "Одежда для дома и сна" [ref=f16e149] [cursor=pointer]:
+                    - /url: /store/women/bele/odezhda-dlya-doma-i-sna
+                - listitem [ref=f16e150]:
+                  - link "Все белье" [ref=f16e151] [cursor=pointer]:
+                    - /url: /store/women/bele
+            - listitem [ref=f16e152]:
+              - generic [ref=f16e153]: Бренды
+              - list [ref=f16e154]:
+                - listitem [ref=f16e155]:
+                  - link "Calvin Klein" [ref=f16e156] [cursor=pointer]:
+                    - /url: /ru/store/women/calvin-klein
+                - listitem [ref=f16e157]:
+                  - link "Diesel" [ref=f16e158] [cursor=pointer]:
+                    - /url: /ru/store/women/diesel
+                - listitem [ref=f16e159]:
+                  - link "Tommy Hilfiger" [ref=f16e160] [cursor=pointer]:
+                    - /url: /ru/store/women/tommy-hilfiger
+                - listitem [ref=f16e161]:
+                  - link "Karl Lagerfeld" [ref=f16e162] [cursor=pointer]:
+                    - /url: /ru/store/women/karl-lagerfeld
+                - listitem [ref=f16e163]:
+                  - link "PRPY" [ref=f16e164] [cursor=pointer]:
+                    - /url: /ru/store/women/prpy
+                - listitem [ref=f16e165]:
+                  - link "G-Star RAW" [ref=f16e166] [cursor=pointer]:
+                    - /url: /ru/store/women/g-star-raw
+                - listitem [ref=f16e167]:
+                  - link "Gant" [ref=f16e168] [cursor=pointer]:
+                    - /url: /ru/store/women/gant
+                - listitem [ref=f16e169]:
+                  - link "Guess" [ref=f16e170] [cursor=pointer]:
+                    - /url: /ru/store/women/guess
+                - listitem [ref=f16e171]:
+                  - link "Bimba Y Lola" [ref=f16e172] [cursor=pointer]:
+                    - /url: /ru/store/women/bimba-y-lola
+                - listitem [ref=f16e173]:
+                  - link "Все бренды" [ref=f16e174] [cursor=pointer]:
+                    - /url: /ru/brands
+      - listitem [ref=f16e175]:
+        - link "Мужчинам" [ref=f16e177] [cursor=pointer]:
+          - /url: /ru/store/man
+        - generic [ref=f16e178]:
+          - generic [ref=f16e180]: Мужчинам
+          - list [ref=f16e183]:
+            - listitem [ref=f16e184]:
+              - generic [ref=f16e185]: Одежда
+              - list [ref=f16e186]:
+                - listitem [ref=f16e187]:
+                  - link "Верхняя одежда" [ref=f16e188] [cursor=pointer]:
+                    - /url: /store/man/odezhda/verkhnyaya-odezhda
+                - listitem [ref=f16e189]:
+                  - link "Джинсы" [ref=f16e190] [cursor=pointer]:
+                    - /url: /store/man/odezhda/dzhinsy
+                - listitem [ref=f16e191]:
+                  - link "Брюки и штаны" [ref=f16e192] [cursor=pointer]:
+                    - /url: /store/man/odezhda/bryuki
+                - listitem [ref=f16e193]:
+                  - link "Трикотажные кофты" [ref=f16e194] [cursor=pointer]:
+                    - /url: /store/man/odezhda/trikotazh
+                - listitem [ref=f16e195]:
+                  - link "Футболки и поло" [ref=f16e196] [cursor=pointer]:
+                    - /url: /store/man/odezhda/futbolki-i-polo
+                - listitem [ref=f16e197]:
+                  - link "Джемперы и свитеры" [ref=f16e198] [cursor=pointer]:
+                    - /url: /store/man/odezhda/dzhempery-i-svitery
+                - listitem [ref=f16e199]:
+                  - link "Кардиганы и кофты" [ref=f16e200] [cursor=pointer]:
+                    - /url: /store/man/odezhda/kardigany-i-kofty
+                - listitem [ref=f16e201]:
+                  - link "Пиджаки и костюмы" [ref=f16e202] [cursor=pointer]:
+                    - /url: /store/man/odezhda/pidzhaki-i-kostyumy
+                - listitem [ref=f16e203]:
+                  - link "Рубашки" [ref=f16e204] [cursor=pointer]:
+                    - /url: /store/man/odezhda/rubashki
+                - listitem [ref=f16e205]:
+                  - link "Вся одежда" [ref=f16e206] [cursor=pointer]:
+                    - /url: /store/man/odezhda
+            - listitem [ref=f16e207]:
+              - generic [ref=f16e208]: Обувь
+              - list [ref=f16e209]:
+                - listitem [ref=f16e210]:
+                  - link "Кроссовки" [ref=f16e211] [cursor=pointer]:
+                    - /url: /store/man/obuv/krossovki
+                - listitem [ref=f16e212]:
+                  - link "Ботинки" [ref=f16e213] [cursor=pointer]:
+                    - /url: /store/man/obuv/botinki
+                - listitem [ref=f16e214]:
+                  - link "Туфли" [ref=f16e215] [cursor=pointer]:
+                    - /url: /store/man/obuv/tufli
+                - listitem [ref=f16e216]:
+                  - link "Обувь без задника" [ref=f16e217] [cursor=pointer]:
+                    - /url: /store/man/obuv/obuv-bez-zadnika
+                - listitem [ref=f16e218]:
+                  - link "Домашние тапочки" [ref=f16e219] [cursor=pointer]:
+                    - /url: /store/man/obuv/domashnie-tapochki
+                - listitem [ref=f16e220]:
+                  - link "Вся обувь" [ref=f16e221] [cursor=pointer]:
+                    - /url: /store/man/obuv
+            - listitem [ref=f16e222]:
+              - generic [ref=f16e223]: Аксессуары
+              - list [ref=f16e224]:
+                - listitem [ref=f16e225]:
+                  - link "Сумки и рюкзаки" [ref=f16e226] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/sumki-i-ryukzaki
+                - listitem [ref=f16e227]:
+                  - link "Головные уборы" [ref=f16e228] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/golovnye-ubory
+                - listitem [ref=f16e229]:
+                  - link "Носки" [ref=f16e230] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/noski
+                - listitem [ref=f16e231]:
+                  - link "Другие аксессуары" [ref=f16e232] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/drugie-aksessuary
+                - listitem [ref=f16e233]:
+                  - link "Ремни и подтяжки" [ref=f16e234] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/remni-i-podtyazhki
+                - listitem [ref=f16e235]:
+                  - link "Украшения" [ref=f16e236] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/ukrasheniya
+                - listitem [ref=f16e237]:
+                  - link "Очки и оправы" [ref=f16e238] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/ochki-i-opravy
+                - listitem [ref=f16e239]:
+                  - link "Аксессуары для путешествий" [ref=f16e240] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/aksessuary-dlya-puteshestvij
+                - listitem [ref=f16e241]:
+                  - link "Шарфы и перчатки" [ref=f16e242] [cursor=pointer]:
+                    - /url: /store/man/aksessuary/sharfy-i-perchatki
+                - listitem [ref=f16e243]:
+                  - link "Все аксессуары" [ref=f16e244] [cursor=pointer]:
+                    - /url: /store/man/aksessuary
+            - listitem [ref=f16e245]:
+              - generic [ref=f16e246]: Белье
+              - list [ref=f16e247]:
+                - listitem [ref=f16e248]:
+                  - link "Нижнее белье" [ref=f16e249] [cursor=pointer]:
+                    - /url: /store/man/bele/nizhnee-bele
+                - listitem [ref=f16e250]:
+                  - link "Наборы белья" [ref=f16e251] [cursor=pointer]:
+                    - /url: /store/man/bele/nabory-belya
+                - listitem [ref=f16e252]:
+                  - link "Одежда для дома и сна" [ref=f16e253] [cursor=pointer]:
+                    - /url: /store/man/bele/odezhda-dlya-doma-i-sna
+                - listitem [ref=f16e254]:
+                  - link "Все белье" [ref=f16e255] [cursor=pointer]:
+                    - /url: /store/man/bele
+            - listitem [ref=f16e256]:
+              - generic [ref=f16e257]: Бренды
+              - list [ref=f16e258]:
+                - listitem [ref=f16e259]:
+                  - link "Under Armour" [ref=f16e260] [cursor=pointer]:
+                    - /url: /ru/store/man/under-armour
+                - listitem [ref=f16e261]:
+                  - link "Tommy Hilfiger" [ref=f16e262] [cursor=pointer]:
+                    - /url: /ru/store/man/tommy-hilfiger
+                - listitem [ref=f16e263]:
+                  - link "Calvin Klein" [ref=f16e264] [cursor=pointer]:
+                    - /url: /ru/store/man/calvin-klein
+                - listitem [ref=f16e265]:
+                  - link "Diesel" [ref=f16e266] [cursor=pointer]:
+                    - /url: /ru/store/man/diesel
+                - listitem [ref=f16e267]:
+                  - link "G-Star RAW" [ref=f16e268] [cursor=pointer]:
+                    - /url: /ru/store/man/g-star-raw
+                - listitem [ref=f16e269]:
+                  - link "Gant" [ref=f16e270] [cursor=pointer]:
+                    - /url: /ru/store/man/gant
+                - listitem [ref=f16e271]:
+                  - link "PRPY" [ref=f16e272] [cursor=pointer]:
+                    - /url: /ru/store/man/prpy
+                - listitem [ref=f16e273]:
+                  - link "New Balance" [ref=f16e274] [cursor=pointer]:
+                    - /url: /ru/store/man/new-balance
+                - listitem [ref=f16e275]:
+                  - link "Lacoste" [ref=f16e276] [cursor=pointer]:
+                    - /url: /ru/store/man/lacoste
+                - listitem [ref=f16e277]:
+                  - link "Все бренды" [ref=f16e278] [cursor=pointer]:
+                    - /url: /ru/brands
+      - listitem [ref=f16e279]:
+        - link "Детям" [ref=f16e281] [cursor=pointer]:
+          - /url: /ru/store/boys+girls
+        - generic [ref=f16e282]:
+          - generic [ref=f16e284]: Детям
+          - list [ref=f16e287]:
+            - listitem [ref=f16e288]:
+              - generic [ref=f16e289]: Одежда
+              - list [ref=f16e290]:
+                - listitem [ref=f16e291]:
+                  - link "Верхняя одежда" [ref=f16e292] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/verkhnyaya-odezhda
+                - listitem [ref=f16e293]:
+                  - link "Футболки и поло" [ref=f16e294] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/futbolki-i-polo
+                - listitem [ref=f16e295]:
+                  - link "Брюки и штаны" [ref=f16e296] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/bryuki
+                - listitem [ref=f16e297]:
+                  - link "Джинсы" [ref=f16e298] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/dzhinsy
+                - listitem [ref=f16e299]:
+                  - link "Трикотажные кофты" [ref=f16e300] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/trikotazh
+                - listitem [ref=f16e301]:
+                  - link "Комплекты одежды" [ref=f16e302] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/komplekty-odezhdy
+                - listitem [ref=f16e303]:
+                  - link "Платья" [ref=f16e304] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/platya
+                - listitem [ref=f16e305]:
+                  - link "Шорты" [ref=f16e306] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/shorty
+                - listitem [ref=f16e307]:
+                  - link "Одежда для младенцев" [ref=f16e308] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda/odezhda-dlya-mladenczev
+                - listitem [ref=f16e309]:
+                  - link "Вся одежда" [ref=f16e310] [cursor=pointer]:
+                    - /url: /store/boys+girls/odezhda
+            - listitem [ref=f16e311]:
+              - generic [ref=f16e312]: Обувь
+              - list [ref=f16e313]:
+                - listitem [ref=f16e314]:
+                  - link "Кроссовки" [ref=f16e315] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv/krossovki
+                - listitem [ref=f16e316]:
+                  - link "Ботинки и сапоги" [ref=f16e317] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv/botinki-i-sapogi
+                - listitem [ref=f16e318]:
+                  - link "Туфли" [ref=f16e319] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv/tufli
+                - listitem [ref=f16e320]:
+                  - link "Резиновые сапоги" [ref=f16e321] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv/rezinovye-sapogi
+                - listitem [ref=f16e322]:
+                  - link "Обувь без задника" [ref=f16e323] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv/obuv-bez-zadnika
+                - listitem [ref=f16e324]:
+                  - link "Вся обувь" [ref=f16e325] [cursor=pointer]:
+                    - /url: /store/boys+girls/obuv
+            - listitem [ref=f16e326]:
+              - generic [ref=f16e327]: Аксессуары
+              - list [ref=f16e328]:
+                - listitem [ref=f16e329]:
+                  - link "Головные уборы" [ref=f16e330] [cursor=pointer]:
+                    - /url: /store/boys+girls/aksessuary/golovnye-ubory
+                - listitem [ref=f16e331]:
+                  - link "Сумки и рюкзаки" [ref=f16e332] [cursor=pointer]:
+                    - /url: /store/boys+girls/aksessuary/sumki-i-ryukzaki
+                - listitem [ref=f16e333]:
+                  - link "Носки" [ref=f16e334] [cursor=pointer]:
+                    - /url: /store/boys+girls/aksessuary/noski
+                - listitem [ref=f16e335]:
+                  - link "Все аксессуары" [ref=f16e336] [cursor=pointer]:
+                    - /url: /store/boys+girls/aksessuary
+            - listitem [ref=f16e337]:
+              - generic [ref=f16e338]: Белье
+              - list [ref=f16e339]:
+                - listitem [ref=f16e340]:
+                  - link "Нижнее белье" [ref=f16e341] [cursor=pointer]:
+                    - /url: /store/boys+girls/bele/nizhnee-bele
+                - listitem [ref=f16e342]:
+                  - link "Одежда для дома и сна" [ref=f16e343] [cursor=pointer]:
+                    - /url: /store/boys+girls/bele/odezhda-dlya-doma-i-sna
+                - listitem [ref=f16e344]:
+                  - link "Все белье" [ref=f16e345] [cursor=pointer]:
+                    - /url: /store/boys+girls/bele
+            - listitem [ref=f16e346]:
+              - generic [ref=f16e347]: Бренды
+              - list [ref=f16e348]:
+                - listitem [ref=f16e349]:
+                  - link "Calvin Klein Kids" [ref=f16e350] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/calvin-klein-kids
+                - listitem [ref=f16e351]:
+                  - link "Tommy Hilfiger Kids" [ref=f16e352] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/tommy-hilfiger-kids
+                - listitem [ref=f16e353]:
+                  - link "Reima" [ref=f16e354] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/reima
+                - listitem [ref=f16e355]:
+                  - link "adidas" [ref=f16e356] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/adidas
+                - listitem [ref=f16e357]:
+                  - link "PUMA" [ref=f16e358] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/puma
+                - listitem [ref=f16e359]:
+                  - link "Under Armour" [ref=f16e360] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/under-armour
+                - listitem [ref=f16e361]:
+                  - link "Diesel Kids" [ref=f16e362] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/diesel-kids
+                - listitem [ref=f16e363]:
+                  - link "Guess Kids" [ref=f16e364] [cursor=pointer]:
+                    - /url: /ru/store/boys+girls/guess-kids
+                - listitem [ref=f16e365]:
+                  - link "Все бренды" [ref=f16e366] [cursor=pointer]:
+                    - /url: /ru/brands
+      - listitem [ref=f16e367]:
+        - link "Спорт" [ref=f16e369] [cursor=pointer]:
+          - /url: /ru/store/sport
+        - generic [ref=f16e370]:
+          - generic [ref=f16e372]: Спорт
+          - list [ref=f16e375]:
+            - listitem [ref=f16e376]:
+              - generic [ref=f16e377]: Женщинам
+              - list [ref=f16e378]:
+                - listitem [ref=f16e379]:
+                  - link "Спортивная одежда" [ref=f16e380] [cursor=pointer]:
+                    - /url: /store/women/sport/sportivnaya-odezhda
+                - listitem [ref=f16e381]:
+                  - link "Спортивная обувь" [ref=f16e382] [cursor=pointer]:
+                    - /url: /store/women/sport/sportivnaya-obuv
+                - listitem [ref=f16e383]:
+                  - link "Аксессуары для спорта" [ref=f16e384] [cursor=pointer]:
+                    - /url: /store/women/sport/aksessuary-dlya-sporta
+                - listitem [ref=f16e385]:
+                  - link "Спортивное белье" [ref=f16e386] [cursor=pointer]:
+                    - /url: /store/women/sport/sportivnoe-bele
+            - listitem [ref=f16e387]:
+              - generic [ref=f16e388]: Мужчинам
+              - list [ref=f16e389]:
+                - listitem [ref=f16e390]:
+                  - link "Спортивная одежда" [ref=f16e391] [cursor=pointer]:
+                    - /url: /store/man/sport/sportivnaya-odezhda
+                - listitem [ref=f16e392]:
+                  - link "Спортивная обувь" [ref=f16e393] [cursor=pointer]:
+                    - /url: /store/man/sport/sportivnaya-obuv
+                - listitem [ref=f16e394]:
+                  - link "Аксессуары для спорта" [ref=f16e395] [cursor=pointer]:
+                    - /url: /store/man/sport/aksessuary-dlya-sporta
+                - listitem [ref=f16e396]:
+                  - link "Спортивное белье" [ref=f16e397] [cursor=pointer]:
+                    - /url: /store/man/sport/sportivnoe-bele
+            - listitem [ref=f16e398]:
+              - generic [ref=f16e399]: Детям
+              - list [ref=f16e400]:
+                - listitem [ref=f16e401]:
+                  - link "Спортивная одежда" [ref=f16e402] [cursor=pointer]:
+                    - /url: /store/boys+girls/sport/sportivnaya-odezhda
+                - listitem [ref=f16e403]:
+                  - link "Спортивная обувь" [ref=f16e404] [cursor=pointer]:
+                    - /url: /store/boys+girls/sport/sportivnaya-obuv
+                - listitem [ref=f16e405]:
+                  - link "Аксессуары для спорта" [ref=f16e406] [cursor=pointer]:
+                    - /url: /store/boys+girls/sport/aksessuary-dlya-sporta
+                - listitem [ref=f16e407]:
+                  - link "Спортивное белье" [ref=f16e408] [cursor=pointer]:
+                    - /url: /store/boys+girls/sport/sportivnoe-bele
+            - listitem [ref=f16e409]:
+              - generic [ref=f16e410]: Бренды
+              - list [ref=f16e411]:
+                - listitem [ref=f16e412]:
+                  - link "Under Armour" [ref=f16e413] [cursor=pointer]:
+                    - /url: /ru/store/sport/under-armour
+                - listitem [ref=f16e414]:
+                  - link "adidas" [ref=f16e415] [cursor=pointer]:
+                    - /url: /ru/store/sport/adidas
+                - listitem [ref=f16e416]:
+                  - link "New Balance" [ref=f16e417] [cursor=pointer]:
+                    - /url: /ru/store/sport/new-balance
+                - listitem [ref=f16e418]:
+                  - link "Nike" [ref=f16e419] [cursor=pointer]:
+                    - /url: /ru/store/sport/nike
+                - listitem [ref=f16e420]:
+                  - link "PUMA" [ref=f16e421] [cursor=pointer]:
+                    - /url: /ru/store/sport/puma
+                - listitem [ref=f16e422]:
+                  - link "Все бренды" [ref=f16e423] [cursor=pointer]:
+                    - /url: /ru/brands
+      - listitem [ref=f16e424]:
+        - link "Дом" [ref=f16e426] [cursor=pointer]:
+          - /url: /store/dom-1
+        - generic [ref=f16e427]:
+          - generic [ref=f16e429]: Дом
+          - list [ref=f16e432]:
+            - listitem [ref=f16e433]:
+              - link "Постельное белье" [ref=f16e434] [cursor=pointer]:
+                - /url: /store/dom-1/postelnoe-bele
+              - link "Покрывала" [ref=f16e435] [cursor=pointer]:
+                - /url: /store/dom-1/pokryvala
+              - link "Одеяла" [ref=f16e436] [cursor=pointer]:
+                - /url: /store/dom-1/odeyala
+              - link "Подушки" [ref=f16e437] [cursor=pointer]:
+                - /url: /store/dom-1/podushki
+              - link "Пледы" [ref=f16e438] [cursor=pointer]:
+                - /url: /store/dom-1/pledy-2
+              - link "Полотенца" [ref=f16e439] [cursor=pointer]:
+                - /url: /store/dom-1/polotencza
+              - link "Декор" [ref=f16e440] [cursor=pointer]:
+                - /url: /store/dom-1/dekor
+              - link "Посуда" [ref=f16e441] [cursor=pointer]:
+                - /url: /store/dom-1/posuda
+              - link "Скатерти" [ref=f16e442] [cursor=pointer]:
+                - /url: /store/dom-1/skaterti
+              - link "Ковры" [ref=f16e443] [cursor=pointer]:
+                - /url: /store/dom-1/kovry
+              - link "Одежда для дома" [ref=f16e444] [cursor=pointer]:
+                - /url: /store/dom-1/odezhda-dlya-doma-2
+              - link "Обувь для дома" [ref=f16e445] [cursor=pointer]:
+                - /url: /store/dom-1/obuv-dlya-doma
+      - listitem [ref=f16e446]:
+        - link "Sale" [ref=f16e447] [cursor=pointer]:
+          - /url: /ru/store/sale
+      - listitem [ref=f16e448]:
+        - generic [ref=f16e449]: Бренды
+        - generic [ref=f16e450]:
+          - generic [ref=f16e452]: Бренды
+          - list [ref=f16e455]:
+            - listitem [ref=f16e456]:
+              - generic [ref=f16e457]: Категории брендов
+              - list [ref=f16e458]:
+                - listitem [ref=f16e459]:
+                  - link "Премиум" [ref=f16e460] [cursor=pointer]:
+                    - /url: /ru/store/premium
+                - listitem [ref=f16e461]:
+                  - link "Спорт" [ref=f16e462] [cursor=pointer]:
+                    - /url: /ru/store/sport-3
+                - listitem [ref=f16e463]:
+                  - link "Деним" [ref=f16e464] [cursor=pointer]:
+                    - /url: /ru/store/denim
+                - listitem [ref=f16e465]:
+                  - link "Для детей" [ref=f16e466] [cursor=pointer]:
+                    - /url: /ru/store/for-children
+                - listitem [ref=f16e467]:
+                  - link "Все бренды" [ref=f16e468] [cursor=pointer]:
+                    - /url: /ru/brands
+            - listitem [ref=f16e469]:
+              - generic [ref=f16e470]: Топ бренды
+              - list [ref=f16e471]:
+                - listitem [ref=f16e472]:
+                  - link "Tommy Hilfiger" [ref=f16e473] [cursor=pointer]:
+                    - /url: /ru/store/tommy-hilfiger
+                - listitem [ref=f16e474]:
+                  - link "Calvin Klein" [ref=f16e475] [cursor=pointer]:
+                    - /url: /ru/store/calvin-klein
+                - listitem [ref=f16e476]:
+                  - link "Gant" [ref=f16e477] [cursor=pointer]:
+                    - /url: /ru/store/gant
+                - listitem [ref=f16e478]:
+                  - link "PRPY" [ref=f16e479] [cursor=pointer]:
+                    - /url: /ru/store/prpy
+                - listitem [ref=f16e480]:
+                  - link "Karl Lagerfeld" [ref=f16e481] [cursor=pointer]:
+                    - /url: /ru/store/karl-lagerfeld
+                - listitem [ref=f16e482]:
+                  - link "Replay" [ref=f16e483] [cursor=pointer]:
+                    - /url: /ru/store/replay
+                - listitem [ref=f16e484]:
+                  - link "Lacoste" [ref=f16e485] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/ru/lacoste
+                - listitem [ref=f16e486]:
+                  - link "Under Armour" [ref=f16e487] [cursor=pointer]:
+                    - /url: /ru/store/under-armour
+                - listitem [ref=f16e488]:
+                  - link "adidas" [ref=f16e489] [cursor=pointer]:
+                    - /url: /ru/store/adidas
+                - listitem [ref=f16e490]:
+                  - link "New Balance" [ref=f16e491] [cursor=pointer]:
+                    - /url: /ru/store/new-balance
+                - listitem [ref=f16e492]:
+                  - link "PUMA" [ref=f16e493] [cursor=pointer]:
+                    - /url: /ru/store/puma
+                - listitem [ref=f16e494]:
+                  - link "Nike" [ref=f16e495] [cursor=pointer]:
+                    - /url: /ru/store/nike
+                - listitem [ref=f16e496]:
+                  - link "Levi’s®" [ref=f16e497] [cursor=pointer]:
+                    - /url: /ru/store/levis
+                - listitem [ref=f16e498]:
+                  - link "Guess" [ref=f16e499] [cursor=pointer]:
+                    - /url: /ru/store/guess
+                - listitem [ref=f16e500]:
+                  - link "Diesel" [ref=f16e501] [cursor=pointer]:
+                    - /url: /ru/store/diesel
+                - listitem [ref=f16e502]:
+                  - link "G-Star RAW" [ref=f16e503] [cursor=pointer]:
+                    - /url: /ru/store/g-star-raw
+                - listitem [ref=f16e504]:
+                  - link "Michael Kors" [ref=f16e505] [cursor=pointer]:
+                    - /url: /ru/store/michael-kors
+                - listitem [ref=f16e506]:
+                  - link "BOSS" [ref=f16e507] [cursor=pointer]:
+                    - /url: /ru/store/boss
+                - listitem [ref=f16e508]:
+                  - link "Bimba Y Lola" [ref=f16e509] [cursor=pointer]:
+                    - /url: /ru/store/bimba-y-lola
+                - listitem [ref=f16e510]:
+                  - link "Все бренды" [ref=f16e511] [cursor=pointer]:
+                    - /url: /ru/brands
+            - listitem [ref=f16e512]:
+              - link "Calvin Klein Calvin Klein" [ref=f16e513] [cursor=pointer]:
+                - /url: /ru/calvin-klein
+                - generic [ref=f16e514]: Calvin Klein
+                - img "Calvin Klein" [ref=f16e516]
+              - link "Under Armour Under Armour" [ref=f16e517] [cursor=pointer]:
+                - /url: /ru/underarmour
+                - generic [ref=f16e518]: Under Armour
+                - img "Under Armour" [ref=f16e520]
+              - link "Tommy Hilfiger Tommy Hilfiger" [ref=f16e521] [cursor=pointer]:
+                - /url: /ru/tommyhilfiger
+                - generic [ref=f16e522]: Tommy Hilfiger
+                - img "Tommy Hilfiger" [ref=f16e524]
+              - link "PRPY PRPY" [ref=f16e525] [cursor=pointer]:
+                - /url: /ru/prpy
+                - generic [ref=f16e526]: PRPY
+                - img "PRPY" [ref=f16e528]
+      - listitem [ref=f16e529]:
+        - link "Акции" [ref=f16e530] [cursor=pointer]:
+          - /url: https://md-fashion.ua/ru/discount-news
+      - listitem [ref=f16e531]:
+        - link "Премиум" [ref=f16e532] [cursor=pointer]:
+          - /url: /ru/store/premium
+    - generic [ref=f16e533]:
+      - list [ref=f16e534]:
+        - listitem [ref=f16e535]:
+          - link "Оплата и доставка" [ref=f16e536] [cursor=pointer]:
+            - /url: /ru/site/payment-shipping
+        - listitem [ref=f16e537]:
+          - link "Вопросы и ответы" [ref=f16e538] [cursor=pointer]:
+            - /url: /ru/site/questions-answers
+        - listitem [ref=f16e539]:
+          - link "Клубная программа" [ref=f16e540] [cursor=pointer]:
+            - /url: "/ru/site/loyalty "
+        - listitem [ref=f16e541]:
+          - link "Журнал" [ref=f16e542] [cursor=pointer]:
+            - /url: "/ru/news "
+      - link "044 585 50 40" [ref=f16e543] [cursor=pointer]:
+        - /url: tel:0445855040
+      - generic [ref=f16e544]:
+        - link "Украинский" [ref=f16e545] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store?s=%D0%BF%D0%BB%D0%B0%D1%82%D1%8C%D0%B5
+        - generic [ref=f16e546] [cursor=pointer]: Русский
+  - generic [ref=f16e547]:
+    - generic [ref=f16e551]:
+      - list [ref=f16e553]:
+        - listitem [ref=f16e554]:
+          - link "Главная" [ref=f16e555] [cursor=pointer]:
+            - /url: /ru
+        - listitem:
+          - link "Каталог":
+            - /url: /ru/store
+      - generic [ref=f16e556]:
+        - generic [ref=f16e558]:
+          - link "Одежда" [ref=f16e562] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/odezhda
+          - generic [ref=f16e565]:
+            - generic [ref=f16e566]: Обувь
+            - generic [ref=f16e567] [cursor=pointer]
+          - generic [ref=f16e569]:
+            - generic [ref=f16e570]: Аксессуары
+            - generic [ref=f16e571] [cursor=pointer]
+          - link "Белье" [ref=f16e575] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/bele
+          - link "Спорт" [ref=f16e580] [cursor=pointer]:
+            - /url: https://md-fashion.ua/ru/store/sport
+          - link "Дом" [ref=f16e585] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/dom-1
+          - generic [ref=f16e588]:
+            - generic [ref=f16e589]: Подарки
+            - generic [ref=f16e590] [cursor=pointer]
+        - generic [ref=f16e591]:
+          - heading "Товары по запросу «платье»" [level=1] [ref=f16e594]
+          - generic [ref=f16e595]:
+            - generic [ref=f16e596]:
+              - generic [ref=f16e597]: Бренд
+              - generic [ref=f16e599]: Цвет
+              - generic [ref=f16e601]: Размер
+              - generic [ref=f16e603]: Пол
+              - generic [ref=f16e605]: Все фильтры
+            - generic [ref=f16e607]:
+              - generic [ref=f16e608]: 1631 товар
+              - generic [ref=f16e610]:
+                - paragraph [ref=f16e611]: "Сортировать:"
+                - paragraph [ref=f16e612] [cursor=pointer]: Популярные
+          - generic [ref=f16e613]:
+            - generic [ref=f16e614]:
+              - generic [ref=f16e615]:
+                - link "Женское темно-синее платье FLARE -30%" [ref=f16e616] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-temno-sinee-plate-flare-tommy-jeans-dw0dw23328-sinij
+                  - img "Женское темно-синее платье FLARE" [ref=f16e620]
+                  - generic: "-30%"
+                - generic [ref=f16e625]:
+                  - link "Tommy Jeans" [ref=f16e626] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-sinee-plate-flare-tommy-jeans-dw0dw23328-sinij
+                  - link "Женское темно-синее платье FLARE" [ref=f16e627] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-sinee-plate-flare-tommy-jeans-dw0dw23328-sinij
+                  - generic [ref=f16e629]:
+                    - paragraph [ref=f16e630]: 5 243 грн
+                    - paragraph [ref=f16e631]: 7 490 грн
+              - generic [ref=f16e632]:
+                - link [ref=f16e633] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-plate-v-kletku-pleated-tommy-jeans-dw0dw23316-raznocvetnyj
+                  - img "Женское платье в клетку PLEATED" [ref=f16e637]
+                - generic [ref=f16e640]:
+                  - link "Tommy Jeans" [ref=f16e641] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-plate-v-kletku-pleated-tommy-jeans-dw0dw23316-raznocvetnyj
+                  - link "Женское платье в клетку PLEATED" [ref=f16e642] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-plate-v-kletku-pleated-tommy-jeans-dw0dw23316-raznocvetnyj
+                  - paragraph [ref=f16e645]: 7 490 грн
+              - generic [ref=f16e646]:
+                - link [ref=f16e647] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-sherstyanoe-plate-soft-jersey-tommy-hilfiger-ww0ww52197-seryj
+                  - img "Женское темно-серое шерстяное платье SOFT JERSEY" [ref=f16e651]
+                - generic [ref=f16e654]:
+                  - link "Tommy Hilfiger" [ref=f16e655] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-sherstyanoe-plate-soft-jersey-tommy-hilfiger-ww0ww52197-seryj
+                  - link "Женское темно-серое шерстяное платье SOFT JERSEY" [ref=f16e656] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-sherstyanoe-plate-soft-jersey-tommy-hilfiger-ww0ww52197-seryj
+                  - paragraph [ref=f16e659]: 13 990 грн
+              - generic [ref=f16e660]:
+                - link [ref=f16e661] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-bordovoe-plate-tommy-jeans-dw0dw23460-bordovyj
+                  - img "Женское бордовое платье" [ref=f16e665]
+                - generic [ref=f16e668]:
+                  - link "Tommy Jeans" [ref=f16e669] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-bordovoe-plate-tommy-jeans-dw0dw23460-bordovyj
+                  - link "Женское бордовое платье" [ref=f16e670] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-bordovoe-plate-tommy-jeans-dw0dw23460-bordovyj
+                  - paragraph [ref=f16e673]: 5 990 грн
+              - generic [ref=f16e674]:
+                - link "Женское черное платье SLIM 5X2 RIB -30%" [ref=f16e675] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-slim-5x2-rib-tommy-hilfiger-ww0ww46138-cernyj
+                  - img "Женское черное платье SLIM 5X2 RIB" [ref=f16e679]
+                  - generic: "-30%"
+                - generic [ref=f16e684]:
+                  - link "Tommy Hilfiger" [ref=f16e685] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-slim-5x2-rib-tommy-hilfiger-ww0ww46138-cernyj
+                  - link "Женское черное платье SLIM 5X2 RIB" [ref=f16e686] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-slim-5x2-rib-tommy-hilfiger-ww0ww46138-cernyj
+                  - generic [ref=f16e688]:
+                    - paragraph [ref=f16e689]: 6 853 грн
+                    - paragraph [ref=f16e690]: 9 790 грн
+              - generic [ref=f16e691]:
+                - link [ref=f16e692] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-chainmail-karl-lagerfeld-jeans-b4w13014-cernyj
+                  - img "Женское черное платье chainmail" [ref=f16e696]
+                - generic [ref=f16e699]:
+                  - link "Karl Lagerfeld Jeans" [ref=f16e700] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-chainmail-karl-lagerfeld-jeans-b4w13014-cernyj
+                  - link "Женское черное платье chainmail" [ref=f16e701] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-chainmail-karl-lagerfeld-jeans-b4w13014-cernyj
+                  - paragraph [ref=f16e704]: 10 990 грн
+              - generic [ref=f16e705]:
+                - link "Женское черное платье fabric mix balloon -20%" [ref=f16e706] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-fabric-mix-balloon-karl-lagerfeld-b3w13015-cernyj
+                  - img "Женское черное платье fabric mix balloon" [ref=f16e710]
+                  - generic: "-20%"
+                - generic [ref=f16e715]:
+                  - link "Karl Lagerfeld" [ref=f16e716] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-fabric-mix-balloon-karl-lagerfeld-b3w13015-cernyj
+                  - link "Женское черное платье fabric mix balloon" [ref=f16e717] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-fabric-mix-balloon-karl-lagerfeld-b3w13015-cernyj
+                  - generic [ref=f16e719]:
+                    - paragraph [ref=f16e720]: 9 992 грн
+                    - paragraph [ref=f16e721]: 12 490 грн
+              - generic [ref=f16e722]:
+                - link [ref=f16e723] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-temno-korichnevoe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-koricnevyj
+                  - img "Женское темно-коричневое шерстяное платье SOFT" [ref=f16e727]
+                - generic [ref=f16e730]:
+                  - link "Tommy Hilfiger" [ref=f16e731] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-korichnevoe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-koricnevyj
+                  - link "Женское темно-коричневое шерстяное платье SOFT" [ref=f16e732] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-korichnevoe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-koricnevyj
+                  - paragraph [ref=f16e735]: 13 990 грн
+              - generic [ref=f16e736]:
+                - link [ref=f16e737] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-turtleneck-sweater-tommy-jeans-dw0dw23460-cernyj
+                  - img "Женское черное платье TURTLENECK SWEATER" [ref=f16e741]
+                - generic [ref=f16e744]:
+                  - link "Tommy Jeans" [ref=f16e745] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-turtleneck-sweater-tommy-jeans-dw0dw23460-cernyj
+                  - link "Женское черное платье TURTLENECK SWEATER" [ref=f16e746] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-turtleneck-sweater-tommy-jeans-dw0dw23460-cernyj
+                  - paragraph [ref=f16e749]: 5 990 грн
+              - generic [ref=f16e750]:
+                - link [ref=f16e751] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-stud-detail-karl-lagerfeld-b3w13041-cernyj
+                  - img "Женское черное платье stud detail" [ref=f16e755]
+                - generic [ref=f16e758]:
+                  - link "Karl Lagerfeld" [ref=f16e759] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-stud-detail-karl-lagerfeld-b3w13041-cernyj
+                  - link "Женское черное платье stud detail" [ref=f16e760] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-stud-detail-karl-lagerfeld-b3w13041-cernyj
+                  - paragraph [ref=f16e763]: 15 990 грн
+              - generic [ref=f16e764]:
+                - link "Женское голубое платье ikon shirt -30%" [ref=f16e765] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-goluboe-plate-ikon-shirt-karl-lagerfeld-b3w13029-goluboj
+                  - img "Женское голубое платье ikon shirt" [ref=f16e769]
+                  - generic: "-30%"
+                - generic [ref=f16e774]:
+                  - link "Karl Lagerfeld" [ref=f16e775] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-goluboe-plate-ikon-shirt-karl-lagerfeld-b3w13029-goluboj
+                  - link "Женское голубое платье ikon shirt" [ref=f16e776] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-goluboe-plate-ikon-shirt-karl-lagerfeld-b3w13029-goluboj
+                  - generic [ref=f16e778]:
+                    - paragraph [ref=f16e779]: 10 843 грн
+                    - paragraph [ref=f16e780]: 15 490 грн
+              - generic [ref=f16e781]:
+                - link [ref=f16e782] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13012-cernyj
+                  - img "Женское черное платье" [ref=f16e786]
+                - generic [ref=f16e789]:
+                  - link "Karl Lagerfeld Jeans" [ref=f16e790] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13012-cernyj
+                  - link "Женское черное платье" [ref=f16e791] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13012-cernyj
+                  - paragraph [ref=f16e794]: 11 790 грн
+              - generic [ref=f16e795]:
+                - link [ref=f16e796] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-seroe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-seryj
+                  - img "Женское серое шерстяное платье SOFT" [ref=f16e800]
+                - generic [ref=f16e803]:
+                  - link "Tommy Hilfiger" [ref=f16e804] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-seryj
+                  - link "Женское серое шерстяное платье SOFT" [ref=f16e805] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-sherstyanoe-plate-soft-tommy-hilfiger-ww0ww46429-seryj
+                  - paragraph [ref=f16e808]: 13 990 грн
+              - generic [ref=f16e809]:
+                - link [ref=f16e810] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-s-uzorom-mesh-karl-lagerfeld-jeans-b4w13037-cernyj
+                  - img "Женское черное платье с узором MESH" [ref=f16e814]
+                - generic [ref=f16e817]:
+                  - link "Karl Lagerfeld Jeans" [ref=f16e818] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-s-uzorom-mesh-karl-lagerfeld-jeans-b4w13037-cernyj
+                  - link "Женское черное платье с узором MESH" [ref=f16e819] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-s-uzorom-mesh-karl-lagerfeld-jeans-b4w13037-cernyj
+                  - paragraph [ref=f16e822]: 8 190 грн
+              - generic [ref=f16e823]:
+                - link "Женское оливковое платье INTERLOCK -30% LIMITED EDITION" [ref=f16e824] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-olivkovoe-plate-interlock-calvin-klein-jeans-lv047g234g-olivkovyj
+                  - img "Женское оливковое платье INTERLOCK" [ref=f16e828]
+                  - generic:
+                    - generic [ref=f16e829]: "-30%"
+                    - generic [ref=f16e831]: LIMITED EDITION
+                - generic [ref=f16e836]:
+                  - link "Calvin Klein Jeans" [ref=f16e837] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-olivkovoe-plate-interlock-calvin-klein-jeans-lv047g234g-olivkovyj
+                  - link "Женское оливковое платье INTERLOCK" [ref=f16e838] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-olivkovoe-plate-interlock-calvin-klein-jeans-lv047g234g-olivkovyj
+                  - generic [ref=f16e840]:
+                    - paragraph [ref=f16e841]: 4 193 грн
+                    - paragraph [ref=f16e842]: 5 990 грн
+              - generic [ref=f16e843]:
+                - link "Женское серое платье INTERLOCK -20%" [ref=f16e844] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-interlock-calvin-klein-jeans-lv047g301g-seryj
+                  - img "Женское серое платье INTERLOCK" [ref=f16e848]
+                  - generic: "-20%"
+                - generic [ref=f16e853]:
+                  - link "Calvin Klein Jeans" [ref=f16e854] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-interlock-calvin-klein-jeans-lv047g301g-seryj
+                  - link "Женское серое платье INTERLOCK" [ref=f16e855] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-interlock-calvin-klein-jeans-lv047g301g-seryj
+                  - generic [ref=f16e857]:
+                    - paragraph [ref=f16e858]: 6 792 грн
+                    - paragraph [ref=f16e859]: 8 490 грн
+              - generic [ref=f16e860]:
+                - link [ref=f16e861] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-d-rei-diesel-a22239-0egds-seryj
+                  - img "Женское серое платье D-REI" [ref=f16e865]
+                - generic [ref=f16e868]:
+                  - link "Diesel" [ref=f16e869] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-d-rei-diesel-a22239-0egds-seryj
+                  - link "Женское серое платье D-REI" [ref=f16e870] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-d-rei-diesel-a22239-0egds-seryj
+                  - paragraph [ref=f16e873]: 19 290 грн
+              - generic [ref=f16e874]:
+                - link [ref=f16e875] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-plate-maje-mfpro05071light-grey-seryj
+                  - img "Женское темно-серое платье" [ref=f16e879]
+                - generic [ref=f16e882]:
+                  - link "MAJE" [ref=f16e883] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-plate-maje-mfpro05071light-grey-seryj
+                  - link "Женское темно-серое платье" [ref=f16e884] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-temno-seroe-plate-maje-mfpro05071light-grey-seryj
+                  - paragraph [ref=f16e887]: 25 998 грн
+              - generic [ref=f16e888]:
+                - link "Женское черное платье -30%" [ref=f16e889] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b3w13005-cernyj
+                  - img "Женское черное платье" [ref=f16e893]
+                  - generic: "-30%"
+                - generic [ref=f16e898]:
+                  - link "Karl Lagerfeld Jeans" [ref=f16e899] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b3w13005-cernyj
+                  - link "Женское черное платье" [ref=f16e900] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b3w13005-cernyj
+                  - generic [ref=f16e902]:
+                    - paragraph [ref=f16e903]: 8 253 грн
+                    - paragraph [ref=f16e904]: 11 790 грн
+              - generic [ref=f16e905]:
+                - link [ref=f16e906] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-maje-mfpro05001grey-seryj
+                  - img "Женское серое платье" [ref=f16e910]
+                - generic [ref=f16e913]:
+                  - link "MAJE" [ref=f16e914] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-maje-mfpro05001grey-seryj
+                  - link "Женское серое платье" [ref=f16e915] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-seroe-plate-maje-mfpro05001grey-seryj
+                  - paragraph [ref=f16e918]: 12 898 грн
+              - generic [ref=f16e919]:
+                - link [ref=f16e920] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-bezhevoe-plate-anna-pepe-jeans-pl9537914-bezevyj
+                  - img "Женское бежевое платье ANNA" [ref=f16e924]
+                - generic [ref=f16e927]:
+                  - link "Pepe Jeans" [ref=f16e928] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-bezhevoe-plate-anna-pepe-jeans-pl9537914-bezevyj
+                  - link "Женское бежевое платье ANNA" [ref=f16e929] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-bezhevoe-plate-anna-pepe-jeans-pl9537914-bezevyj
+                  - paragraph [ref=f16e932]: 6 190 грн
+              - generic [ref=f16e933]:
+                - link [ref=f16e934] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-washed-g-star-raw-d30719d630-cernyj
+                  - img "Женское черное платье Washed" [ref=f16e938]
+                - generic [ref=f16e941]:
+                  - link "G-Star RAW" [ref=f16e942] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-washed-g-star-raw-d30719d630-cernyj
+                  - link "Женское черное платье Washed" [ref=f16e943] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-washed-g-star-raw-d30719d630-cernyj
+                  - paragraph [ref=f16e946]: 9 690 грн
+              - generic [ref=f16e947]:
+                - link [ref=f16e948] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13038-cernyj
+                  - img "Женское черное платье" [ref=f16e952]
+                - generic [ref=f16e955]:
+                  - link "Karl Lagerfeld Jeans" [ref=f16e956] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13038-cernyj
+                  - link "Женское черное платье" [ref=f16e957] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-karl-lagerfeld-jeans-b4w13038-cernyj
+                  - paragraph [ref=f16e960]: 9 790 грн
+              - generic [ref=f16e961]:
+                - link [ref=f16e962] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-sandro-sfpro04935black-cernyj
+                  - img "Женское черное платье" [ref=f16e966]
+                - generic [ref=f16e969]:
+                  - link "Sandro" [ref=f16e970] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-sandro-sfpro04935black-cernyj
+                  - link "Женское черное платье" [ref=f16e971] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-sandro-sfpro04935black-cernyj
+                  - paragraph [ref=f16e974]: 20 500 грн
+              - generic [ref=f16e975]:
+                - link [ref=f16e976] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-anna-pepe-jeans-pl9537914-cernyj
+                  - img "Женское черное платье ANNA" [ref=f16e980]
+                - generic [ref=f16e983]:
+                  - link "Pepe Jeans" [ref=f16e984] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-anna-pepe-jeans-pl9537914-cernyj
+                  - link "Женское черное платье ANNA" [ref=f16e985] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-anna-pepe-jeans-pl9537914-cernyj
+                  - paragraph [ref=f16e988]: 6 190 грн
+              - generic [ref=f16e989]:
+                - link "Женское коричневое платье -40%" [ref=f16e990] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskoe-korichnevoe-plate-lacoste-ef58033la-koricnevyj
+                  - img "Женское коричневое платье" [ref=f16e994]
+                  - generic: "-40%"
+                - generic [ref=f16e999]:
+                  - link "Lacoste" [ref=f16e1000] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-korichnevoe-plate-lacoste-ef58033la-koricnevyj
+                  - link "Женское коричневое платье" [ref=f16e1001] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskoe-korichnevoe-plate-lacoste-ef58033la-koricnevyj
+                  - generic [ref=f16e1003]:
+                    - paragraph [ref=f16e1004]: 6 894 грн
+                    - paragraph [ref=f16e1005]: 11 490 грн
+              - generic [ref=f16e1006]:
+                - link "Женский черный сарафан с узором -40% Скидка до 30.11" [ref=f16e1007] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/store/zhenskij-chernyj-sarafan-s-uzorom-levis-005zi0001-cernyj
+                  - img "Женский черный сарафан с узором" [ref=f16e1011]
+                  - generic:
+                    - generic [ref=f16e1012]: "-40%"
+                    - generic [ref=f16e1014]: Скидка до 30.11
+                - generic [ref=f16e1019]:
+                  - link "Levi’s®" [ref=f16e1020] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskij-chernyj-sarafan-s-uzorom-levis-005zi0001-cernyj
+                  - link "Женский черный сарафан с узором" [ref=f16e1021] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/zhenskij-chernyj-sarafan-s-uzorom-levis-005zi0001-cernyj
+                  - generic [ref=f16e1023]:
+                    - paragraph [ref=f16e1024]: 2 390 грн
+                    - paragraph [ref=f16e1025]: 3 990 грн
+            - generic [ref=f16e1026]:
+              - paragraph [ref=f16e1028]: 27 из 1631 товар
+              - generic [ref=f16e1029] [cursor=pointer]: Показать еще
+              - generic [ref=f16e1030]:
+                - generic [ref=f16e1032]: "1"
+                - link "2" [ref=f16e1033] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=2
+                - link "3" [ref=f16e1034] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=3
+                - link "4" [ref=f16e1035] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=4
+                - link "5" [ref=f16e1036] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=5
+                - link "6" [ref=f16e1037] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=6
+                - link "7" [ref=f16e1038] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=7
+                - generic [ref=f16e1039]: ...
+                - link "61" [ref=f16e1040] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=61
+                - link [ref=f16e1041] [cursor=pointer]:
+                  - /url: https://md-fashion.ua/ru/store?page=2
+    - generic [ref=f16e1042]:
+      - generic [ref=f16e1048]:
+        - generic [ref=f16e1049]: возврат товаров
+        - generic [ref=f16e1050]: в течение 14 дней
+      - generic [ref=f16e1058]:
+        - generic [ref=f16e1059]: доставка по всей украине
+        - generic [ref=f16e1060]: до 5 дней
+      - generic [ref=f16e1068]:
+        - generic [ref=f16e1069]: гарантия
+        - generic [ref=f16e1070]: качества и подлинности
+      - generic [ref=f16e1077]:
+        - generic [ref=f16e1078]: клубная программа
+        - generic [ref=f16e1079]: получайте до 15% от суммы покупки
+  - contentinfo [ref=f16e1080]:
+    - generic [ref=f16e1081]:
+      - generic [ref=f16e1082]:
+        - link [ref=f16e1083] [cursor=pointer]:
+          - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+        - link [ref=f16e1084] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=f16e1085]:
+        - generic [ref=f16e1086]:
+          - generic [ref=f16e1087]: Контакт-центр
+          - list [ref=f16e1088]:
+            - listitem [ref=f16e1089]:
+              - link "044 585 50 40" [ref=f16e1090] [cursor=pointer]:
+                - /url: tel:0445855040
+            - listitem [ref=f16e1091]: Пн-Пт 9:00 - 21:00
+            - listitem [ref=f16e1092]: Сб-Вс 9:00 - 19:00
+          - generic [ref=f16e1093]:
+            - link [ref=f16e1094] [cursor=pointer]:
+              - /url: /ru/our-stores
+            - link "Магазины партнеры клубной программы MD Fashion" [ref=f16e1096] [cursor=pointer]:
+              - /url: /ru/our-stores
+          - generic [ref=f16e1097]:
+            - link [ref=f16e1098] [cursor=pointer]:
+              - /url: https://www.facebook.com/md.fashion.ukraine
+            - link [ref=f16e1100] [cursor=pointer]:
+              - /url: https://instagram.com/md_fashion.ua
+            - link [ref=f16e1102] [cursor=pointer]:
+              - /url: https://www.t.me/mdfashionua/
+        - generic [ref=f16e1104]:
+          - link [ref=f16e1105] [cursor=pointer]:
+            - /url: /ru/our-stores
+          - link "Магазины партнеры клубной программы MD Fashion" [ref=f16e1107] [cursor=pointer]:
+            - /url: /ru/our-stores
+        - generic [ref=f16e1108]:
+          - generic [ref=f16e1109]: Личный кабинет
+          - list [ref=f16e1110]:
+            - listitem [ref=f16e1111]:
+              - link "История покупок" [ref=f16e1112] [cursor=pointer]:
+                - /url: /ru/account/order
+            - listitem [ref=f16e1113]:
+              - link "Мои данные" [ref=f16e1114] [cursor=pointer]:
+                - /url: /ru/account/details
+            - listitem [ref=f16e1115]:
+              - link "Адрес для доставки" [ref=f16e1116] [cursor=pointer]:
+                - /url: /ru/account/address
+            - listitem [ref=f16e1117]:
+              - link "Избранное" [ref=f16e1118] [cursor=pointer]:
+                - /url: /ru/favorites
+            - listitem [ref=f16e1119]:
+              - link "Клубная программа" [ref=f16e1120] [cursor=pointer]:
+                - /url: /ru/loyalty
+            - listitem [ref=f16e1121]:
+              - link "Рассылки" [ref=f16e1122] [cursor=pointer]:
+                - /url: /ru/account/subscription
+        - generic [ref=f16e1123]:
+          - generic [ref=f16e1124]: Покупателям
+          - list [ref=f16e1125]:
+            - listitem [ref=f16e1126]:
+              - link "Оплата и доставка" [ref=f16e1127] [cursor=pointer]:
+                - /url: /ru/payment-shipping
+            - listitem [ref=f16e1128]:
+              - link "Возврат" [ref=f16e1129] [cursor=pointer]:
+                - /url: /ru/return
+            - listitem [ref=f16e1130]:
+              - link "Вопросы и ответы" [ref=f16e1131] [cursor=pointer]:
+                - /url: /ru/questions-answers
+            - listitem [ref=f16e1132]:
+              - link "Клубная программа" [ref=f16e1133] [cursor=pointer]:
+                - /url: /ru/loyalty
+            - listitem [ref=f16e1134]:
+              - link "Подарочные сертификаты" [ref=f16e1135] [cursor=pointer]:
+                - /url: /ru/certificates
+            - listitem [ref=f16e1136]:
+              - link "Гарантия" [ref=f16e1137] [cursor=pointer]:
+                - /url: /ru/guarantee
+            - listitem [ref=f16e1138]:
+              - link "Правила ухода за вещами" [ref=f16e1139] [cursor=pointer]:
+                - /url: /ru/rules-for-clothing-care
+            - listitem [ref=f16e1140]:
+              - link "Контакты" [ref=f16e1141] [cursor=pointer]:
+                - /url: /ru/contact
+        - generic [ref=f16e1142]:
+          - generic [ref=f16e1143]: О компании
+          - list [ref=f16e1144]:
+            - listitem [ref=f16e1145]:
+              - link "О нас" [ref=f16e1146] [cursor=pointer]:
+                - /url: /ru/about-us
+            - listitem [ref=f16e1147]:
+              - link "Журнал" [ref=f16e1148] [cursor=pointer]:
+                - /url: /ru/news
+            - listitem [ref=f16e1149]:
+              - link "Карьера в MD" [ref=f16e1150] [cursor=pointer]:
+                - /url: /ru/career
+            - listitem [ref=f16e1151]:
+              - link "Стать партнером маркетплейс" [ref=f16e1152] [cursor=pointer]:
+                - /url: /ru/marketplace
+            - listitem [ref=f16e1153]:
+              - link "Политика конфиденциальности" [ref=f16e1154] [cursor=pointer]:
+                - /url: /ru/privacy-policy
+            - listitem [ref=f16e1155]:
+              - link "Пользовательское соглашение" [ref=f16e1156] [cursor=pointer]:
+                - /url: /ru/terms-of-use
+          - generic [ref=f16e1157]:
+            - link [ref=f16e1158] [cursor=pointer]:
+              - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+            - link [ref=f16e1159] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=f16e1160]:
+        - link [ref=f16e1161] [cursor=pointer]:
+          - /url: https://www.facebook.com/md.fashion.ukraine
+        - link [ref=f16e1163] [cursor=pointer]:
+          - /url: https://instagram.com/md_fashion.ua
+        - link [ref=f16e1165] [cursor=pointer]:
+          - /url: https://www.t.me/mdfashionua/
+      - generic [ref=f16e1167]: © 2026 MD Fashion. Все права сохранены

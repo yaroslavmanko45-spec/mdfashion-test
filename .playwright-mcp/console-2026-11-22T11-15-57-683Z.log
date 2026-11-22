@@ -1,0 +1,10 @@
+[    1057ms] [LOG] [OM GlobalScripts Early] No scripts configured @ https://cdn-asset.optimonk.com/script.esm/embedded.3049f1d8.js:0
+[    1192ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ https://www.googleadservices.com/pagead/conversion.js:27
+[    2218ms] [LOG] Mapping for AddigitalPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2218ms] [LOG] Mapping for CriteoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2218ms] [LOG] Mapping for GetintentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2219ms] [LOG] Mapping for UpSellitPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2219ms] [LOG] Mapping for SoretoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2219ms] [LOG] Mapping for IntentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    2323ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://d.uuidksinc.net/match/618/?remote_uid=832249713256267220:0
+[    2428ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://cookiesyncgotham.com/trafmag442.sync?gdpr=&gdpr_consent=&us_privacy=&coppa=&uid=832249713256267220:0

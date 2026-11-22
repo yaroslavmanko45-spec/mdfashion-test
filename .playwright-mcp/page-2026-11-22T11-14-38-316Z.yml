@@ -1,0 +1,999 @@
+- generic [active] [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - generic [ref=f16e3]:
+      - generic [ref=f16e4]:
+        - link "044 585 50 40" [ref=f16e5] [cursor=pointer]:
+          - /url: tel:0445855040
+        - generic [ref=f16e6]:
+          - generic [ref=f16e7]: Допомога
+          - list:
+            - listitem [ref=f16e8]:
+              - link "Оплата та доставка" [ref=f16e9] [cursor=pointer]:
+                - /url: /site/payment-shipping
+            - listitem [ref=f16e10]:
+              - link "Питання та відповіді" [ref=f16e11] [cursor=pointer]:
+                - /url: /site/questions-answers
+            - listitem [ref=f16e12]:
+              - link "Клубна програма" [ref=f16e13] [cursor=pointer]:
+                - /url: "/site/loyalty "
+            - listitem [ref=f16e14]:
+              - link "Гарантія" [ref=f16e15] [cursor=pointer]:
+                - /url: "/guarantee "
+        - link "Журнал" [ref=f16e16] [cursor=pointer]:
+          - /url: /news
+      - generic [ref=f16e17]:
+        - paragraph [ref=f16e18]:
+          - link "Увійти" [ref=f16e19] [cursor=pointer]:
+            - /url: /auth/login
+          - text: /
+          - link "Зареєструватися" [ref=f16e20] [cursor=pointer]:
+            - /url: /auth/signup
+        - link [ref=f16e21] [cursor=pointer]:
+          - /url: /favorites
+        - link [ref=f16e22] [cursor=pointer]:
+          - /url: /cart/index
+        - generic [ref=f16e23]:
+          - generic [ref=f16e24]: Укр
+          - list:
+            - listitem [ref=f16e25]: Укр
+            - listitem [ref=f16e26]:
+              - link "Рос" [ref=f16e27] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-slim-5x2-rib-tommy-hilfiger-ww0ww46138-cernyj
+    - generic [ref=f16e28]:
+      - link [ref=f16e29] [cursor=pointer]:
+        - /url: /
+        - img "mdfashion" [ref=f16e30]
+      - list [ref=f16e31]:
+        - listitem [ref=f16e32]:
+          - link "Новинки" [ref=f16e33] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/new
+        - listitem [ref=f16e34]:
+          - link "Жінкам" [ref=f16e35] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/women
+        - listitem [ref=f16e36]:
+          - link "Чоловікам" [ref=f16e37] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/man
+        - listitem [ref=f16e38]:
+          - link "Дітям" [ref=f16e39] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/boys+girls
+        - listitem [ref=f16e40]:
+          - link "Спорт" [ref=f16e41] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/sport
+        - listitem [ref=f16e42]:
+          - link "Дім" [ref=f16e43] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/dim-1
+        - listitem [ref=f16e44]:
+          - link "Sale" [ref=f16e45] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/sale
+        - listitem [ref=f16e46]:
+          - link "Бренди" [ref=f16e47] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=f16e48]:
+          - link "Акції" [ref=f16e49] [cursor=pointer]:
+            - /url: https://md-fashion.ua/discount-news
+        - listitem [ref=f16e50]:
+          - link "Преміум" [ref=f16e51] [cursor=pointer]:
+            - /url: /store/premium
+      - searchbox "Пошук" [ref=f16e54]
+  - generic [ref=f16e55]:
+    - list [ref=f16e58]:
+      - listitem [ref=f16e59]:
+        - link "Головна сторінка" [ref=f16e60] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f16e61]:
+        - link "Новинки" [ref=f16e62] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/new
+      - listitem [ref=f16e63]:
+        - link "Жінкам" [ref=f16e65] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/women
+        - generic [ref=f16e66]:
+          - generic [ref=f16e68]: Жінкам
+          - list [ref=f16e71]:
+            - listitem [ref=f16e72]:
+              - generic [ref=f16e73]: Одяг
+              - list [ref=f16e74]:
+                - listitem [ref=f16e75]:
+                  - link "Верхній одяг" [ref=f16e76] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/verkhnii-odyah
+                - listitem [ref=f16e77]:
+                  - link "Джинси" [ref=f16e78] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/dzhynsy
+                - listitem [ref=f16e79]:
+                  - link "Брюки і штани" [ref=f16e80] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/bryuky-i-shtany
+                - listitem [ref=f16e81]:
+                  - link "Трикотажні кофти" [ref=f16e82] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/trykotazhni-kofty
+                - listitem [ref=f16e83]:
+                  - link "Футболки і поло" [ref=f16e84] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/futbolky-i-polo
+                - listitem [ref=f16e85]:
+                  - link "Джемпери і светри" [ref=f16e86] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/dzhempery-i-svetry
+                - listitem [ref=f16e87]:
+                  - link "Кардигани і кофти" [ref=f16e88] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/kardyhany-i-kofty
+                - listitem [ref=f16e89]:
+                  - link "Сукні" [ref=f16e90] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/sukni
+                - listitem [ref=f16e91]:
+                  - link "Піджаки і костюми" [ref=f16e92] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/pidzhaky-i-kostyumy
+                - listitem [ref=f16e93]:
+                  - link "Увесь одяг" [ref=f16e94] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah
+            - listitem [ref=f16e95]:
+              - generic [ref=f16e96]: Взуття
+              - list [ref=f16e97]:
+                - listitem [ref=f16e98]:
+                  - link "Кросівки" [ref=f16e99] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/krosivky
+                - listitem [ref=f16e100]:
+                  - link "Черевики" [ref=f16e101] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/cherevyky
+                - listitem [ref=f16e102]:
+                  - link "Чоботи" [ref=f16e103] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/choboty
+                - listitem [ref=f16e104]:
+                  - link "Ботильйони" [ref=f16e105] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/botyliony
+                - listitem [ref=f16e106]:
+                  - link "Туфлі" [ref=f16e107] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/tufli
+                - listitem [ref=f16e108]:
+                  - link "Взуття без задника" [ref=f16e109] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=f16e110]:
+                  - link "Домашні капці" [ref=f16e111] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/domashni-kaptsi
+                - listitem [ref=f16e112]:
+                  - link "Гумові чоботи" [ref=f16e113] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/humovi-choboty
+                - listitem [ref=f16e114]:
+                  - link "Засоби по догляду за взуттям" [ref=f16e115] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/zasoby-po-dohlyadu-za-vzuttyam
+                - listitem [ref=f16e116]:
+                  - link "Все взуття" [ref=f16e117] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya
+            - listitem [ref=f16e118]:
+              - generic [ref=f16e119]: Аксесуари
+              - list [ref=f16e120]:
+                - listitem [ref=f16e121]:
+                  - link "Сумки і рюкзаки" [ref=f16e122] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=f16e123]:
+                  - link "Головні убори" [ref=f16e124] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/holovni-ubory
+                - listitem [ref=f16e125]:
+                  - link "Шкарпетки" [ref=f16e126] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/shkarpetky
+                - listitem [ref=f16e127]:
+                  - link "Інші аксесуари" [ref=f16e128] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/inshi-aksesuary
+                - listitem [ref=f16e129]:
+                  - link "Ремені і підтяжки" [ref=f16e130] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/remeni-i-pidtyazhky
+                - listitem [ref=f16e131]:
+                  - link "Прикраси" [ref=f16e132] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/prykrasy
+                - listitem [ref=f16e133]:
+                  - link "Окуляри і оправи" [ref=f16e134] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/okulyary-i-opravy
+                - listitem [ref=f16e135]:
+                  - link "Шарфи і рукавички" [ref=f16e136] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/sharfy-i-rukavychky
+                - listitem [ref=f16e137]:
+                  - link "Колготки та панчохи" [ref=f16e138] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/kolhotky-ta-panchokhy
+                - listitem [ref=f16e139]:
+                  - link "Всі аксесуари" [ref=f16e140] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary
+            - listitem [ref=f16e141]:
+              - generic [ref=f16e142]: Білизна
+              - list [ref=f16e143]:
+                - listitem [ref=f16e144]:
+                  - link "Спідня білизна" [ref=f16e145] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/spidnya-bilyzna
+                - listitem [ref=f16e146]:
+                  - link "Набори білизни" [ref=f16e147] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/nabory-bilyzny
+                - listitem [ref=f16e148]:
+                  - link "Одяг для дому та сну" [ref=f16e149] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=f16e150]:
+                  - link "Вся білизна" [ref=f16e151] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna
+            - listitem [ref=f16e152]:
+              - generic [ref=f16e153]: Бренди
+              - list [ref=f16e154]:
+                - listitem [ref=f16e155]:
+                  - link "Calvin Klein" [ref=f16e156] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/calvin-klein
+                - listitem [ref=f16e157]:
+                  - link "Diesel" [ref=f16e158] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/diesel
+                - listitem [ref=f16e159]:
+                  - link "Tommy Hilfiger" [ref=f16e160] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/tommy-hilfiger
+                - listitem [ref=f16e161]:
+                  - link "Karl Lagerfeld" [ref=f16e162] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/karl-lagerfeld
+                - listitem [ref=f16e163]:
+                  - link "PRPY" [ref=f16e164] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/prpy
+                - listitem [ref=f16e165]:
+                  - link "G-Star RAW" [ref=f16e166] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/g-star-raw
+                - listitem [ref=f16e167]:
+                  - link "Gant" [ref=f16e168] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/gant
+                - listitem [ref=f16e169]:
+                  - link "Guess" [ref=f16e170] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/guess
+                - listitem [ref=f16e171]:
+                  - link "Bimba Y Lola" [ref=f16e172] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bimba-y-lola
+                - listitem [ref=f16e173]:
+                  - link "Усі бренди" [ref=f16e174] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=f16e175]:
+        - link "Чоловікам" [ref=f16e177] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/man
+        - generic [ref=f16e178]:
+          - generic [ref=f16e180]: Чоловікам
+          - list [ref=f16e183]:
+            - listitem [ref=f16e184]:
+              - generic [ref=f16e185]: Одяг
+              - list [ref=f16e186]:
+                - listitem [ref=f16e187]:
+                  - link "Верхній одяг" [ref=f16e188] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/verkhnii-odyah
+                - listitem [ref=f16e189]:
+                  - link "Джинси" [ref=f16e190] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/dzhynsy
+                - listitem [ref=f16e191]:
+                  - link "Брюки і штани" [ref=f16e192] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/bryuky-i-shtany
+                - listitem [ref=f16e193]:
+                  - link "Трикотажні кофти" [ref=f16e194] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/trykotazhni-kofty
+                - listitem [ref=f16e195]:
+                  - link "Футболки і поло" [ref=f16e196] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/futbolky-i-polo
+                - listitem [ref=f16e197]:
+                  - link "Джемпери і светри" [ref=f16e198] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/dzhempery-i-svetry
+                - listitem [ref=f16e199]:
+                  - link "Кардигани і кофти" [ref=f16e200] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/kardyhany-i-kofty
+                - listitem [ref=f16e201]:
+                  - link "Піджаки і костюми" [ref=f16e202] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/pidzhaky-i-kostyumy
+                - listitem [ref=f16e203]:
+                  - link "Сорочки" [ref=f16e204] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/sorochky-4
+                - listitem [ref=f16e205]:
+                  - link "Увесь одяг" [ref=f16e206] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah
+            - listitem [ref=f16e207]:
+              - generic [ref=f16e208]: Взуття
+              - list [ref=f16e209]:
+                - listitem [ref=f16e210]:
+                  - link "Кросівки" [ref=f16e211] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/krosivky
+                - listitem [ref=f16e212]:
+                  - link "Черевики" [ref=f16e213] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/cherevyky
+                - listitem [ref=f16e214]:
+                  - link "Туфлі" [ref=f16e215] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/tufli
+                - listitem [ref=f16e216]:
+                  - link "Взуття без задника" [ref=f16e217] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=f16e218]:
+                  - link "Домашні капці" [ref=f16e219] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/domashni-kaptsi
+                - listitem [ref=f16e220]:
+                  - link "Все взуття" [ref=f16e221] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya
+            - listitem [ref=f16e222]:
+              - generic [ref=f16e223]: Аксесуари
+              - list [ref=f16e224]:
+                - listitem [ref=f16e225]:
+                  - link "Сумки і рюкзаки" [ref=f16e226] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=f16e227]:
+                  - link "Головні убори" [ref=f16e228] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/holovni-ubory
+                - listitem [ref=f16e229]:
+                  - link "Шкарпетки" [ref=f16e230] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/shkarpetky
+                - listitem [ref=f16e231]:
+                  - link "Інші аксесуари" [ref=f16e232] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/inshi-aksesuary
+                - listitem [ref=f16e233]:
+                  - link "Ремені і підтяжки" [ref=f16e234] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/remeni-i-pidtyazhky
+                - listitem [ref=f16e235]:
+                  - link "Прикраси" [ref=f16e236] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/prykrasy
+                - listitem [ref=f16e237]:
+                  - link "Окуляри і оправи" [ref=f16e238] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/okulyary-i-opravy
+                - listitem [ref=f16e239]:
+                  - link "Аксесуари для подорожей" [ref=f16e240] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/aksesuary-dlya-podorozhei
+                - listitem [ref=f16e241]:
+                  - link "Шарфи і рукавички" [ref=f16e242] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/sharfy-i-rukavychky
+                - listitem [ref=f16e243]:
+                  - link "Всі аксесуари" [ref=f16e244] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary
+            - listitem [ref=f16e245]:
+              - generic [ref=f16e246]: Білизна
+              - list [ref=f16e247]:
+                - listitem [ref=f16e248]:
+                  - link "Спідня білизна" [ref=f16e249] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/spidnya-bilyzna
+                - listitem [ref=f16e250]:
+                  - link "Набори білизни" [ref=f16e251] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/nabory-bilyzny
+                - listitem [ref=f16e252]:
+                  - link "Одяг для дому та сну" [ref=f16e253] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=f16e254]:
+                  - link "Вся білизна" [ref=f16e255] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna
+            - listitem [ref=f16e256]:
+              - generic [ref=f16e257]: Бренди
+              - list [ref=f16e258]:
+                - listitem [ref=f16e259]:
+                  - link "Under Armour" [ref=f16e260] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/under-armour
+                - listitem [ref=f16e261]:
+                  - link "Tommy Hilfiger" [ref=f16e262] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/tommy-hilfiger
+                - listitem [ref=f16e263]:
+                  - link "Calvin Klein" [ref=f16e264] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/calvin-klein
+                - listitem [ref=f16e265]:
+                  - link "Diesel" [ref=f16e266] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/diesel
+                - listitem [ref=f16e267]:
+                  - link "G-Star RAW" [ref=f16e268] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/g-star-raw
+                - listitem [ref=f16e269]:
+                  - link "Gant" [ref=f16e270] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/gant
+                - listitem [ref=f16e271]:
+                  - link "PRPY" [ref=f16e272] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/prpy
+                - listitem [ref=f16e273]:
+                  - link "New Balance" [ref=f16e274] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/new-balance
+                - listitem [ref=f16e275]:
+                  - link "Lacoste" [ref=f16e276] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/lacoste
+                - listitem [ref=f16e277]:
+                  - link "Усі бренди" [ref=f16e278] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=f16e279]:
+        - link "Дітям" [ref=f16e281] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/boys+girls
+        - generic [ref=f16e282]:
+          - generic [ref=f16e284]: Дітям
+          - list [ref=f16e287]:
+            - listitem [ref=f16e288]:
+              - generic [ref=f16e289]: Одяг
+              - list [ref=f16e290]:
+                - listitem [ref=f16e291]:
+                  - link "Верхній одяг" [ref=f16e292] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/verkhnii-odyah
+                - listitem [ref=f16e293]:
+                  - link "Футболки і поло" [ref=f16e294] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/futbolky-i-polo
+                - listitem [ref=f16e295]:
+                  - link "Брюки і штани" [ref=f16e296] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/bryuky-i-shtany
+                - listitem [ref=f16e297]:
+                  - link "Джинси" [ref=f16e298] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/dzhynsy
+                - listitem [ref=f16e299]:
+                  - link "Трикотажні кофти" [ref=f16e300] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/trykotazhni-kofty
+                - listitem [ref=f16e301]:
+                  - link "Комплекти одягу" [ref=f16e302] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/komplekty-odyahu
+                - listitem [ref=f16e303]:
+                  - link "Сукні" [ref=f16e304] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/sukni
+                - listitem [ref=f16e305]:
+                  - link "Шорти" [ref=f16e306] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/shorty
+                - listitem [ref=f16e307]:
+                  - link "Одяг для немовлят" [ref=f16e308] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/odyah-dlya-nemovlyat
+                - listitem [ref=f16e309]:
+                  - link "Увесь одяг" [ref=f16e310] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah
+            - listitem [ref=f16e311]:
+              - generic [ref=f16e312]: Взуття
+              - list [ref=f16e313]:
+                - listitem [ref=f16e314]:
+                  - link "Кросівки" [ref=f16e315] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/krosivky
+                - listitem [ref=f16e316]:
+                  - link "Черевики та чоботи" [ref=f16e317] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/cherevyky-ta-choboty
+                - listitem [ref=f16e318]:
+                  - link "Туфлі" [ref=f16e319] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/tufli
+                - listitem [ref=f16e320]:
+                  - link "Гумові чоботи" [ref=f16e321] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/humovi-choboty
+                - listitem [ref=f16e322]:
+                  - link "Взуття без задника" [ref=f16e323] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=f16e324]:
+                  - link "Все взуття" [ref=f16e325] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya
+            - listitem [ref=f16e326]:
+              - generic [ref=f16e327]: Аксесуари
+              - list [ref=f16e328]:
+                - listitem [ref=f16e329]:
+                  - link "Головні убори" [ref=f16e330] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/holovni-ubory
+                - listitem [ref=f16e331]:
+                  - link "Сумки і рюкзаки" [ref=f16e332] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=f16e333]:
+                  - link "Шкарпетки" [ref=f16e334] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/shkarpetky
+                - listitem [ref=f16e335]:
+                  - link "Всі аксесуари" [ref=f16e336] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary
+            - listitem [ref=f16e337]:
+              - generic [ref=f16e338]: Білизна
+              - list [ref=f16e339]:
+                - listitem [ref=f16e340]:
+                  - link "Спідня білизна" [ref=f16e341] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna/spidnya-bilyzna
+                - listitem [ref=f16e342]:
+                  - link "Одяг для дому та сну" [ref=f16e343] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=f16e344]:
+                  - link "Вся білизна" [ref=f16e345] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna
+            - listitem [ref=f16e346]:
+              - generic [ref=f16e347]: Бренди
+              - list [ref=f16e348]:
+                - listitem [ref=f16e349]:
+                  - link "Calvin Klein Kids" [ref=f16e350] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/calvin-klein-kids
+                - listitem [ref=f16e351]:
+                  - link "Tommy Hilfiger Kids" [ref=f16e352] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/tommy-hilfiger-kids
+                - listitem [ref=f16e353]:
+                  - link "Reima" [ref=f16e354] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/reima
+                - listitem [ref=f16e355]:
+                  - link "adidas" [ref=f16e356] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/adidas
+                - listitem [ref=f16e357]:
+                  - link "PUMA" [ref=f16e358] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/puma
+                - listitem [ref=f16e359]:
+                  - link "Under Armour" [ref=f16e360] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/under-armour
+                - listitem [ref=f16e361]:
+                  - link "Diesel Kids" [ref=f16e362] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/diesel-kids
+                - listitem [ref=f16e363]:
+                  - link "Guess Kids" [ref=f16e364] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/guess-kids
+                - listitem [ref=f16e365]:
+                  - link "Усі бренди" [ref=f16e366] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=f16e367]:
+        - link "Спорт" [ref=f16e369] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/sport
+        - generic [ref=f16e370]:
+          - generic [ref=f16e372]: Спорт
+          - list [ref=f16e375]:
+            - listitem [ref=f16e376]:
+              - generic [ref=f16e377]: Жінкам
+              - list [ref=f16e378]:
+                - listitem [ref=f16e379]:
+                  - link "Спортивний одяг" [ref=f16e380] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvnyi-odyah
+                - listitem [ref=f16e381]:
+                  - link "Спортивне взуття" [ref=f16e382] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvne-vzuttya
+                - listitem [ref=f16e383]:
+                  - link "Аксесуари для спорту" [ref=f16e384] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/aksesuary-dlya-sportu
+                - listitem [ref=f16e385]:
+                  - link "Спортивна білизна" [ref=f16e386] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvna-bilyzna
+            - listitem [ref=f16e387]:
+              - generic [ref=f16e388]: Чоловікам
+              - list [ref=f16e389]:
+                - listitem [ref=f16e390]:
+                  - link "Спортивний одяг" [ref=f16e391] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvnyi-odyah
+                - listitem [ref=f16e392]:
+                  - link "Спортивне взуття" [ref=f16e393] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvne-vzuttya
+                - listitem [ref=f16e394]:
+                  - link "Аксесуари для спорту" [ref=f16e395] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/aksesuary-dlya-sportu
+                - listitem [ref=f16e396]:
+                  - link "Спортивна білизна" [ref=f16e397] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvna-bilyzna
+            - listitem [ref=f16e398]:
+              - generic [ref=f16e399]: Дітям
+              - list [ref=f16e400]:
+                - listitem [ref=f16e401]:
+                  - link "Спортивний одяг" [ref=f16e402] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvnyi-odyah
+                - listitem [ref=f16e403]:
+                  - link "Спортивне взуття" [ref=f16e404] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvne-vzuttya
+                - listitem [ref=f16e405]:
+                  - link "Аксесуари для спорту" [ref=f16e406] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/aksesuary-dlya-sportu
+                - listitem [ref=f16e407]:
+                  - link "Спортивна білизна" [ref=f16e408] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvna-bilyzna
+            - listitem [ref=f16e409]:
+              - generic [ref=f16e410]: Бренди
+              - list [ref=f16e411]:
+                - listitem [ref=f16e412]:
+                  - link "Under Armour" [ref=f16e413] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/under-armour
+                - listitem [ref=f16e414]:
+                  - link "adidas" [ref=f16e415] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/adidas
+                - listitem [ref=f16e416]:
+                  - link "New Balance" [ref=f16e417] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/new-balance
+                - listitem [ref=f16e418]:
+                  - link "Nike" [ref=f16e419] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/nike
+                - listitem [ref=f16e420]:
+                  - link "PUMA" [ref=f16e421] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/puma
+                - listitem [ref=f16e422]:
+                  - link "Усі бренди" [ref=f16e423] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=f16e424]:
+        - link "Дім" [ref=f16e426] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/dim-1
+        - generic [ref=f16e427]:
+          - generic [ref=f16e429]: Дім
+          - list [ref=f16e432]:
+            - listitem [ref=f16e433]:
+              - link "Постільна білизна" [ref=f16e434] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/postilna-bilyzna
+              - link "Покривала" [ref=f16e435] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/pokryvala
+              - link "Ковдри" [ref=f16e436] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/kovdry
+              - link "Подушки" [ref=f16e437] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/podushky
+              - link "Пледи" [ref=f16e438] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/pledy-2
+              - link "Рушники" [ref=f16e439] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/rushnyky
+              - link "Декор" [ref=f16e440] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/dekor
+              - link "Посуд" [ref=f16e441] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/posud
+              - link "Скатертини" [ref=f16e442] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/skatertyny
+              - link "Килими" [ref=f16e443] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/kylymy
+              - link "Одяг для дому" [ref=f16e444] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/odyah-dlya-domu-2
+              - link "Взуття для дому" [ref=f16e445] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/vzuttya-dlya-domu
+      - listitem [ref=f16e446]:
+        - link "Sale" [ref=f16e447] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/sale
+      - listitem [ref=f16e448]:
+        - generic [ref=f16e449]: Бренди
+        - generic [ref=f16e450]:
+          - generic [ref=f16e452]: Бренди
+          - list [ref=f16e455]:
+            - listitem [ref=f16e456]:
+              - generic [ref=f16e457]: Категорії брендів
+              - list [ref=f16e458]:
+                - listitem [ref=f16e459]:
+                  - link "Преміум" [ref=f16e460] [cursor=pointer]:
+                    - /url: /store/premium
+                - listitem [ref=f16e461]:
+                  - link "Спорт" [ref=f16e462] [cursor=pointer]:
+                    - /url: /store/sport-3
+                - listitem [ref=f16e463]:
+                  - link "Денім" [ref=f16e464] [cursor=pointer]:
+                    - /url: /store/denim
+                - listitem [ref=f16e465]:
+                  - link "Для дітей" [ref=f16e466] [cursor=pointer]:
+                    - /url: /store/for-children
+                - listitem [ref=f16e467]:
+                  - link "Усі бренди" [ref=f16e468] [cursor=pointer]:
+                    - /url: /brands
+            - listitem [ref=f16e469]:
+              - generic [ref=f16e470]: Топ-бренди
+              - list [ref=f16e471]:
+                - listitem [ref=f16e472]:
+                  - link "Tommy Hilfiger" [ref=f16e473] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/tommy-hilfiger
+                - listitem [ref=f16e474]:
+                  - link "Calvin Klein" [ref=f16e475] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/calvin-klein
+                - listitem [ref=f16e476]:
+                  - link "Gant" [ref=f16e477] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/gant
+                - listitem [ref=f16e478]:
+                  - link "PRPY" [ref=f16e479] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/prpy
+                - listitem [ref=f16e480]:
+                  - link "Karl Lagerfeld" [ref=f16e481] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/karl-lagerfeld
+                - listitem [ref=f16e482]:
+                  - link "Replay" [ref=f16e483] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/replay
+                - listitem [ref=f16e484]:
+                  - link "Lacoste" [ref=f16e485] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/lacoste
+                - listitem [ref=f16e486]:
+                  - link "Under Armour" [ref=f16e487] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/under-armour
+                - listitem [ref=f16e488]:
+                  - link "adidas" [ref=f16e489] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/adidas
+                - listitem [ref=f16e490]:
+                  - link "New Balance" [ref=f16e491] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/new-balance
+                - listitem [ref=f16e492]:
+                  - link "PUMA" [ref=f16e493] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/puma
+                - listitem [ref=f16e494]:
+                  - link "Nike" [ref=f16e495] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/nike
+                - listitem [ref=f16e496]:
+                  - link "Levi’s®" [ref=f16e497] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/levis
+                - listitem [ref=f16e498]:
+                  - link "Guess" [ref=f16e499] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/guess
+                - listitem [ref=f16e500]:
+                  - link "Diesel" [ref=f16e501] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/diesel
+                - listitem [ref=f16e502]:
+                  - link "G-Star RAW" [ref=f16e503] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/g-star-raw
+                - listitem [ref=f16e504]:
+                  - link "Michael Kors" [ref=f16e505] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/michael-kors
+                - listitem [ref=f16e506]:
+                  - link "BOSS" [ref=f16e507] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boss
+                - listitem [ref=f16e508]:
+                  - link "Bimba Y Lola" [ref=f16e509] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/bimba-y-lola
+                - listitem [ref=f16e510]:
+                  - link "Усі бренди" [ref=f16e511] [cursor=pointer]:
+                    - /url: /brands
+            - listitem [ref=f16e512]:
+              - link "Calvin Klein 20261005 дропдаун Calvin Klein" [ref=f16e513] [cursor=pointer]:
+                - /url: /calvin-klein
+                - generic [ref=f16e514]: Calvin Klein
+                - img "20261005 дропдаун Calvin Klein" [ref=f16e516]
+              - link "Under Armour Under Armour" [ref=f16e517] [cursor=pointer]:
+                - /url: /underarmour
+                - generic [ref=f16e518]: Under Armour
+                - img "Under Armour" [ref=f16e520]
+              - link "Tommy Hilfiger Tommy Hilfiger" [ref=f16e521] [cursor=pointer]:
+                - /url: /tommyhilfiger
+                - generic [ref=f16e522]: Tommy Hilfiger
+                - img "Tommy Hilfiger" [ref=f16e524]
+              - link "PRPY PRPY" [ref=f16e525] [cursor=pointer]:
+                - /url: /prpy
+                - generic [ref=f16e526]: PRPY
+                - img "PRPY" [ref=f16e528]
+      - listitem [ref=f16e529]:
+        - link "Акції" [ref=f16e530] [cursor=pointer]:
+          - /url: https://md-fashion.ua/discount-news
+      - listitem [ref=f16e531]:
+        - link "Преміум" [ref=f16e532] [cursor=pointer]:
+          - /url: /store/premium
+    - generic [ref=f16e533]:
+      - list [ref=f16e534]:
+        - listitem [ref=f16e535]:
+          - link "Оплата та доставка" [ref=f16e536] [cursor=pointer]:
+            - /url: /site/payment-shipping
+        - listitem [ref=f16e537]:
+          - link "Питання та відповіді" [ref=f16e538] [cursor=pointer]:
+            - /url: /site/questions-answers
+        - listitem [ref=f16e539]:
+          - link "Клубна програма" [ref=f16e540] [cursor=pointer]:
+            - /url: "/site/loyalty "
+        - listitem [ref=f16e541]:
+          - link "Журнал" [ref=f16e542] [cursor=pointer]:
+            - /url: "/news "
+      - link "044 585 50 40" [ref=f16e543] [cursor=pointer]:
+        - /url: tel:0445855040
+      - generic [ref=f16e544]:
+        - generic [ref=f16e545] [cursor=pointer]: Українська
+        - link "Російська" [ref=f16e546] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/zhenskoe-chernoe-plate-slim-5x2-rib-tommy-hilfiger-ww0ww46138-cernyj
+  - generic [ref=f16e547]:
+    - generic [ref=f16e549]:
+      - list [ref=f16e552]:
+        - listitem [ref=f16e553]:
+          - link "Головна" [ref=f16e554] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f16e555]:
+          - link "Каталог" [ref=f16e556] [cursor=pointer]:
+            - /url: /store
+        - listitem [ref=f16e557]:
+          - link "Жінкам" [ref=f16e558] [cursor=pointer]:
+            - /url: /store/women
+        - listitem [ref=f16e559]:
+          - link "Одяг" [ref=f16e560] [cursor=pointer]:
+            - /url: /store/women/odyah
+        - listitem [ref=f16e561]:
+          - link "Сукні" [ref=f16e562] [cursor=pointer]:
+            - /url: /store/women/odyah/sukni
+        - listitem [ref=f16e563]:
+          - link "Сукні-светри" [ref=f16e564] [cursor=pointer]:
+            - /url: /store/women/odyah/sukni/sukni-svetry
+        - listitem [ref=f16e565]:
+          - link "Tommy Hilfiger" [ref=f16e566] [cursor=pointer]:
+            - /url: /store/women/odyah/sukni/sukni-svetry/tommy-hilfiger
+        - listitem:
+          - generic: Жіноча чорна сукня SLIM 5X2 RIB Tommy Hilfiger WW0WW46138
+      - generic [ref=f16e567]:
+        - generic [ref=f16e568]:
+          - generic [ref=f16e569]: "-30%"
+          - generic [ref=f16e574]:
+            - img "Жіноча чорна сукня SLIM 5X2 RIB 1" [ref=f16e576]
+            - img "Жіноча чорна сукня SLIM 5X2 RIB 2" [ref=f16e578]
+            - img "Жіноча чорна сукня SLIM 5X2 RIB 3" [ref=f16e580]
+            - img "Жіноча чорна сукня SLIM 5X2 RIB 4" [ref=f16e582]
+            - img "Жіноча чорна сукня SLIM 5X2 RIB 5" [ref=f16e584]
+        - generic [ref=f16e588]:
+          - button [ref=f16e589] [cursor=pointer]:
+            - paragraph [ref=f16e590]: "68"
+          - generic [ref=f16e592]:
+            - link [ref=f16e594] [cursor=pointer]:
+              - /url: /store/women/tommy-hilfiger
+              - img "Tommy Hilfiger" [ref=f16e595]
+            - heading "Жіноча чорна сукня SLIM 5X2 RIB Tommy Hilfiger WW0WW46138" [level=1] [ref=f16e596]:
+              - text: Жіноча чорна сукня SLIM 5X2 RIB
+              - generic [ref=f16e597]: Tommy Hilfiger WW0WW46138
+          - generic [ref=f16e599]:
+            - generic [ref=f16e600]:
+              - generic [ref=f16e601]: 6 853 грн9 790 грн
+              - generic [ref=f16e603]:
+                - img "MD info icon" [ref=f16e605] [cursor=pointer]
+                - generic [ref=f16e606]: Товар MD Fashion
+            - paragraph [ref=f16e608] [cursor=pointer]:
+              - generic [ref=f16e609]: +343 бонусiв
+              - generic [ref=f16e610]: для учасників клубної програми MD Fashion
+            - generic [ref=f16e611]:
+              - generic [ref=f16e612]: "Колір: Чорний"
+              - generic [ref=f16e614]:
+                - link [ref=f16e615] [cursor=pointer]:
+                  - /url: /store/zhinocha-bordova-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-bordovyi
+                  - img "Бордовий" [ref=f16e616]
+                - link [ref=f16e617] [cursor=pointer]:
+                  - /url: /store/zhinocha-temno-synya-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-synii
+                  - img "Синій" [ref=f16e618]
+                - link "Чорний":
+                  - /url: /store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi
+                  - img "Чорний"
+            - generic [ref=f16e619]:
+              - generic [ref=f16e620]: Розмір
+              - generic [ref=f16e621]:
+                - generic [ref=f16e622] [cursor=pointer]: XXS
+                - generic [ref=f16e624] [cursor=pointer]: XS
+                - generic [ref=f16e626] [cursor=pointer]: S
+                - generic [ref=f16e628] [cursor=pointer]: M
+                - generic [ref=f16e630] [cursor=pointer]: L
+            - button "Додати в кошик" [ref=f16e632] [cursor=pointer]
+            - generic [ref=f16e636]: Самовивіз/Наявність в магазинах
+            - button "Натякнути на подарунок" [ref=f16e639] [cursor=pointer]
+          - generic [ref=f16e645]:
+            - generic [ref=f16e646]:
+              - generic [ref=f16e647]: Артикул
+              - generic [ref=f16e648]: WW0WW46138
+            - generic [ref=f16e649]:
+              - generic [ref=f16e650]: Інформація про товар
+              - list [ref=f16e651]:
+                - listitem [ref=f16e652]:
+                  - text: "Колір:"
+                  - link "чорний" [ref=f16e653] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/chornyi
+                - listitem [ref=f16e654]: "Застібка: куліска"
+                - listitem [ref=f16e655]: "Декор: логотип"
+                - listitem [ref=f16e656]: "Довжина виробу: міді"
+                - listitem [ref=f16e657]: "Довжина рукава: 3/4"
+                - listitem [ref=f16e658]: "Комір: стійка"
+                - listitem [ref=f16e659]:
+                  - text: "Бренд:"
+                  - link "tommy hilfiger" [ref=f16e660] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/tommy-hilfiger
+                - listitem [ref=f16e661]:
+                  - text: "Стать:"
+                  - link "жінкам" [ref=f16e662] [cursor=pointer]:
+                    - /url: /store/women/odyah/sukni/sukni-svetry
+                - listitem [ref=f16e663]:
+                  - text: "Довжина рукава:"
+                  - link "рукав 3/4" [ref=f16e664] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/rukav-3-4
+                - listitem [ref=f16e665]:
+                  - text: "Застібка на одязі:"
+                  - link "на поясі" [ref=f16e666] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/na-poyasi
+                - listitem [ref=f16e667]:
+                  - text: "Довжина:"
+                  - link "міді" [ref=f16e668] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/midi
+                - listitem [ref=f16e669]:
+                  - text: "Матеріал:"
+                  - link "віскоза" [ref=f16e670] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/viscose
+                - listitem [ref=f16e671]:
+                  - text: "Принт:"
+                  - link "однотонне" [ref=f16e672] [cursor=pointer]:
+                    - /url: /store/odyah/sukni/sukni-svetry/monochrome
+            - generic [ref=f16e673]:
+              - generic [ref=f16e674]: Cклад
+              - list [ref=f16e675]:
+                - listitem [ref=f16e676]: "Склад: 95% віскоза, 5% еластан"
+            - generic [ref=f16e677]:
+              - generic [ref=f16e678]: Крій та фасон
+              - list [ref=f16e679]:
+                - listitem [ref=f16e680]: "Фасон: напівприталений"
+            - generic [ref=f16e681]:
+              - generic [ref=f16e682]: Модель на фото
+              - list [ref=f16e683]:
+                - listitem [ref=f16e684]: "Розмір на моделі: S"
+                - listitem [ref=f16e685]: "Зріст: 176 см"
+          - generic [ref=f16e687]:
+            - generic [ref=f16e688] [cursor=pointer]: Доставка по Україні до 5 днів
+            - generic [ref=f16e696] [cursor=pointer]: Повернення товарів протягом 14 днів
+    - generic [ref=f16e703]:
+      - heading "Відгуки" [level=2] [ref=f16e704]
+      - heading "Думка інших покупців" [level=3] [ref=f16e705]
+    - generic [ref=f16e732]:
+      - generic [ref=f16e738]:
+        - generic [ref=f16e739]: повернення товарів
+        - generic [ref=f16e740]: протягом 14 днів
+      - generic [ref=f16e748]:
+        - generic [ref=f16e749]: доставка по всій Україні
+        - generic [ref=f16e750]: до 5 днів
+      - generic [ref=f16e758]:
+        - generic [ref=f16e759]: гарантія
+        - generic [ref=f16e760]: якості та автентичності
+      - generic [ref=f16e767]:
+        - generic [ref=f16e768]: клубна програма
+        - generic [ref=f16e769]: отримуйте до 15% від суми покупки
+  - contentinfo [ref=f16e770]:
+    - generic [ref=f16e771]:
+      - generic [ref=f16e772]:
+        - link [ref=f16e773] [cursor=pointer]:
+          - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+        - link [ref=f16e774] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=f16e775]:
+        - generic [ref=f16e776]:
+          - generic [ref=f16e777]: Контакт-центр
+          - list [ref=f16e778]:
+            - listitem [ref=f16e779]:
+              - link "044 585 50 40" [ref=f16e780] [cursor=pointer]:
+                - /url: tel:0445855040
+            - listitem [ref=f16e781]: Пн-Пт 9:00 - 21:00
+            - listitem [ref=f16e782]: Сб-Нд 9:00 - 19:00
+          - generic [ref=f16e783]:
+            - link [ref=f16e784] [cursor=pointer]:
+              - /url: /our-stores
+            - link "Магазини партнери клубної програми MD Fashion" [ref=f16e786] [cursor=pointer]:
+              - /url: /our-stores
+          - generic [ref=f16e787]:
+            - link [ref=f16e788] [cursor=pointer]:
+              - /url: https://www.facebook.com/md.fashion.ukraine
+            - link [ref=f16e790] [cursor=pointer]:
+              - /url: https://instagram.com/md_fashion.ua
+            - link [ref=f16e792] [cursor=pointer]:
+              - /url: https://www.t.me/mdfashionua/
+        - generic [ref=f16e794]:
+          - link [ref=f16e795] [cursor=pointer]:
+            - /url: /our-stores
+          - link "Магазини партнери клубної програми MD Fashion" [ref=f16e797] [cursor=pointer]:
+            - /url: /our-stores
+        - generic [ref=f16e798]:
+          - generic [ref=f16e799]: Особистий кабінет
+          - list [ref=f16e800]:
+            - listitem [ref=f16e801]:
+              - link "Історія замовлень" [ref=f16e802] [cursor=pointer]:
+                - /url: /account/order
+            - listitem [ref=f16e803]:
+              - link "Мої дані" [ref=f16e804] [cursor=pointer]:
+                - /url: /account/details
+            - listitem [ref=f16e805]:
+              - link "Адреси доставки" [ref=f16e806] [cursor=pointer]:
+                - /url: /account/address
+            - listitem [ref=f16e807]:
+              - link "Обране" [ref=f16e808] [cursor=pointer]:
+                - /url: /favorites
+            - listitem [ref=f16e809]:
+              - link "Клубна програма" [ref=f16e810] [cursor=pointer]:
+                - /url: /loyalty
+            - listitem [ref=f16e811]:
+              - link "Розсилки" [ref=f16e812] [cursor=pointer]:
+                - /url: /account/subscription
+        - generic [ref=f16e813]:
+          - generic [ref=f16e814]: Покупцям
+          - list [ref=f16e815]:
+            - listitem [ref=f16e816]:
+              - link "Оплата та доставка" [ref=f16e817] [cursor=pointer]:
+                - /url: /payment-shipping
+            - listitem [ref=f16e818]:
+              - link "Повернення" [ref=f16e819] [cursor=pointer]:
+                - /url: /return
+            - listitem [ref=f16e820]:
+              - link "Питання та відповіді" [ref=f16e821] [cursor=pointer]:
+                - /url: /questions-answers
+            - listitem [ref=f16e822]:
+              - link "Клубна програма" [ref=f16e823] [cursor=pointer]:
+                - /url: /loyalty
+            - listitem [ref=f16e824]:
+              - link "Подарункові сертифікати" [ref=f16e825] [cursor=pointer]:
+                - /url: /certificates
+            - listitem [ref=f16e826]:
+              - link "Гарантія" [ref=f16e827] [cursor=pointer]:
+                - /url: /guarantee
+            - listitem [ref=f16e828]:
+              - link "Правила догляду за речами" [ref=f16e829] [cursor=pointer]:
+                - /url: /rules-for-clothing-care
+            - listitem [ref=f16e830]:
+              - link "Контакти" [ref=f16e831] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f16e832]:
+          - generic [ref=f16e833]: Про компанію
+          - list [ref=f16e834]:
+            - listitem [ref=f16e835]:
+              - link "Про нас" [ref=f16e836] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=f16e837]:
+              - link "Журнал" [ref=f16e838] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=f16e839]:
+              - link "Кар'єра в MD" [ref=f16e840] [cursor=pointer]:
+                - /url: /career
+            - listitem [ref=f16e841]:
+              - link "Стати партнером маркетплейс" [ref=f16e842] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=f16e843]:
+              - link "Політика конфіденційності" [ref=f16e844] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f16e845]:
+              - link "Угода користувача" [ref=f16e846] [cursor=pointer]:
+                - /url: /terms-of-use
+          - generic [ref=f16e847]:
+            - link [ref=f16e848] [cursor=pointer]:
+              - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+            - link [ref=f16e849] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=f16e850]:
+        - link [ref=f16e851] [cursor=pointer]:
+          - /url: https://www.facebook.com/md.fashion.ukraine
+        - link [ref=f16e853] [cursor=pointer]:
+          - /url: https://instagram.com/md_fashion.ua
+        - link [ref=f16e855] [cursor=pointer]:
+          - /url: https://www.t.me/mdfashionua/
+      - generic [ref=f16e857]: © 2026 MD Fashion. Усі права зареєстровані

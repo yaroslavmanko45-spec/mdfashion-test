@@ -1,0 +1,16 @@
+[     707ms] [LOG] [OM GlobalScripts Early] No scripts configured @ https://cdn-asset.optimonk.com/script.esm/embedded.3049f1d8.js:0
+[     816ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ https://www.googleadservices.com/pagead/conversion.js:27
+[    1617ms] [LOG] Mapping for AddigitalPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    1617ms] [LOG] Mapping for CriteoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    1617ms] [LOG] Mapping for GetintentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    1617ms] [LOG] Mapping for UpSellitPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    1617ms] [LOG] Mapping for SoretoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    1617ms] [LOG] Mapping for IntentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[    9712ms] [LOG] [OM GlobalScripts Early] No scripts configured @ https://cdn-asset.optimonk.com/script.esm/embedded.3049f1d8.js:0
+[    9781ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ https://www.googleadservices.com/pagead/conversion.js:27
+[   10871ms] [LOG] Mapping for AddigitalPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[   10872ms] [LOG] Mapping for CriteoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[   10872ms] [LOG] Mapping for GetintentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[   10872ms] [LOG] Mapping for UpSellitPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[   10872ms] [LOG] Mapping for SoretoPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0
+[   10872ms] [LOG] Mapping for IntentPlugin not set @ https://cdn.teleportapi.com/admitag.min.js?campaign_code=2cb13c2555:0

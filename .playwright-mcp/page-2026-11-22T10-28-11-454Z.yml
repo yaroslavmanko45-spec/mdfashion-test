@@ -1,0 +1,1923 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "044 585 50 40" [ref=e5] [cursor=pointer]:
+          - /url: tel:0445855040
+        - generic [ref=e6]:
+          - generic [ref=e7]: Допомога
+          - list:
+            - listitem [ref=e8]:
+              - link "Оплата та доставка" [ref=e9] [cursor=pointer]:
+                - /url: /site/payment-shipping
+            - listitem [ref=e10]:
+              - link "Питання та відповіді" [ref=e11] [cursor=pointer]:
+                - /url: /site/questions-answers
+            - listitem [ref=e12]:
+              - link "Клубна програма" [ref=e13] [cursor=pointer]:
+                - /url: "/site/loyalty "
+            - listitem [ref=e14]:
+              - link "Гарантія" [ref=e15] [cursor=pointer]:
+                - /url: "/guarantee "
+        - link "Журнал" [ref=e16] [cursor=pointer]:
+          - /url: /news
+      - generic [ref=e17]:
+        - paragraph [ref=e18]:
+          - link "Увійти" [ref=e19] [cursor=pointer]:
+            - /url: /auth/login
+          - text: /
+          - link "Зареєструватися" [ref=e20] [cursor=pointer]:
+            - /url: /auth/signup
+        - link [ref=e21] [cursor=pointer]:
+          - /url: /favorites
+        - link [ref=e22] [cursor=pointer]:
+          - /url: /cart/index
+        - generic [ref=e23]:
+          - generic [ref=e24]: Укр
+          - list:
+            - listitem [ref=e25]: Укр
+            - listitem [ref=e26]:
+              - link "Рос" [ref=e27] [cursor=pointer]:
+                - /url: https://md-fashion.ua/ru
+    - generic [ref=e28]:
+      - link [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img "mdfashion" [ref=e30]
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Новинки" [ref=e33] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/new
+        - listitem [ref=e34]:
+          - link "Жінкам" [ref=e35] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/women
+        - listitem [ref=e36]:
+          - link "Чоловікам" [ref=e37] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/man
+        - listitem [ref=e38]:
+          - link "Дітям" [ref=e39] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/boys+girls
+        - listitem [ref=e40]:
+          - link "Спорт" [ref=e41] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/sport
+        - listitem [ref=e42]:
+          - link "Дім" [ref=e43] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/dim-1
+        - listitem [ref=e44]:
+          - link "Sale" [ref=e45] [cursor=pointer]:
+            - /url: https://md-fashion.ua/store/sale
+        - listitem [ref=e46]:
+          - link "Бренди" [ref=e47] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=e48]:
+          - link "Акції" [ref=e49] [cursor=pointer]:
+            - /url: https://md-fashion.ua/discount-news
+        - listitem [ref=e50]:
+          - link "Преміум" [ref=e51] [cursor=pointer]:
+            - /url: /store/premium
+      - searchbox "Пошук" [ref=e54]
+  - generic [ref=e55]:
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "Головна сторінка" [ref=e60] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e61]:
+        - link "Новинки" [ref=e62] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/new
+      - listitem [ref=e63]:
+        - link "Жінкам" [ref=e65] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/women
+        - generic [ref=e66]:
+          - generic [ref=e68]: Жінкам
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - generic [ref=e73]: Одяг
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "Верхній одяг" [ref=e76] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/verkhnii-odyah
+                - listitem [ref=e77]:
+                  - link "Джинси" [ref=e78] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/dzhynsy
+                - listitem [ref=e79]:
+                  - link "Брюки і штани" [ref=e80] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/bryuky-i-shtany
+                - listitem [ref=e81]:
+                  - link "Трикотажні кофти" [ref=e82] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/trykotazhni-kofty
+                - listitem [ref=e83]:
+                  - link "Футболки і поло" [ref=e84] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/futbolky-i-polo
+                - listitem [ref=e85]:
+                  - link "Джемпери і светри" [ref=e86] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/dzhempery-i-svetry
+                - listitem [ref=e87]:
+                  - link "Кардигани і кофти" [ref=e88] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/kardyhany-i-kofty
+                - listitem [ref=e89]:
+                  - link "Сукні" [ref=e90] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/sukni
+                - listitem [ref=e91]:
+                  - link "Піджаки і костюми" [ref=e92] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah/pidzhaky-i-kostyumy
+                - listitem [ref=e93]:
+                  - link "Увесь одяг" [ref=e94] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/odyah
+            - listitem [ref=e95]:
+              - generic [ref=e96]: Взуття
+              - list [ref=e97]:
+                - listitem [ref=e98]:
+                  - link "Кросівки" [ref=e99] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/krosivky
+                - listitem [ref=e100]:
+                  - link "Черевики" [ref=e101] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/cherevyky
+                - listitem [ref=e102]:
+                  - link "Чоботи" [ref=e103] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/choboty
+                - listitem [ref=e104]:
+                  - link "Ботильйони" [ref=e105] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/botyliony
+                - listitem [ref=e106]:
+                  - link "Туфлі" [ref=e107] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/tufli
+                - listitem [ref=e108]:
+                  - link "Взуття без задника" [ref=e109] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=e110]:
+                  - link "Домашні капці" [ref=e111] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/domashni-kaptsi
+                - listitem [ref=e112]:
+                  - link "Гумові чоботи" [ref=e113] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/humovi-choboty
+                - listitem [ref=e114]:
+                  - link "Засоби по догляду за взуттям" [ref=e115] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya/zasoby-po-dohlyadu-za-vzuttyam
+                - listitem [ref=e116]:
+                  - link "Все взуття" [ref=e117] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/vzuttya
+            - listitem [ref=e118]:
+              - generic [ref=e119]: Аксесуари
+              - list [ref=e120]:
+                - listitem [ref=e121]:
+                  - link "Сумки і рюкзаки" [ref=e122] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=e123]:
+                  - link "Головні убори" [ref=e124] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/holovni-ubory
+                - listitem [ref=e125]:
+                  - link "Шкарпетки" [ref=e126] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/shkarpetky
+                - listitem [ref=e127]:
+                  - link "Інші аксесуари" [ref=e128] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/inshi-aksesuary
+                - listitem [ref=e129]:
+                  - link "Ремені і підтяжки" [ref=e130] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/remeni-i-pidtyazhky
+                - listitem [ref=e131]:
+                  - link "Прикраси" [ref=e132] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/prykrasy
+                - listitem [ref=e133]:
+                  - link "Окуляри і оправи" [ref=e134] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/okulyary-i-opravy
+                - listitem [ref=e135]:
+                  - link "Шарфи і рукавички" [ref=e136] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/sharfy-i-rukavychky
+                - listitem [ref=e137]:
+                  - link "Колготки та панчохи" [ref=e138] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary/kolhotky-ta-panchokhy
+                - listitem [ref=e139]:
+                  - link "Всі аксесуари" [ref=e140] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/aksesuary
+            - listitem [ref=e141]:
+              - generic [ref=e142]: Білизна
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - link "Спідня білизна" [ref=e145] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/spidnya-bilyzna
+                - listitem [ref=e146]:
+                  - link "Набори білизни" [ref=e147] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/nabory-bilyzny
+                - listitem [ref=e148]:
+                  - link "Одяг для дому та сну" [ref=e149] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=e150]:
+                  - link "Вся білизна" [ref=e151] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bilyzna
+            - listitem [ref=e152]:
+              - generic [ref=e153]: Бренди
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - link "Calvin Klein" [ref=e156] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/calvin-klein
+                - listitem [ref=e157]:
+                  - link "Diesel" [ref=e158] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/diesel
+                - listitem [ref=e159]:
+                  - link "Tommy Hilfiger" [ref=e160] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/tommy-hilfiger
+                - listitem [ref=e161]:
+                  - link "Karl Lagerfeld" [ref=e162] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/karl-lagerfeld
+                - listitem [ref=e163]:
+                  - link "PRPY" [ref=e164] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/prpy
+                - listitem [ref=e165]:
+                  - link "G-Star RAW" [ref=e166] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/g-star-raw
+                - listitem [ref=e167]:
+                  - link "Gant" [ref=e168] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/gant
+                - listitem [ref=e169]:
+                  - link "Guess" [ref=e170] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/guess
+                - listitem [ref=e171]:
+                  - link "Bimba Y Lola" [ref=e172] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/bimba-y-lola
+                - listitem [ref=e173]:
+                  - link "Усі бренди" [ref=e174] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=e175]:
+        - link "Чоловікам" [ref=e177] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/man
+        - generic [ref=e178]:
+          - generic [ref=e180]: Чоловікам
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: Одяг
+              - list [ref=e186]:
+                - listitem [ref=e187]:
+                  - link "Верхній одяг" [ref=e188] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/verkhnii-odyah
+                - listitem [ref=e189]:
+                  - link "Джинси" [ref=e190] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/dzhynsy
+                - listitem [ref=e191]:
+                  - link "Брюки і штани" [ref=e192] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/bryuky-i-shtany
+                - listitem [ref=e193]:
+                  - link "Трикотажні кофти" [ref=e194] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/trykotazhni-kofty
+                - listitem [ref=e195]:
+                  - link "Футболки і поло" [ref=e196] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/futbolky-i-polo
+                - listitem [ref=e197]:
+                  - link "Джемпери і светри" [ref=e198] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/dzhempery-i-svetry
+                - listitem [ref=e199]:
+                  - link "Кардигани і кофти" [ref=e200] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/kardyhany-i-kofty
+                - listitem [ref=e201]:
+                  - link "Піджаки і костюми" [ref=e202] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/pidzhaky-i-kostyumy
+                - listitem [ref=e203]:
+                  - link "Сорочки" [ref=e204] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah/sorochky-4
+                - listitem [ref=e205]:
+                  - link "Увесь одяг" [ref=e206] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/odyah
+            - listitem [ref=e207]:
+              - generic [ref=e208]: Взуття
+              - list [ref=e209]:
+                - listitem [ref=e210]:
+                  - link "Кросівки" [ref=e211] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/krosivky
+                - listitem [ref=e212]:
+                  - link "Черевики" [ref=e213] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/cherevyky
+                - listitem [ref=e214]:
+                  - link "Туфлі" [ref=e215] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/tufli
+                - listitem [ref=e216]:
+                  - link "Взуття без задника" [ref=e217] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=e218]:
+                  - link "Домашні капці" [ref=e219] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya/domashni-kaptsi
+                - listitem [ref=e220]:
+                  - link "Все взуття" [ref=e221] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/vzuttya
+            - listitem [ref=e222]:
+              - generic [ref=e223]: Аксесуари
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - link "Сумки і рюкзаки" [ref=e226] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=e227]:
+                  - link "Головні убори" [ref=e228] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/holovni-ubory
+                - listitem [ref=e229]:
+                  - link "Шкарпетки" [ref=e230] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/shkarpetky
+                - listitem [ref=e231]:
+                  - link "Інші аксесуари" [ref=e232] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/inshi-aksesuary
+                - listitem [ref=e233]:
+                  - link "Ремені і підтяжки" [ref=e234] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/remeni-i-pidtyazhky
+                - listitem [ref=e235]:
+                  - link "Прикраси" [ref=e236] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/prykrasy
+                - listitem [ref=e237]:
+                  - link "Окуляри і оправи" [ref=e238] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/okulyary-i-opravy
+                - listitem [ref=e239]:
+                  - link "Аксесуари для подорожей" [ref=e240] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/aksesuary-dlya-podorozhei
+                - listitem [ref=e241]:
+                  - link "Шарфи і рукавички" [ref=e242] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary/sharfy-i-rukavychky
+                - listitem [ref=e243]:
+                  - link "Всі аксесуари" [ref=e244] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/aksesuary
+            - listitem [ref=e245]:
+              - generic [ref=e246]: Білизна
+              - list [ref=e247]:
+                - listitem [ref=e248]:
+                  - link "Спідня білизна" [ref=e249] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/spidnya-bilyzna
+                - listitem [ref=e250]:
+                  - link "Набори білизни" [ref=e251] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/nabory-bilyzny
+                - listitem [ref=e252]:
+                  - link "Одяг для дому та сну" [ref=e253] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=e254]:
+                  - link "Вся білизна" [ref=e255] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/bilyzna
+            - listitem [ref=e256]:
+              - generic [ref=e257]: Бренди
+              - list [ref=e258]:
+                - listitem [ref=e259]:
+                  - link "Under Armour" [ref=e260] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/under-armour
+                - listitem [ref=e261]:
+                  - link "Tommy Hilfiger" [ref=e262] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/tommy-hilfiger
+                - listitem [ref=e263]:
+                  - link "Calvin Klein" [ref=e264] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/calvin-klein
+                - listitem [ref=e265]:
+                  - link "Diesel" [ref=e266] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/diesel
+                - listitem [ref=e267]:
+                  - link "G-Star RAW" [ref=e268] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/g-star-raw
+                - listitem [ref=e269]:
+                  - link "Gant" [ref=e270] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/gant
+                - listitem [ref=e271]:
+                  - link "PRPY" [ref=e272] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/prpy
+                - listitem [ref=e273]:
+                  - link "New Balance" [ref=e274] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/new-balance
+                - listitem [ref=e275]:
+                  - link "Lacoste" [ref=e276] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/lacoste
+                - listitem [ref=e277]:
+                  - link "Усі бренди" [ref=e278] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=e279]:
+        - link "Дітям" [ref=e281] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/boys+girls
+        - generic [ref=e282]:
+          - generic [ref=e284]: Дітям
+          - list [ref=e287]:
+            - listitem [ref=e288]:
+              - generic [ref=e289]: Одяг
+              - list [ref=e290]:
+                - listitem [ref=e291]:
+                  - link "Верхній одяг" [ref=e292] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/verkhnii-odyah
+                - listitem [ref=e293]:
+                  - link "Футболки і поло" [ref=e294] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/futbolky-i-polo
+                - listitem [ref=e295]:
+                  - link "Брюки і штани" [ref=e296] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/bryuky-i-shtany
+                - listitem [ref=e297]:
+                  - link "Джинси" [ref=e298] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/dzhynsy
+                - listitem [ref=e299]:
+                  - link "Трикотажні кофти" [ref=e300] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/trykotazhni-kofty
+                - listitem [ref=e301]:
+                  - link "Комплекти одягу" [ref=e302] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/komplekty-odyahu
+                - listitem [ref=e303]:
+                  - link "Сукні" [ref=e304] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/sukni
+                - listitem [ref=e305]:
+                  - link "Шорти" [ref=e306] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/shorty
+                - listitem [ref=e307]:
+                  - link "Одяг для немовлят" [ref=e308] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah/odyah-dlya-nemovlyat
+                - listitem [ref=e309]:
+                  - link "Увесь одяг" [ref=e310] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/odyah
+            - listitem [ref=e311]:
+              - generic [ref=e312]: Взуття
+              - list [ref=e313]:
+                - listitem [ref=e314]:
+                  - link "Кросівки" [ref=e315] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/krosivky
+                - listitem [ref=e316]:
+                  - link "Черевики та чоботи" [ref=e317] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/cherevyky-ta-choboty
+                - listitem [ref=e318]:
+                  - link "Туфлі" [ref=e319] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/tufli
+                - listitem [ref=e320]:
+                  - link "Гумові чоботи" [ref=e321] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/humovi-choboty
+                - listitem [ref=e322]:
+                  - link "Взуття без задника" [ref=e323] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya/vzuttya-bez-zadnyka
+                - listitem [ref=e324]:
+                  - link "Все взуття" [ref=e325] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/vzuttya
+            - listitem [ref=e326]:
+              - generic [ref=e327]: Аксесуари
+              - list [ref=e328]:
+                - listitem [ref=e329]:
+                  - link "Головні убори" [ref=e330] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/holovni-ubory
+                - listitem [ref=e331]:
+                  - link "Сумки і рюкзаки" [ref=e332] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/sumky-i-ryukzaky
+                - listitem [ref=e333]:
+                  - link "Шкарпетки" [ref=e334] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary/shkarpetky
+                - listitem [ref=e335]:
+                  - link "Всі аксесуари" [ref=e336] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/aksesuary
+            - listitem [ref=e337]:
+              - generic [ref=e338]: Білизна
+              - list [ref=e339]:
+                - listitem [ref=e340]:
+                  - link "Спідня білизна" [ref=e341] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna/spidnya-bilyzna
+                - listitem [ref=e342]:
+                  - link "Одяг для дому та сну" [ref=e343] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna/odyah-dlya-domu-ta-snu
+                - listitem [ref=e344]:
+                  - link "Вся білизна" [ref=e345] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/bilyzna
+            - listitem [ref=e346]:
+              - generic [ref=e347]: Бренди
+              - list [ref=e348]:
+                - listitem [ref=e349]:
+                  - link "Calvin Klein Kids" [ref=e350] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/calvin-klein-kids
+                - listitem [ref=e351]:
+                  - link "Tommy Hilfiger Kids" [ref=e352] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/tommy-hilfiger-kids
+                - listitem [ref=e353]:
+                  - link "Reima" [ref=e354] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/reima
+                - listitem [ref=e355]:
+                  - link "adidas" [ref=e356] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/adidas
+                - listitem [ref=e357]:
+                  - link "PUMA" [ref=e358] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/puma
+                - listitem [ref=e359]:
+                  - link "Under Armour" [ref=e360] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/under-armour
+                - listitem [ref=e361]:
+                  - link "Diesel Kids" [ref=e362] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/diesel-kids
+                - listitem [ref=e363]:
+                  - link "Guess Kids" [ref=e364] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/guess-kids
+                - listitem [ref=e365]:
+                  - link "Усі бренди" [ref=e366] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=e367]:
+        - link "Спорт" [ref=e369] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/sport
+        - generic [ref=e370]:
+          - generic [ref=e372]: Спорт
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - generic [ref=e377]: Жінкам
+              - list [ref=e378]:
+                - listitem [ref=e379]:
+                  - link "Спортивний одяг" [ref=e380] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvnyi-odyah
+                - listitem [ref=e381]:
+                  - link "Спортивне взуття" [ref=e382] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvne-vzuttya
+                - listitem [ref=e383]:
+                  - link "Аксесуари для спорту" [ref=e384] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/aksesuary-dlya-sportu
+                - listitem [ref=e385]:
+                  - link "Спортивна білизна" [ref=e386] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/women/sport/sportyvna-bilyzna
+            - listitem [ref=e387]:
+              - generic [ref=e388]: Чоловікам
+              - list [ref=e389]:
+                - listitem [ref=e390]:
+                  - link "Спортивний одяг" [ref=e391] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvnyi-odyah
+                - listitem [ref=e392]:
+                  - link "Спортивне взуття" [ref=e393] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvne-vzuttya
+                - listitem [ref=e394]:
+                  - link "Аксесуари для спорту" [ref=e395] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/aksesuary-dlya-sportu
+                - listitem [ref=e396]:
+                  - link "Спортивна білизна" [ref=e397] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/man/sport/sportyvna-bilyzna
+            - listitem [ref=e398]:
+              - generic [ref=e399]: Дітям
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - link "Спортивний одяг" [ref=e402] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvnyi-odyah
+                - listitem [ref=e403]:
+                  - link "Спортивне взуття" [ref=e404] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvne-vzuttya
+                - listitem [ref=e405]:
+                  - link "Аксесуари для спорту" [ref=e406] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/aksesuary-dlya-sportu
+                - listitem [ref=e407]:
+                  - link "Спортивна білизна" [ref=e408] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boys+girls/sport/sportyvna-bilyzna
+            - listitem [ref=e409]:
+              - generic [ref=e410]: Бренди
+              - list [ref=e411]:
+                - listitem [ref=e412]:
+                  - link "Under Armour" [ref=e413] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/under-armour
+                - listitem [ref=e414]:
+                  - link "adidas" [ref=e415] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/adidas
+                - listitem [ref=e416]:
+                  - link "New Balance" [ref=e417] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/new-balance
+                - listitem [ref=e418]:
+                  - link "Nike" [ref=e419] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/nike
+                - listitem [ref=e420]:
+                  - link "PUMA" [ref=e421] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/sport/puma
+                - listitem [ref=e422]:
+                  - link "Усі бренди" [ref=e423] [cursor=pointer]:
+                    - /url: /brands
+      - listitem [ref=e424]:
+        - link "Дім" [ref=e426] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/dim-1
+        - generic [ref=e427]:
+          - generic [ref=e429]: Дім
+          - list [ref=e432]:
+            - listitem [ref=e433]:
+              - link "Постільна білизна" [ref=e434] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/postilna-bilyzna
+              - link "Покривала" [ref=e435] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/pokryvala
+              - link "Ковдри" [ref=e436] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/kovdry
+              - link "Подушки" [ref=e437] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/podushky
+              - link "Пледи" [ref=e438] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/pledy-2
+              - link "Рушники" [ref=e439] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/rushnyky
+              - link "Декор" [ref=e440] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/dekor
+              - link "Посуд" [ref=e441] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/posud
+              - link "Скатертини" [ref=e442] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/skatertyny
+              - link "Килими" [ref=e443] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/kylymy
+              - link "Одяг для дому" [ref=e444] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/odyah-dlya-domu-2
+              - link "Взуття для дому" [ref=e445] [cursor=pointer]:
+                - /url: https://md-fashion.ua/store/dim-1/vzuttya-dlya-domu
+      - listitem [ref=e446]:
+        - link "Sale" [ref=e447] [cursor=pointer]:
+          - /url: https://md-fashion.ua/store/sale
+      - listitem [ref=e448]:
+        - generic [ref=e449]: Бренди
+        - generic [ref=e450]:
+          - generic [ref=e452]: Бренди
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - generic [ref=e457]: Категорії брендів
+              - list [ref=e458]:
+                - listitem [ref=e459]:
+                  - link "Преміум" [ref=e460] [cursor=pointer]:
+                    - /url: /store/premium
+                - listitem [ref=e461]:
+                  - link "Спорт" [ref=e462] [cursor=pointer]:
+                    - /url: /store/sport-3
+                - listitem [ref=e463]:
+                  - link "Денім" [ref=e464] [cursor=pointer]:
+                    - /url: /store/denim
+                - listitem [ref=e465]:
+                  - link "Для дітей" [ref=e466] [cursor=pointer]:
+                    - /url: /store/for-children
+                - listitem [ref=e467]:
+                  - link "Усі бренди" [ref=e468] [cursor=pointer]:
+                    - /url: /brands
+            - listitem [ref=e469]:
+              - generic [ref=e470]: Топ-бренди
+              - list [ref=e471]:
+                - listitem [ref=e472]:
+                  - link "Tommy Hilfiger" [ref=e473] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/tommy-hilfiger
+                - listitem [ref=e474]:
+                  - link "Calvin Klein" [ref=e475] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/calvin-klein
+                - listitem [ref=e476]:
+                  - link "Gant" [ref=e477] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/gant
+                - listitem [ref=e478]:
+                  - link "PRPY" [ref=e479] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/prpy
+                - listitem [ref=e480]:
+                  - link "Karl Lagerfeld" [ref=e481] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/karl-lagerfeld
+                - listitem [ref=e482]:
+                  - link "Replay" [ref=e483] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/replay
+                - listitem [ref=e484]:
+                  - link "Lacoste" [ref=e485] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/lacoste
+                - listitem [ref=e486]:
+                  - link "Under Armour" [ref=e487] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/under-armour
+                - listitem [ref=e488]:
+                  - link "adidas" [ref=e489] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/adidas
+                - listitem [ref=e490]:
+                  - link "New Balance" [ref=e491] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/new-balance
+                - listitem [ref=e492]:
+                  - link "PUMA" [ref=e493] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/puma
+                - listitem [ref=e494]:
+                  - link "Nike" [ref=e495] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/nike
+                - listitem [ref=e496]:
+                  - link "Levi’s®" [ref=e497] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/levis
+                - listitem [ref=e498]:
+                  - link "Guess" [ref=e499] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/guess
+                - listitem [ref=e500]:
+                  - link "Diesel" [ref=e501] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/diesel
+                - listitem [ref=e502]:
+                  - link "G-Star RAW" [ref=e503] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/g-star-raw
+                - listitem [ref=e504]:
+                  - link "Michael Kors" [ref=e505] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/michael-kors
+                - listitem [ref=e506]:
+                  - link "BOSS" [ref=e507] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/boss
+                - listitem [ref=e508]:
+                  - link "Bimba Y Lola" [ref=e509] [cursor=pointer]:
+                    - /url: https://md-fashion.ua/store/bimba-y-lola
+                - listitem [ref=e510]:
+                  - link "Усі бренди" [ref=e511] [cursor=pointer]:
+                    - /url: /brands
+            - listitem [ref=e512]:
+              - link "Calvin Klein 20261005 дропдаун Calvin Klein" [ref=e513] [cursor=pointer]:
+                - /url: /calvin-klein
+                - generic [ref=e514]: Calvin Klein
+                - img "20261005 дропдаун Calvin Klein" [ref=e516]
+              - link "Under Armour Under Armour" [ref=e517] [cursor=pointer]:
+                - /url: /underarmour
+                - generic [ref=e518]: Under Armour
+                - img "Under Armour" [ref=e520]
+              - link "Tommy Hilfiger Tommy Hilfiger" [ref=e521] [cursor=pointer]:
+                - /url: /tommyhilfiger
+                - generic [ref=e522]: Tommy Hilfiger
+                - img "Tommy Hilfiger" [ref=e524]
+              - link "PRPY PRPY" [ref=e525] [cursor=pointer]:
+                - /url: /prpy
+                - generic [ref=e526]: PRPY
+                - img "PRPY" [ref=e528]
+      - listitem [ref=e529]:
+        - link "Акції" [ref=e530] [cursor=pointer]:
+          - /url: https://md-fashion.ua/discount-news
+      - listitem [ref=e531]:
+        - link "Преміум" [ref=e532] [cursor=pointer]:
+          - /url: /store/premium
+    - generic [ref=e533]:
+      - list [ref=e534]:
+        - listitem [ref=e535]:
+          - link "Оплата та доставка" [ref=e536] [cursor=pointer]:
+            - /url: /site/payment-shipping
+        - listitem [ref=e537]:
+          - link "Питання та відповіді" [ref=e538] [cursor=pointer]:
+            - /url: /site/questions-answers
+        - listitem [ref=e539]:
+          - link "Клубна програма" [ref=e540] [cursor=pointer]:
+            - /url: "/site/loyalty "
+        - listitem [ref=e541]:
+          - link "Журнал" [ref=e542] [cursor=pointer]:
+            - /url: "/news "
+      - link "044 585 50 40" [ref=e543] [cursor=pointer]:
+        - /url: tel:0445855040
+      - generic [ref=e544]:
+        - generic [ref=e545] [cursor=pointer]: Українська
+        - link "Російська" [ref=e546] [cursor=pointer]:
+          - /url: https://md-fashion.ua/ru
+  - generic [ref=e547]:
+    - generic [ref=e548]:
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - generic [ref=e552]: Вдалий момент для оновлення гардероба!
+          - generic [ref=e553]:
+            - link "Жінкам" [ref=e554] [cursor=pointer]:
+              - /url: /discounts/product/women/6af32ee4779e8
+            - link "Чоловікам" [ref=e555] [cursor=pointer]:
+              - /url: /discounts/product/man/6af32ee4779e8
+            - link "Дітям" [ref=e556] [cursor=pointer]:
+              - /url: /discounts/product/children/6af32ee4779e8
+        - link [ref=e558] [cursor=pointer]:
+          - /url: /discounts/product/6af32ee4779e8
+          - img "З 20 листопада OUTLET BLACK FRIDAY! -50% на весь асортимент минулих сезонів MD Fashion" [ref=e560]
+      - generic [ref=e566]:
+        - generic [ref=e567]: "01"
+        - generic [ref=e568]: /
+        - generic [ref=e569]: "10"
+    - generic [ref=e572]:
+      - heading "Бренди" [level=6] [ref=e573]
+      - heading "Більше 200 брендів на одному сайті" [level=2] [ref=e574]
+      - list [ref=e575]:
+        - listitem [ref=e576]:
+          - link [ref=e577] [cursor=pointer]:
+            - /url: /store/under-armour
+            - img "2022602 лого under-armour" [ref=e579]
+        - listitem [ref=e580]:
+          - link [ref=e581] [cursor=pointer]:
+            - /url: /store/tommy-hilfiger
+            - img "20210426 лого tommy-hilfiger" [ref=e583]
+        - listitem [ref=e584]:
+          - link [ref=e585] [cursor=pointer]:
+            - /url: /store/calvin-klein
+            - img "20220602 лого calvin-klein" [ref=e587]
+        - listitem [ref=e588]:
+          - link [ref=e589] [cursor=pointer]:
+            - /url: /store/diesel
+            - img "2022602 лого diesel" [ref=e591]
+        - listitem [ref=e592]:
+          - link [ref=e593] [cursor=pointer]:
+            - /url: /store/g-star-raw
+            - img "20220602 лого g-star-raw" [ref=e595]
+        - listitem [ref=e596]:
+          - link [ref=e597] [cursor=pointer]:
+            - /url: /store/gant
+            - img "Gant" [ref=e599]
+        - listitem [ref=e600]:
+          - link [ref=e601] [cursor=pointer]:
+            - /url: /store/levis
+            - img "20220404 лого levis" [ref=e603]
+        - listitem [ref=e604]:
+          - link [ref=e605] [cursor=pointer]:
+            - /url: /store/puma
+            - img "20220409 лого puma" [ref=e607]
+        - listitem [ref=e608]:
+          - link [ref=e609] [cursor=pointer]:
+            - /url: /store/adidas
+            - img "20220531 лого adidas" [ref=e611]
+        - listitem [ref=e612]:
+          - link [ref=e613] [cursor=pointer]:
+            - /url: /store/karl-lagerfeld+karl-lagerfeld-all+karl-lagerfeld-jeans
+            - img "20260522 лого Karl Lagerfeld" [ref=e615]
+      - link "Дивитися всі бренди" [ref=e616] [cursor=pointer]:
+        - /url: /brands
+    - generic [ref=e618]:
+      - generic [ref=e620]:
+        - generic [ref=e621]:
+          - link [ref=e623] [cursor=pointer]:
+            - /url: /discounts/product/6af32b0970b64
+            - img "20261120 Додатково -20% на весь дитячий асортимент MD Fashion" [ref=e625]
+          - generic [ref=e626]:
+            - heading "Акції" [level=6] [ref=e627]
+            - heading "Більше приводів для дитячих усмішок!" [level=2] [ref=e628]
+            - link "Дивитись всі товари" [ref=e629] [cursor=pointer]:
+              - /url: /discounts/product/6af32b0970b64
+        - generic [ref=e630]:
+          - link "Дитячий білий світшот TOMMY HILFIGER CREW NECK Tommy Hilfiger Kids Дитячий білий світшот TOMMY HILFIGER CREW NECK Tommy Hilfiger Kids 2 810 грн 4 390 грн" [ref=e632] [cursor=pointer]:
+            - /url: /store/dytyachyi-bilyi-svitshot-tommy-hilfiger-crew-neck-tommy-hilfiger-kids-kg0kg09439-bilyi
+            - generic [ref=e634]:
+              - img "Дитячий білий світшот TOMMY HILFIGER CREW NECK"
+            - generic [ref=e637]:
+              - generic [ref=e638]: Tommy Hilfiger Kids
+              - generic [ref=e639]: Дитячий білий світшот TOMMY HILFIGER CREW NECK Tommy Hilfiger Kids
+              - generic [ref=e640]: 2 810 грн 4 390 грн
+          - link "Дитяче коричневе худі G-Star RAW Kids Дитяче коричневе худі G-Star RAW Kids 4 472 грн 5 590 грн" [ref=e642] [cursor=pointer]:
+            - /url: /store/dytyache-korychneve-khudi-g-star-raw-kids-d3088901-korychnevyi
+            - generic [ref=e644]:
+              - img "Дитяче коричневе худі"
+            - generic [ref=e647]:
+              - generic [ref=e648]: G-Star RAW Kids
+              - generic [ref=e649]: Дитяче коричневе худі G-Star RAW Kids
+              - generic [ref=e650]: 4 472 грн 5 590 грн
+          - link "Дитяче поло у смужку STRIPE Tommy Hilfiger Kids Дитяче поло у смужку STRIPE Tommy Hilfiger Kids 3 512 грн 4 390 грн" [ref=e652] [cursor=pointer]:
+            - /url: /store/dytyache-polo-u-smuzhku-stripe-tommy-hilfiger-kids-kg0kg08869-riznokolorovyi
+            - generic [ref=e654]:
+              - img "Дитяче поло у смужку STRIPE"
+            - generic [ref=e657]:
+              - generic [ref=e658]: Tommy Hilfiger Kids
+              - generic [ref=e659]: Дитяче поло у смужку STRIPE Tommy Hilfiger Kids
+              - generic [ref=e660]: 3 512 грн 4 390 грн
+          - link "Дитяча жовта спортивна кофта FLAG FULL ZIP Tommy Hilfiger Kids Дитяча жовта спортивна кофта FLAG FULL ZIP Tommy Hilfiger Kids 3 834 грн 5 990 грн" [ref=e662] [cursor=pointer]:
+            - /url: /store/dytyacha-zhovta-kurtka-flag-full-zip-tommy-hilfiger-kids-kb0kb10634-zhovtyi
+            - generic [ref=e664]:
+              - img "Дитяча жовта спортивна кофта FLAG FULL ZIP"
+            - generic [ref=e667]:
+              - generic [ref=e668]: Tommy Hilfiger Kids
+              - generic [ref=e669]: Дитяча жовта спортивна кофта FLAG FULL ZIP Tommy Hilfiger Kids
+              - generic [ref=e670]: 3 834 грн 5 990 грн
+        - link "Дивитись всі товари" [ref=e671] [cursor=pointer]:
+          - /url: /discounts/product/6af32b0970b64
+      - generic [ref=e673]:
+        - generic [ref=e674]: "01"
+        - generic [ref=e675]: /
+        - generic [ref=e676]: "05"
+    - generic [ref=e679]:
+      - link [ref=e681] [cursor=pointer]:
+        - /url: /discounts/product/6ace07f60b37a
+        - img "20261117 Nike new collection" [ref=e683]
+      - generic [ref=e684]:
+        - heading "Відкривайте нові грані свого стилю з Nike!" [level=2] [ref=e685]
+        - link "Дивитись все" [ref=e686] [cursor=pointer]:
+          - /url: /discounts/product/6ace07f60b37a
+    - generic [ref=e687]:
+      - heading "категорії" [level=6] [ref=e688]
+      - heading "Будьте в тренді!" [level=2] [ref=e689]
+      - generic [ref=e691]:
+        - link [ref=e692] [cursor=pointer]:
+          - /url: /store/odyah/verkhnii-odyah/demisezonni-kurtky/parky/zymovi-kurtky-ta-pukhovyky-3
+          - img "Куртки и пуховики" [ref=e695]
+          - heading "Куртки та пуховики" [level=4] [ref=e696]
+        - link [ref=e697] [cursor=pointer]:
+          - /url: /store/odyah/kardyhany-i-kofty
+          - img "Кардиганы и кофты" [ref=e700]
+          - heading "Кардигани і кофти" [level=4] [ref=e701]
+        - link [ref=e702] [cursor=pointer]:
+          - /url: /store/aksesuary/sumky-i-ryukzaky
+          - img "Сумки и рюкзаки" [ref=e705]
+          - heading "Сумки і рюкзаки" [level=4] [ref=e706]
+    - generic [ref=e708]:
+      - generic [ref=e711]:
+        - 'img "Sprayground: мистецтво провокації" [ref=e715]'
+        - generic [ref=e717]:
+          - generic [ref=e718]:
+            - heading "Добірка" [level=6] [ref=e719]
+            - 'heading "Sprayground: мистецтво провокації" [level=2] [ref=e720]'
+          - generic [ref=e722]:
+            - link "Чорний рюкзак з візерунком 3M SHARKS IN PARIS Sprayground Чорний рюкзак з візерунком 3M SHARKS IN PARIS Sprayground 9 490 грн" [ref=e724] [cursor=pointer]:
+              - /url: /store/chornyi-ryukzak-z-vizerunkom-3m-sharks-in-paris-sprayground-910b2049nsz-chornyi
+              - generic [ref=e726]:
+                - img "Чорний рюкзак з візерунком 3M SHARKS IN PARIS"
+              - generic [ref=e729]:
+                - generic [ref=e730]: Sprayground
+                - generic [ref=e731]: Чорний рюкзак з візерунком 3M SHARKS IN PARIS Sprayground
+                - generic [ref=e732]: 9 490 грн
+            - link "Червоний рюкзак MARVEL'S SPIDERMAN WEBBED SHARK Sprayground Червоний рюкзак MARVEL'S SPIDERMAN WEBBED SHARK Sprayground 6 990 грн" [ref=e734] [cursor=pointer]:
+              - /url: /store/chervonyi-ryukzak-marvels-spiderman-webbed-shark-sprayground-9100b965nsz-chervonyi
+              - generic [ref=e736]:
+                - img "Червоний рюкзак MARVEL'S SPIDERMAN WEBBED SHARK"
+              - generic [ref=e739]:
+                - generic [ref=e740]: Sprayground
+                - generic [ref=e741]: Червоний рюкзак MARVEL'S SPIDERMAN WEBBED SHARK Sprayground
+                - generic [ref=e742]: 6 990 грн
+            - 'link "Рюкзак STAR WARS: THE CHILD Sprayground Рюкзак STAR WARS: THE CHILD Sprayground 7 990 грн" [ref=e744] [cursor=pointer]':
+              - /url: /store/ryukzak-star-wars-the-child-sprayground-910b3395nsz-riznokolorovyi
+              - generic [ref=e746]:
+                - 'img "Рюкзак STAR WARS: THE CHILD"'
+              - generic [ref=e749]:
+                - generic [ref=e750]: Sprayground
+                - generic [ref=e751]: "Рюкзак STAR WARS: THE CHILD Sprayground"
+                - generic [ref=e752]: 7 990 грн
+      - generic [ref=e754]:
+        - generic [ref=e755]: "01"
+        - generic [ref=e756]: /
+        - generic [ref=e757]: "05"
+    - generic [ref=e778]:
+      - generic [ref=e780]:
+        - generic [ref=e781]:
+          - link [ref=e783] [cursor=pointer]:
+            - /url: /discounts/product/6afc38db6086d
+            - 'img "20261121 До -70% adidas: Black Friday уже тут" [ref=e785]'
+          - generic [ref=e786]:
+            - heading "Акції" [level=6] [ref=e787]
+            - 'heading "До -70% adidas: Black Friday уже тут" [level=2] [ref=e788]'
+            - link "Дивитись всі товари" [ref=e789] [cursor=pointer]:
+              - /url: /discounts/product/6afc38db6086d
+        - generic [ref=e790]:
+          - link "Жіноча м'ятна куртка Terrex Multi Essentials CLIMAWARM Insulated Hooded adidas Жіноча м'ятна куртка Terrex Multi Essentials CLIMAWARM Insulated Hooded adidas 3 498 грн 5 998 грн" [ref=e792] [cursor=pointer]:
+            - /url: /store/kurtka-terrex-multi-essentials-climawarm-insulated-hooded-adidas-kb2170
+            - generic [ref=e794]:
+              - img "Жіноча м'ятна куртка Terrex Multi Essentials CLIMAWARM Insulated Hooded"
+            - generic [ref=e797]:
+              - generic [ref=e798]: adidas
+              - generic [ref=e799]: Жіноча м'ятна куртка Terrex Multi Essentials CLIMAWARM Insulated Hooded adidas
+              - generic [ref=e800]: 3 498 грн 5 998 грн
+          - link "Чоловічий чорний пуховик MYSHELTER Climawarm Down adidas Чоловічий чорний пуховик MYSHELTER Climawarm Down adidas 9 999 грн 14 999 грн" [ref=e802] [cursor=pointer]:
+            - /url: /store/kurtka-myshelter-climawarm-down-adidas-jl6960
+            - generic [ref=e804]:
+              - img "Чоловічий чорний пуховик MYSHELTER Climawarm Down"
+            - generic [ref=e807]:
+              - generic [ref=e808]: adidas
+              - generic [ref=e809]: Чоловічий чорний пуховик MYSHELTER Climawarm Down adidas
+              - generic [ref=e810]: 9 999 грн 14 999 грн
+          - link "Чоловіча оливкова куртка adidas Originals Quilted adidas Чоловіча оливкова куртка adidas Originals Quilted adidas 2 999 грн 6 495 грн" [ref=e812] [cursor=pointer]:
+            - /url: /store/cholovicha-olyvkova-kurtka-adidas-originals-quilted-adidas-jw5818
+            - generic [ref=e814]:
+              - img "Чоловіча оливкова куртка adidas Originals Quilted"
+            - generic [ref=e817]:
+              - generic [ref=e818]: adidas
+              - generic [ref=e819]: Чоловіча оливкова куртка adidas Originals Quilted adidas
+              - generic [ref=e820]: 2 999 грн 6 495 грн
+          - link "Жіноча темно-синя куртка Ultimate365 Cold.rdy Full-Zip adidas Жіноча темно-синя куртка Ultimate365 Cold.rdy Full-Zip adidas 2 499 грн 4 995 грн" [ref=e822] [cursor=pointer]:
+            - /url: /store/zhinocha-temno-synya-kurtka-ultimate365-coldrdy-full-zip-adidas-jx9292
+            - generic [ref=e824]:
+              - img "Жіноча темно-синя куртка Ultimate365 Cold.rdy Full-Zip"
+            - generic [ref=e827]:
+              - generic [ref=e828]: adidas
+              - generic [ref=e829]: Жіноча темно-синя куртка Ultimate365 Cold.rdy Full-Zip adidas
+              - generic [ref=e830]: 2 499 грн 4 995 грн
+        - link "Дивитись всі товари" [ref=e831] [cursor=pointer]:
+          - /url: /discounts/product/6afc38db6086d
+      - generic [ref=e833]:
+        - generic [ref=e834]: "01"
+        - generic [ref=e835]: /
+        - generic [ref=e836]: "05"
+    - generic [ref=e839]:
+      - generic [ref=e840]:
+        - generic [ref=e841]:
+          - heading "Акції" [level=6] [ref=e842]
+          - 'heading "Black Friday з Asics, Nike, Camel Active та іншими.: до -25% у кошику на спортивні моделі" [level=2] [ref=e843]'
+        - generic [ref=e844]:
+          - generic [ref=e845]:
+            - generic [ref=e846]:
+              - link [ref=e847] [cursor=pointer]:
+                - /url: /discounts/product/6afc6025ecfa2
+                - 'img "20261119 Black Friday з Asics, Nike, Camel Active та іншими.: до -25% у кошику на спортивні моделі" [ref=e849]'
+              - 'link "Camel Active та іншими.: до -25% у кошику" [ref=e850] [cursor=pointer]':
+                - /url: /discounts/product/6afc6025ecfa2
+            - heading "01 / 01" [level=2] [ref=e852]:
+              - generic [ref=e854]:
+                - generic [ref=e855]: "01"
+                - generic [ref=e856]: /
+                - generic [ref=e857]: "01"
+          - generic [ref=e862]:
+            - link "Чоловіча чорна куртка Jack Wolfskin Чоловіча чорна куртка Jack Wolfskin 11 990 грн" [ref=e864] [cursor=pointer]:
+              - /url: /store/cholovicha-chorna-kurtka-jack-wolfskin-a650236000-chornyi
+              - generic [ref=e866]:
+                - img "Чоловіча чорна куртка"
+              - generic [ref=e869]:
+                - generic [ref=e870]: Jack Wolfskin
+                - generic [ref=e871]: Чоловіча чорна куртка Jack Wolfskin
+                - generic [ref=e872]: 11 990 грн
+            - link "Жіночий світло-сірий пуховик Jack Wolfskin Жіночий світло-сірий пуховик Jack Wolfskin 10 999 грн 13 990 грн" [ref=e874] [cursor=pointer]:
+              - /url: /store/zhinochyi-siryi-pukhovyk-jack-wolfskin-a65097a0056-siryi
+              - generic [ref=e876]:
+                - img "Жіночий світло-сірий пуховик"
+              - generic [ref=e879]:
+                - generic [ref=e880]: Jack Wolfskin
+                - generic [ref=e881]: Жіночий світло-сірий пуховик Jack Wolfskin
+                - generic [ref=e882]: 10 999 грн 13 990 грн
+            - link "Жіночий темно-зелений жилет Camel Active Жіночий темно-зелений жилет Camel Active 4 599 грн 5 790 грн" [ref=e884] [cursor=pointer]:
+              - /url: /store/zhinochyi-temno-zelenyi-zhylet-camel-active-360670-6f23-38-zelenyi
+              - generic [ref=e886]:
+                - img "Жіночий темно-зелений жилет"
+              - generic [ref=e889]:
+                - generic [ref=e890]: Camel Active
+                - generic [ref=e891]: Жіночий темно-зелений жилет Camel Active
+                - generic [ref=e892]: 4 599 грн 5 790 грн
+            - link "Чоловіча бежева куртка Camel Active Чоловіча бежева куртка Camel Active 7 399 грн 10 490 грн" [ref=e894] [cursor=pointer]:
+              - /url: /store/cholovicha-bezheva-kurtka-camel-active-430120-9n61-31-bezhevyi
+              - generic [ref=e896]:
+                - img "Чоловіча бежева куртка"
+              - generic [ref=e899]:
+                - generic [ref=e900]: Camel Active
+                - generic [ref=e901]: Чоловіча бежева куртка Camel Active
+                - generic [ref=e902]: 7 399 грн 10 490 грн
+            - link "Жіночий бежевий жилет REGATTA Жіночий бежевий жилет REGATTA 3 599 грн 4 490 грн" [ref=e904] [cursor=pointer]:
+              - /url: /store/zhinochyi-bezhevyi-zhylet-regatta-rwb182-zwz-bezhevyi
+              - generic [ref=e906]:
+                - img "Жіночий бежевий жилет"
+              - generic [ref=e909]:
+                - generic [ref=e910]: REGATTA
+                - generic [ref=e911]: Жіночий бежевий жилет REGATTA
+                - generic [ref=e912]: 3 599 грн 4 490 грн
+            - link "Чоловіча світло-сіра парка REGATTA Чоловіча світло-сіра парка REGATTA 8 490 грн" [ref=e914] [cursor=pointer]:
+              - /url: /store/cholovicha-svitlo-sira-parka-regatta-rmp440-nd5-siryi
+              - generic [ref=e916]:
+                - img "Чоловіча світло-сіра парка"
+              - generic [ref=e919]:
+                - generic [ref=e920]: REGATTA
+                - generic [ref=e921]: Чоловіча світло-сіра парка REGATTA
+                - generic [ref=e922]: 8 490 грн
+            - link "Чоловічий темно-сірий жилет REGATTA Чоловічий темно-сірий жилет REGATTA 4 990 грн" [ref=e924] [cursor=pointer]:
+              - /url: /store/cholovichyi-temno-siryi-zhylet-regatta-rmb182-61g-siryi
+              - generic [ref=e926]:
+                - img "Чоловічий темно-сірий жилет"
+              - generic [ref=e929]:
+                - generic [ref=e930]: REGATTA
+                - generic [ref=e931]: Чоловічий темно-сірий жилет REGATTA
+                - generic [ref=e932]: 4 990 грн
+            - link "Жіноча чорна куртка REGATTA Жіноча чорна куртка REGATTA 5 990 грн" [ref=e934] [cursor=pointer]:
+              - /url: /store/zhinocha-chorna-kurtka-regatta-rwn389-800-chornyi
+              - generic [ref=e936]:
+                - img "Жіноча чорна куртка"
+              - generic [ref=e939]:
+                - generic [ref=e940]: REGATTA
+                - generic [ref=e941]: Жіноча чорна куртка REGATTA
+                - generic [ref=e942]: 5 990 грн
+            - link "Жіноча бірюзова куртка REGATTA Жіноча бірюзова куртка REGATTA 8 990 грн" [ref=e944] [cursor=pointer]:
+              - /url: /store/zhinocha-biryuzova-kurtka-regatta-rwn396-zm6-biryuzovyi
+              - generic [ref=e946]:
+                - img "Жіноча бірюзова куртка"
+              - generic [ref=e949]:
+                - generic [ref=e950]: REGATTA
+                - generic [ref=e951]: Жіноча бірюзова куртка REGATTA
+                - generic [ref=e952]: 8 990 грн
+            - link "Жіноча лижна куртка TECHNICAL JACKET 4F Жіноча лижна куртка TECHNICAL JACKET 4F 6 499 грн" [ref=e954] [cursor=pointer]:
+              - /url: /store/zhinocha-lyzhna-kurtka-technical-jacket-4f-4fwaw25ttjaf0805-34s-riznokolorovyi
+              - generic [ref=e956]:
+                - img "Жіноча лижна куртка TECHNICAL JACKET"
+              - generic [ref=e959]:
+                - generic [ref=e960]: 4F
+                - generic [ref=e961]: Жіноча лижна куртка TECHNICAL JACKET 4F
+                - generic [ref=e962]: 6 499 грн
+            - link "Чоловіча чорна лижна куртка TECHNICAL JACKET 4F Чоловіча чорна лижна куртка TECHNICAL JACKET 4F 7 499 грн" [ref=e964] [cursor=pointer]:
+              - /url: /store/cholovicha-chorna-lyzhna-kurtka-technical-jacket-4f-4fwaw25ttjam0791-20s-chornyi
+              - generic [ref=e966]:
+                - img "Чоловіча чорна лижна куртка TECHNICAL JACKET"
+              - generic [ref=e969]:
+                - generic [ref=e970]: 4F
+                - generic [ref=e971]: Чоловіча чорна лижна куртка TECHNICAL JACKET 4F
+                - generic [ref=e972]: 7 499 грн
+            - link "Жіночий коричневий бомбер Camel Active Жіночий коричневий бомбер Camel Active 6 499 грн 9 290 грн" [ref=e974] [cursor=pointer]:
+              - /url: /store/zhinochyi-korychnevyi-bomber-camel-active-330100-8f63-29-korychnevyi
+              - generic [ref=e976]:
+                - img "Жіночий коричневий бомбер"
+              - generic [ref=e979]:
+                - generic [ref=e980]: Camel Active
+                - generic [ref=e981]: Жіночий коричневий бомбер Camel Active
+                - generic [ref=e982]: 6 499 грн 9 290 грн
+            - link "Жіноча зелена куртка Camel Active Жіноча зелена куртка Camel Active 5 999 грн 7 590 грн" [ref=e984] [cursor=pointer]:
+              - /url: /store/zhinocha-zelena-kurtka-camel-active-320460-8r45-38-zelenyi
+              - generic [ref=e986]:
+                - img "Жіноча зелена куртка"
+              - generic [ref=e989]:
+                - generic [ref=e990]: Camel Active
+                - generic [ref=e991]: Жіноча зелена куртка Camel Active
+                - generic [ref=e992]: 5 999 грн 7 590 грн
+            - link "Чоловічий темно-синій пуховик WILD PASS Jack Wolfskin Чоловічий темно-синій пуховик WILD PASS Jack Wolfskin 10 990 грн" [ref=e994] [cursor=pointer]:
+              - /url: /store/cholovichyi-temno-synii-pukhovyk-wild-pass-jack-wolfskin-a66298c0412-synii
+              - generic [ref=e996]:
+                - img "Чоловічий темно-синій пуховик WILD PASS"
+              - generic [ref=e999]:
+                - generic [ref=e1000]: Jack Wolfskin
+                - generic [ref=e1001]: Чоловічий темно-синій пуховик WILD PASS Jack Wolfskin
+                - generic [ref=e1002]: 10 990 грн
+            - link "Дивитися більше" [ref=e1004] [cursor=pointer]:
+              - /url: /discounts/product/6afc6025ecfa2
+      - generic [ref=e1008]:
+        - generic [ref=e1009]:
+          - heading "Акції" [level=6] [ref=e1010]
+          - heading "Нова колекція Bimba Y Lola зі знижками до -40%" [level=2] [ref=e1011]
+        - generic [ref=e1012]:
+          - generic [ref=e1013]:
+            - generic [ref=e1014]:
+              - link [ref=e1015] [cursor=pointer]:
+                - /url: /discounts/product/6afafad854c32
+                - img "20261120 Нова колекція Bimba Y Lola зі знижками до -40%" [ref=e1017]
+              - link "Нова колекція Bimba Y Lola зі знижками до -40%" [ref=e1018] [cursor=pointer]:
+                - /url: /discounts/product/6afafad854c32
+            - heading "01 / 01" [level=2] [ref=e1020]:
+              - generic [ref=e1022]:
+                - generic [ref=e1023]: "01"
+                - generic [ref=e1024]: /
+                - generic [ref=e1025]: "01"
+          - generic [ref=e1030]:
+            - link "Жіноча сіра джинсова куртка Bimba Y Lola Жіноча сіра джинсова куртка Bimba Y Lola 6 774 грн 11 290 грн" [ref=e1032] [cursor=pointer]:
+              - /url: /store/zhinocha-sira-dzhynsova-kurtka-bimba-y-lola-262br400510036-siryi
+              - generic [ref=e1034]:
+                - img "Жіноча сіра джинсова куртка"
+              - generic [ref=e1037]:
+                - generic [ref=e1038]: Bimba Y Lola
+                - generic [ref=e1039]: Жіноча сіра джинсова куртка Bimba Y Lola
+                - generic [ref=e1040]: 6 774 грн 11 290 грн
+            - link "Жіноча коричнева джинсова сорочка Bimba Y Lola Жіноча коричнева джинсова сорочка Bimba Y Lola 6 054 грн 10 090 грн" [ref=e1042] [cursor=pointer]:
+              - /url: /store/zhinocha-korychneva-dzhynsova-sorochka-bimba-y-lola-262br200410648-korychnevyi
+              - generic [ref=e1044]:
+                - img "Жіноча коричнева джинсова сорочка"
+              - generic [ref=e1047]:
+                - generic [ref=e1048]: Bimba Y Lola
+                - generic [ref=e1049]: Жіноча коричнева джинсова сорочка Bimba Y Lola
+                - generic [ref=e1050]: 6 054 грн 10 090 грн
+            - link "Жіноча біла шуба Bimba Y Lola Жіноча біла шуба Bimba Y Lola 11 823 грн 16 890 грн" [ref=e1052] [cursor=pointer]:
+              - /url: /store/zhinocha-bila-shuba-bimba-y-lola-262br048610070-bilyi
+              - generic [ref=e1054]:
+                - img "Жіноча біла шуба"
+              - generic [ref=e1057]:
+                - generic [ref=e1058]: Bimba Y Lola
+                - generic [ref=e1059]: Жіноча біла шуба Bimba Y Lola
+                - generic [ref=e1060]: 11 823 грн 16 890 грн
+            - link "Жіночий зелений пуховик Bimba Y Lola Жіночий зелений пуховик Bimba Y Lola 17 672 грн 22 090 грн" [ref=e1062] [cursor=pointer]:
+              - /url: /store/zhinochyi-zelenyi-pukhovyk-bimba-y-lola-262br044810530-zelenyi
+              - generic [ref=e1064]:
+                - img "Жіночий зелений пуховик"
+              - generic [ref=e1067]:
+                - generic [ref=e1068]: Bimba Y Lola
+                - generic [ref=e1069]: Жіночий зелений пуховик Bimba Y Lola
+                - generic [ref=e1070]: 17 672 грн 22 090 грн
+            - link "Жіноча чорна шкіряна сумка Bimba Y Lola Жіноча чорна шкіряна сумка Bimba Y Lola 13 112 грн 16 390 грн" [ref=e1072] [cursor=pointer]:
+              - /url: /store/zhinocha-chorna-shkiryana-sumka-bimba-y-lola-262bb1j8w10000-chornyi
+              - generic [ref=e1074]:
+                - img "Жіноча чорна шкіряна сумка"
+              - generic [ref=e1077]:
+                - generic [ref=e1078]: Bimba Y Lola
+                - generic [ref=e1079]: Жіноча чорна шкіряна сумка Bimba Y Lola
+                - generic [ref=e1080]: 13 112 грн 16 390 грн
+            - link "Жіноча коричнева кепка Bimba Y Lola Жіноча коричнева кепка Bimba Y Lola 3 217 грн 4 290 грн" [ref=e1082] [cursor=pointer]:
+              - /url: /store/zhinocha-korychneva-kepka-bimba-y-lola-262bago8410530-korychnevyi
+              - generic [ref=e1084]:
+                - img "Жіноча коричнева кепка"
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: Bimba Y Lola
+                - generic [ref=e1089]: Жіноча коричнева кепка Bimba Y Lola
+                - generic [ref=e1090]: 3 217 грн 4 290 грн
+            - link "Жіноче біле намисто Bimba Y Lola Жіноче біле намисто Bimba Y Lola 4 117 грн 5 490 грн" [ref=e1092] [cursor=pointer]:
+              - /url: /store/zhinoche-bile-namysto-bimba-y-lola-262baf16610000-bilyi
+              - generic [ref=e1094]:
+                - img "Жіноче біле намисто"
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: Bimba Y Lola
+                - generic [ref=e1099]: Жіноче біле намисто Bimba Y Lola
+                - generic [ref=e1100]: 4 117 грн 5 490 грн
+            - link "Жіноча чорна шкіряна сумка Bimba Y Lola Жіноча чорна шкіряна сумка Bimba Y Lola 10 283 грн 14 690 грн" [ref=e1102] [cursor=pointer]:
+              - /url: /store/zhinocha-chorna-shkiryana-sumka-bimba-y-lola-262bb1j8s10000-chornyi
+              - generic [ref=e1104]:
+                - img "Жіноча чорна шкіряна сумка"
+              - generic [ref=e1107]:
+                - generic [ref=e1108]: Bimba Y Lola
+                - generic [ref=e1109]: Жіноча чорна шкіряна сумка Bimba Y Lola
+                - generic [ref=e1110]: 10 283 грн 14 690 грн
+            - link "Жіночий коричневий пуховик Bimba Y Lola Жіночий коричневий пуховик Bimba Y Lola 17 672 грн 22 090 грн" [ref=e1112] [cursor=pointer]:
+              - /url: /store/zhinochyi-korychnevyi-pukhovyk-bimba-y-lola-262br044810640-korychnevyi
+              - generic [ref=e1114]:
+                - img "Жіночий коричневий пуховик"
+              - generic [ref=e1117]:
+                - generic [ref=e1118]: Bimba Y Lola
+                - generic [ref=e1119]: Жіночий коричневий пуховик Bimba Y Lola
+                - generic [ref=e1120]: 17 672 грн 22 090 грн
+            - link "Жіноча золотиста каблучка Bimba Y Lola Жіноча золотиста каблучка Bimba Y Lola 2 863 грн 4 090 грн" [ref=e1122] [cursor=pointer]:
+              - /url: /store/zhinocha-zolotysta-kabluchka-bimba-y-lola-262baf44410140-zolotyi
+              - generic [ref=e1124]:
+                - img "Жіноча золотиста каблучка"
+              - generic [ref=e1127]:
+                - generic [ref=e1128]: Bimba Y Lola
+                - generic [ref=e1129]: Жіноча золотиста каблучка Bimba Y Lola
+                - generic [ref=e1130]: 2 863 грн 4 090 грн
+            - link "Жіноча коричнева хустка з візерунком Bimba Y Lola Жіноча коричнева хустка з візерунком Bimba Y Lola 2 574 грн 4 290 грн" [ref=e1132] [cursor=pointer]:
+              - /url: /store/zhinocha-korychneva-khustka-z-vizerunkom-bimba-y-lola-262bapn5710146-korychnevyi
+              - generic [ref=e1134]:
+                - img "Жіноча коричнева хустка з візерунком"
+              - generic [ref=e1137]:
+                - generic [ref=e1138]: Bimba Y Lola
+                - generic [ref=e1139]: Жіноча коричнева хустка з візерунком Bimba Y Lola
+                - generic [ref=e1140]: 2 574 грн 4 290 грн
+            - link "Жіночі сріблясті сережки Bimba Y Lola Жіночі сріблясті сережки Bimba Y Lola 2 317 грн 3 090 грн" [ref=e1142] [cursor=pointer]:
+              - /url: /store/zhinochi-sriblyasti-serezhky-bimba-y-lola-262bae22710007-sribnyi
+              - generic [ref=e1144]:
+                - img "Жіночі сріблясті сережки"
+              - generic [ref=e1147]:
+                - generic [ref=e1148]: Bimba Y Lola
+                - generic [ref=e1149]: Жіночі сріблясті сережки Bimba Y Lola
+                - generic [ref=e1150]: 2 317 грн 3 090 грн
+            - link "Жіноча чорна сумка Bimba Y Lola Жіноча чорна сумка Bimba Y Lola 7 623 грн 10 890 грн" [ref=e1152] [cursor=pointer]:
+              - /url: /store/zhinocha-chorna-sumka-bimba-y-lola-262bbij3o10000-chornyi
+              - generic [ref=e1154]:
+                - img "Жіноча чорна сумка"
+              - generic [ref=e1157]:
+                - generic [ref=e1158]: Bimba Y Lola
+                - generic [ref=e1159]: Жіноча чорна сумка Bimba Y Lola
+                - generic [ref=e1160]: 7 623 грн 10 890 грн
+            - link "Жіночий коричневий чохол з візерунком для iPhone 17 Pro Max Bimba Y Lola Жіночий коричневий чохол з візерунком для iPhone 17 Pro Max Bimba Y Lola 3 067 грн 4 090 грн" [ref=e1162] [cursor=pointer]:
+              - /url: /store/zhinochyi-korychnevyi-chokhol-z-vizerunkom-dlya-iphone-17-pro-max-bimba-y-lola-262baft1534600-korychnevyi
+              - generic [ref=e1164]:
+                - img "Жіночий коричневий чохол з візерунком для iPhone 17 Pro Max"
+              - generic [ref=e1167]:
+                - generic [ref=e1168]: Bimba Y Lola
+                - generic [ref=e1169]: Жіночий коричневий чохол з візерунком для iPhone 17 Pro Max Bimba Y Lola
+                - generic [ref=e1170]: 3 067 грн 4 090 грн
+            - link "Дивитися більше" [ref=e1172] [cursor=pointer]:
+              - /url: /discounts/product/6afafad854c32
+      - generic [ref=e1176]:
+        - generic [ref=e1177]:
+          - heading "Акції" [level=6] [ref=e1178]
+          - 'heading "Black Friday: до -70% на преміальні бренди" [level=2] [ref=e1179]'
+        - generic [ref=e1180]:
+          - generic [ref=e1181]:
+            - generic [ref=e1182]:
+              - link [ref=e1183] [cursor=pointer]:
+                - /url: /discounts/product/6afc9303d789d
+                - 'img "20261119 Black Friday: до -70% на преміальні бренди" [ref=e1185]'
+              - 'link "Black Friday: до -70% на преміальні бренди" [ref=e1186] [cursor=pointer]':
+                - /url: /discounts/product/6afc9303d789d
+            - heading "01 / 01" [level=2] [ref=e1188]:
+              - generic [ref=e1190]:
+                - generic [ref=e1191]: "01"
+                - generic [ref=e1192]: /
+                - generic [ref=e1193]: "01"
+          - generic [ref=e1198]:
+            - link "Жіноча блакитна джинсова куртка з візерунком Levi’s® Жіноча блакитна джинсова куртка з візерунком Levi’s® 5 390 грн 8 990 грн" [ref=e1200] [cursor=pointer]:
+              - /url: /store/zhinocha-blakytna-dzhynsova-kurtka-z-vizerunkom-levis-001fr0004-blakytnyi
+              - generic [ref=e1202]:
+                - img "Жіноча блакитна джинсова куртка з візерунком"
+              - generic [ref=e1205]:
+                - generic [ref=e1206]: Levi’s®
+                - generic [ref=e1207]: Жіноча блакитна джинсова куртка з візерунком Levi’s®
+                - generic [ref=e1208]: 5 390 грн 8 990 грн
+            - link "Жіноча коричнева джинсова куртка Levi’s® Жіноча коричнева джинсова куртка Levi’s® 7 690 грн 10 990 грн" [ref=e1210] [cursor=pointer]:
+              - /url: /store/zhinocha-korychneva-dzhynsova-kurtka-levis-003jf0000-korychnevyi
+              - generic [ref=e1212]:
+                - img "Жіноча коричнева джинсова куртка"
+              - generic [ref=e1215]:
+                - generic [ref=e1216]: Levi’s®
+                - generic [ref=e1217]: Жіноча коричнева джинсова куртка Levi’s®
+                - generic [ref=e1218]: 7 690 грн 10 990 грн
+            - link "Чоловіча бежева куртка Levi’s® Чоловіча бежева куртка Levi’s® 4 490 грн 7 490 грн" [ref=e1220] [cursor=pointer]:
+              - /url: /store/cholovicha-bezheva-kurtka-levis-003ax0000-bezhevyi
+              - generic [ref=e1222]:
+                - img "Чоловіча бежева куртка"
+              - generic [ref=e1225]:
+                - generic [ref=e1226]: Levi’s®
+                - generic [ref=e1227]: Чоловіча бежева куртка Levi’s®
+                - generic [ref=e1228]: 4 490 грн 7 490 грн
+            - link "Чоловіча темно-зелена куртка Levi’s® Чоловіча темно-зелена куртка Levi’s® 8 390 грн 11 990 грн" [ref=e1230] [cursor=pointer]:
+              - /url: /store/cholovicha-temno-zelena-kurtka-levis-a85570010-zelenyi
+              - generic [ref=e1232]:
+                - img "Чоловіча темно-зелена куртка"
+              - generic [ref=e1235]:
+                - generic [ref=e1236]: Levi’s®
+                - generic [ref=e1237]: Чоловіча темно-зелена куртка Levi’s®
+                - generic [ref=e1238]: 8 390 грн 11 990 грн
+            - link "Чоловічий сірий пуховик BOSS Чоловічий сірий пуховик BOSS 26 990 грн 38 990 грн" [ref=e1240] [cursor=pointer]:
+              - /url: /store/cholovichyi-siryi-pukhovyk-boss-50540465030-siryi
+              - generic [ref=e1242]:
+                - img "Чоловічий сірий пуховик"
+              - generic [ref=e1245]:
+                - generic [ref=e1246]: BOSS
+                - generic [ref=e1247]: Чоловічий сірий пуховик BOSS
+                - generic [ref=e1248]: 26 990 грн 38 990 грн
+            - link "Жіноча біла куртка BOSS Жіноча біла куртка BOSS 22 990 грн 38 990 грн" [ref=e1250] [cursor=pointer]:
+              - /url: /store/zhinocha-bila-kurtka-boss-50546842118-bilyi
+              - generic [ref=e1252]:
+                - img "Жіноча біла куртка"
+              - generic [ref=e1255]:
+                - generic [ref=e1256]: BOSS
+                - generic [ref=e1257]: Жіноча біла куртка BOSS
+                - generic [ref=e1258]: 22 990 грн 38 990 грн
+            - link "Жіноча біла куртка з візерунком Guess Жіноча біла куртка з візерунком Guess 7 690 грн 10 990 грн" [ref=e1260] [cursor=pointer]:
+              - /url: /store/zhinocha-bila-kurtka-z-vizerunkom-guess-v5bl07wglw2f0yn-bilyi
+              - generic [ref=e1262]:
+                - img "Жіноча біла куртка з візерунком"
+              - generic [ref=e1265]:
+                - generic [ref=e1266]: Guess
+                - generic [ref=e1267]: Жіноча біла куртка з візерунком Guess
+                - generic [ref=e1268]: 7 690 грн 10 990 грн
+            - link "Чоловіча темно-синя куртка з візерунком Guess Чоловіча темно-синя куртка з візерунком Guess 10 490 грн 14 990 грн" [ref=e1270] [cursor=pointer]:
+              - /url: /store/cholovicha-temno-synya-kurtka-z-vizerunkom-guess-m5bl0bw2322fbdb-synii
+              - generic [ref=e1272]:
+                - img "Чоловіча темно-синя куртка з візерунком"
+              - generic [ref=e1275]:
+                - generic [ref=e1276]: Guess
+                - generic [ref=e1277]: Чоловіча темно-синя куртка з візерунком Guess
+                - generic [ref=e1278]: 10 490 грн 14 990 грн
+            - link "Жіноча чорна куртка з візерунком Guess Жіноча чорна куртка з візерунком Guess 7 690 грн 10 990 грн" [ref=e1280] [cursor=pointer]:
+              - /url: /store/zhinocha-chorna-kurtka-z-vizerunkom-guess-v5bl07wglw2fj9g-chornyi
+              - generic [ref=e1282]:
+                - img "Жіноча чорна куртка з візерунком"
+              - generic [ref=e1285]:
+                - generic [ref=e1286]: Guess
+                - generic [ref=e1287]: Жіноча чорна куртка з візерунком Guess
+                - generic [ref=e1288]: 7 690 грн 10 990 грн
+            - link "Жіноча червона куртка Guess Jeans Жіноча червона куртка Guess Jeans 5 990 грн 9 990 грн" [ref=e1290] [cursor=pointer]:
+              - /url: /store/zhinocha-chervona-kurtka-guess-jeans-w4bl20wgii2g5m3-chervonyi
+              - generic [ref=e1292]:
+                - img "Жіноча червона куртка"
+              - generic [ref=e1295]:
+                - generic [ref=e1296]: Guess Jeans
+                - generic [ref=e1297]: Жіноча червона куртка Guess Jeans
+                - generic [ref=e1298]: 5 990 грн 9 990 грн
+            - link "Чоловіча коричнева куртка Levi’s® Чоловіча коричнева куртка Levi’s® 9 440 грн 13 490 грн" [ref=e1300] [cursor=pointer]:
+              - /url: /store/cholovicha-korychneva-kurtka-levis-003b20000-korychnevyi
+              - generic [ref=e1302]:
+                - img "Чоловіча коричнева куртка"
+              - generic [ref=e1305]:
+                - generic [ref=e1306]: Levi’s®
+                - generic [ref=e1307]: Чоловіча коричнева куртка Levi’s®
+                - generic [ref=e1308]: 9 440 грн 13 490 грн
+            - link "Чоловічий блакитний пуховик Antony Morato Чоловічий блакитний пуховик Antony Morato 16 790 грн 23 990 грн" [ref=e1310] [cursor=pointer]:
+              - /url: /store/cholovichyi-blakytnyi-pukhovyk-antony-morato-mmco00935fa6002817141-blakytnyi
+              - generic [ref=e1312]:
+                - img "Чоловічий блакитний пуховик"
+              - generic [ref=e1315]:
+                - generic [ref=e1316]: Antony Morato
+                - generic [ref=e1317]: Чоловічий блакитний пуховик Antony Morato
+                - generic [ref=e1318]: 16 790 грн 23 990 грн
+            - link "Жіночий пудровий пуховик Levi’s® Жіночий пудровий пуховик Levi’s® 8 390 грн 11 990 грн" [ref=e1320] [cursor=pointer]:
+              - /url: /store/zhinochyi-pudrovyi-pukhovyk-levis-003md0003-rozhevyi
+              - generic [ref=e1322]:
+                - img "Жіночий пудровий пуховик"
+              - generic [ref=e1325]:
+                - generic [ref=e1326]: Levi’s®
+                - generic [ref=e1327]: Жіночий пудровий пуховик Levi’s®
+                - generic [ref=e1328]: 8 390 грн 11 990 грн
+            - link "Чоловіча чорна куртка з візерунком Karl Lagerfeld Чоловіча чорна куртка з візерунком Karl Lagerfeld 25 890 грн 36 990 грн" [ref=e1330] [cursor=pointer]:
+              - /url: /store/cholovicha-chorna-kurtka-z-vizerunkom-karl-lagerfeld-554504505016990-chornyi
+              - generic [ref=e1332]:
+                - img "Чоловіча чорна куртка з візерунком"
+              - generic [ref=e1335]:
+                - generic [ref=e1336]: Karl Lagerfeld
+                - generic [ref=e1337]: Чоловіча чорна куртка з візерунком Karl Lagerfeld
+                - generic [ref=e1338]: 25 890 грн 36 990 грн
+            - link "Дивитися більше" [ref=e1340] [cursor=pointer]:
+              - /url: /discounts/product/6afc9303d789d
+      - generic [ref=e1344]:
+        - generic [ref=e1345]:
+          - heading "Акції" [level=6] [ref=e1346]
+          - heading "До -50% на білизну й домашній одяг MARC & ANDRE!" [level=2] [ref=e1347]
+        - generic [ref=e1348]:
+          - generic [ref=e1349]:
+            - generic [ref=e1350]:
+              - link [ref=e1351] [cursor=pointer]:
+                - /url: /discounts/product/6aeaf40971f5b
+                - img "20261119 До -50% на білизну й домашній одяг MARC & ANDRE!" [ref=e1353]
+              - link "До -50% на MARC & ANDRE!" [ref=e1354] [cursor=pointer]:
+                - /url: /discounts/product/6aeaf40971f5b
+            - heading "01 / 01" [level=2] [ref=e1356]:
+              - generic [ref=e1358]:
+                - generic [ref=e1359]: "01"
+                - generic [ref=e1360]: /
+                - generic [ref=e1361]: "01"
+          - generic [ref=e1366]:
+            - link "Жіночий чорний бюстгальтер MARC&ANDRE Жіночий чорний бюстгальтер MARC&ANDRE 1 060 грн 2 120 грн" [ref=e1368] [cursor=pointer]:
+              - /url: /store/zhinochyi-chornyi-byusthalter-marc-andre-w20-1415-rgm-sy-chornyi
+              - generic [ref=e1370]:
+                - img "Жіночий чорний бюстгальтер"
+              - generic [ref=e1373]:
+                - generic [ref=e1374]: MARC&ANDRE
+                - generic [ref=e1375]: Жіночий чорний бюстгальтер MARC&ANDRE
+                - generic [ref=e1376]: 1 060 грн 2 120 грн
+            - link "Жіночий бірюзовий пояс для панчох MARC&ANDRE Жіночий бірюзовий пояс для панчох MARC&ANDRE 1 550 грн 1 930 грн" [ref=e1378] [cursor=pointer]:
+              - /url: /store/zhinochyi-biryuzovyi-poyas-dlya-panchokh-marc-andre-w24-0206-o2-spl-ls-biryuzovyi
+              - generic [ref=e1380]:
+                - img "Жіночий бірюзовий пояс для панчох"
+              - generic [ref=e1383]:
+                - generic [ref=e1384]: MARC&ANDRE
+                - generic [ref=e1385]: Жіночий бірюзовий пояс для панчох MARC&ANDRE
+                - generic [ref=e1386]: 1 550 грн 1 930 грн
+            - link "Жіночий оливковий бюстгальтер MARC&ANDRE Жіночий оливковий бюстгальтер MARC&ANDRE 2 430 грн 3 030 грн" [ref=e1388] [cursor=pointer]:
+              - /url: /store/zhinochyi-olyvkovyi-byusthalter-marc-andre-w25-0212-10-vch-ly-olyvkovyi
+              - generic [ref=e1390]:
+                - img "Жіночий оливковий бюстгальтер"
+              - generic [ref=e1393]:
+                - generic [ref=e1394]: MARC&ANDRE
+                - generic [ref=e1395]: Жіночий оливковий бюстгальтер MARC&ANDRE
+                - generic [ref=e1396]: 2 430 грн 3 030 грн
+            - link "Жіночий оливковий бюстгальтер MARC&ANDRE Жіночий оливковий бюстгальтер MARC&ANDRE 2 560 грн 3 200 грн" [ref=e1398] [cursor=pointer]:
+              - /url: /store/zhinochyi-olyvkovyi-byusthalter-marc-andre-w25-0211-27-dcs-ly-olyvkovyi
+              - generic [ref=e1400]:
+                - img "Жіночий оливковий бюстгальтер"
+              - generic [ref=e1403]:
+                - generic [ref=e1404]: MARC&ANDRE
+                - generic [ref=e1405]: Жіночий оливковий бюстгальтер MARC&ANDRE
+                - generic [ref=e1406]: 2 560 грн 3 200 грн
+            - link "Жіночі темно-зелені трусики MARC&ANDRE Жіночі темно-зелені трусики MARC&ANDRE 1 180 грн 1 470 грн" [ref=e1408] [cursor=pointer]:
+              - /url: /store/zhinochi-temno-zeleni-trusyky-marc-andre-w25-0493-o2-bzo-lz-zelenyi
+              - generic [ref=e1410]:
+                - img "Жіночі темно-зелені трусики"
+              - generic [ref=e1413]:
+                - generic [ref=e1414]: MARC&ANDRE
+                - generic [ref=e1415]: Жіночі темно-зелені трусики MARC&ANDRE
+                - generic [ref=e1416]: 1 180 грн 1 470 грн
+            - link "Жіночий темно-зелений бюстгальтер MARC&ANDRE Жіночий темно-зелений бюстгальтер MARC&ANDRE 2 440 грн 3 050 грн" [ref=e1418] [cursor=pointer]:
+              - /url: /store/zhinochyi-temno-zelenyi-byusthalter-marc-andre-w25-0417-04-rgm-ly-zelenyi
+              - generic [ref=e1420]:
+                - img "Жіночий темно-зелений бюстгальтер"
+              - generic [ref=e1423]:
+                - generic [ref=e1424]: MARC&ANDRE
+                - generic [ref=e1425]: Жіночий темно-зелений бюстгальтер MARC&ANDRE
+                - generic [ref=e1426]: 2 440 грн 3 050 грн
+            - link "Жіночий чорний бюстгальтер MARC&ANDRE Жіночий чорний бюстгальтер MARC&ANDRE 2 440 грн 3 050 грн" [ref=e1428] [cursor=pointer]:
+              - /url: /store/zhinochyi-chornyi-byusthalter-marc-andre-w25-0517-04-rgm-ly-chornyi
+              - generic [ref=e1430]:
+                - img "Жіночий чорний бюстгальтер"
+              - generic [ref=e1433]:
+                - generic [ref=e1434]: MARC&ANDRE
+                - generic [ref=e1435]: Жіночий чорний бюстгальтер MARC&ANDRE
+                - generic [ref=e1436]: 2 440 грн 3 050 грн
+            - link "Жіночі чорні трусики MARC&ANDRE Жіночі чорні трусики MARC&ANDRE 1 420 грн 1 770 грн" [ref=e1438] [cursor=pointer]:
+              - /url: /store/zhinochi-chorni-trusyky-marc-andre-s26-0693-o2-bzo-lz-chornyi
+              - generic [ref=e1440]:
+                - img "Жіночі чорні трусики"
+              - generic [ref=e1443]:
+                - generic [ref=e1444]: MARC&ANDRE
+                - generic [ref=e1445]: Жіночі чорні трусики MARC&ANDRE
+                - generic [ref=e1446]: 1 420 грн 1 770 грн
+            - link "Жіночий бюстгальтер MARC&ANDRE Жіночий бюстгальтер MARC&ANDRE 2 840 грн 3 550 грн" [ref=e1448] [cursor=pointer]:
+              - /url: /store/zhinochyi-byusthalter-marc-andre-s26-0316-07-rgm-ly-riznokolorovyi
+              - generic [ref=e1450]:
+                - img "Жіночий бюстгальтер"
+              - generic [ref=e1453]:
+                - generic [ref=e1454]: MARC&ANDRE
+                - generic [ref=e1455]: Жіночий бюстгальтер MARC&ANDRE
+                - generic [ref=e1456]: 2 840 грн 3 550 грн
+            - link "Жіночий бежевий бюстгальтер MARC&ANDRE Жіночий бежевий бюстгальтер MARC&ANDRE 2 600 грн 3 250 грн" [ref=e1458] [cursor=pointer]:
+              - /url: /store/zhinochyi-bezhevyi-byusthalter-marc-andre-s26-0211-23-dcs-ly-bezhevyi
+              - generic [ref=e1460]:
+                - img "Жіночий бежевий бюстгальтер"
+              - generic [ref=e1463]:
+                - generic [ref=e1464]: MARC&ANDRE
+                - generic [ref=e1465]: Жіночий бежевий бюстгальтер MARC&ANDRE
+                - generic [ref=e1466]: 2 600 грн 3 250 грн
+            - link "Жіночий бежевий бюстгальтер MARC&ANDRE Жіночий бежевий бюстгальтер MARC&ANDRE 2 600 грн 3 250 грн" [ref=e1468] [cursor=pointer]:
+              - /url: /store/zhinochyi-bezhevyi-byusthalter-marc-andre-s26-0561-02-fcs-ly-bezhevyi
+              - generic [ref=e1470]:
+                - img "Жіночий бежевий бюстгальтер"
+              - generic [ref=e1473]:
+                - generic [ref=e1474]: MARC&ANDRE
+                - generic [ref=e1475]: Жіночий бежевий бюстгальтер MARC&ANDRE
+                - generic [ref=e1476]: 2 600 грн 3 250 грн
+            - link "Жіночі темно-зелені вовняні брюки MARC&ANDRE Жіночі темно-зелені вовняні брюки MARC&ANDRE 7 140 грн 7 930 грн" [ref=e1478] [cursor=pointer]:
+              - /url: /store/zhinochi-temno-zeleni-vovnyani-bryuky-marc-andre-w25-00ch0710-zelenyi
+              - generic [ref=e1480]:
+                - img "Жіночі темно-зелені вовняні брюки"
+              - generic [ref=e1483]:
+                - generic [ref=e1484]: MARC&ANDRE
+                - generic [ref=e1485]: Жіночі темно-зелені вовняні брюки MARC&ANDRE
+                - generic [ref=e1486]: 7 140 грн 7 930 грн
+            - link "Жіноче вовняне худі MARC&ANDRE Жіноче вовняне худі MARC&ANDRE 8 350 грн 9 270 грн" [ref=e1488] [cursor=pointer]:
+              - /url: /store/zhinoche-vovnyane-khudi-marc-andre-w25-00ch0714-riznokolorovyi
+              - generic [ref=e1490]:
+                - img "Жіноче вовняне худі"
+              - generic [ref=e1493]:
+                - generic [ref=e1494]: MARC&ANDRE
+                - generic [ref=e1495]: Жіноче вовняне худі MARC&ANDRE
+                - generic [ref=e1496]: 8 350 грн 9 270 грн
+            - link "Жіночі темно-зелені трусики MARC&ANDRE Жіночі темно-зелені трусики MARC&ANDRE 1 090 грн 1 360 грн" [ref=e1498] [cursor=pointer]:
+              - /url: /store/zhinochi-temno-zeleni-trusyky-marc-andre-w25-0491-o2-stl-lz-zelenyi
+              - generic [ref=e1500]:
+                - img "Жіночі темно-зелені трусики"
+              - generic [ref=e1503]:
+                - generic [ref=e1504]: MARC&ANDRE
+                - generic [ref=e1505]: Жіночі темно-зелені трусики MARC&ANDRE
+                - generic [ref=e1506]: 1 090 грн 1 360 грн
+            - link "Дивитися більше" [ref=e1508] [cursor=pointer]:
+              - /url: /discounts/product/6aeaf40971f5b
+      - generic [ref=e1512]:
+        - generic [ref=e1513]:
+          - heading "Акції" [level=6] [ref=e1514]
+          - 'heading "Pre-party до Black Friday: 1+1=3 у SPRINGFIELD" [level=2] [ref=e1515]'
+        - generic [ref=e1516]:
+          - generic [ref=e1517]:
+            - generic [ref=e1518]:
+              - link [ref=e1519] [cursor=pointer]:
+                - /url: /discounts/product/6afdc58451af4
+                - 'img "20261119 Pre-party до Black Friday: 1+1=3 у SPRINGFIELD" [ref=e1521]'
+              - 'link "Pre-party до Black Friday: 1+1=3 у SPRINGFIELD" [ref=e1522] [cursor=pointer]':
+                - /url: /discounts/product/6afdc58451af4
+            - heading "01 / 01" [level=2] [ref=e1524]:
+              - generic [ref=e1526]:
+                - generic [ref=e1527]: "01"
+                - generic [ref=e1528]: /
+                - generic [ref=e1529]: "01"
+          - generic [ref=e1534]:
+            - link "Чоловіча темно-синя сорочка SPRINGFIELD Чоловіча темно-синя сорочка SPRINGFIELD 699 грн 1 999 грн" [ref=e1536] [cursor=pointer]:
+              - /url: /store/cholovicha-temno-synya-sorochka-springfield-1518575-synii
+              - generic [ref=e1538]:
+                - img "Чоловіча темно-синя сорочка"
+              - generic [ref=e1541]:
+                - generic [ref=e1542]: SPRINGFIELD
+                - generic [ref=e1543]: Чоловіча темно-синя сорочка SPRINGFIELD
+                - generic [ref=e1544]: 699 грн 1 999 грн
+            - link "Чоловіча сіра сорочка з візерунком SPRINGFIELD Чоловіча сіра сорочка з візерунком SPRINGFIELD 699 грн 1 999 грн" [ref=e1546] [cursor=pointer]:
+              - /url: /store/cholovicha-sira-sorochka-z-vizerunkom-springfield-1518571-siryi
+              - generic [ref=e1548]:
+                - img "Чоловіча сіра сорочка з візерунком"
+              - generic [ref=e1551]:
+                - generic [ref=e1552]: SPRINGFIELD
+                - generic [ref=e1553]: Чоловіча сіра сорочка з візерунком SPRINGFIELD
+                - generic [ref=e1554]: 699 грн 1 999 грн
+            - link "Чоловіча блакитна джинсова сорочка SPRINGFIELD Чоловіча блакитна джинсова сорочка SPRINGFIELD 799 грн 2 299 грн" [ref=e1556] [cursor=pointer]:
+              - /url: /store/cholovicha-blakytna-dzhynsova-sorochka-springfield-299362-blakytnyi
+              - generic [ref=e1558]:
+                - img "Чоловіча блакитна джинсова сорочка"
+              - generic [ref=e1561]:
+                - generic [ref=e1562]: SPRINGFIELD
+                - generic [ref=e1563]: Чоловіча блакитна джинсова сорочка SPRINGFIELD
+                - generic [ref=e1564]: 799 грн 2 299 грн
+            - link "Чоловіча бежева сорочка SPRINGFIELD Чоловіча бежева сорочка SPRINGFIELD 799 грн 2 299 грн" [ref=e1566] [cursor=pointer]:
+              - /url: /store/cholovicha-bezheva-sorochka-springfield-279928-bezhevyi
+              - generic [ref=e1568]:
+                - img "Чоловіча бежева сорочка"
+              - generic [ref=e1571]:
+                - generic [ref=e1572]: SPRINGFIELD
+                - generic [ref=e1573]: Чоловіча бежева сорочка SPRINGFIELD
+                - generic [ref=e1574]: 799 грн 2 299 грн
+            - link "Чоловіча блакитна сорочка SPRINGFIELD Чоловіча блакитна сорочка SPRINGFIELD 799 грн 2 299 грн" [ref=e1576] [cursor=pointer]:
+              - /url: /store/cholovicha-blakytna-sorochka-springfield-279928-blakytnyi
+              - generic [ref=e1578]:
+                - img "Чоловіча блакитна сорочка"
+              - generic [ref=e1581]:
+                - generic [ref=e1582]: SPRINGFIELD
+                - generic [ref=e1583]: Чоловіча блакитна сорочка SPRINGFIELD
+                - generic [ref=e1584]: 799 грн 2 299 грн
+            - link "Чоловіче сіре поло SPRINGFIELD Чоловіче сіре поло SPRINGFIELD 999 грн 1 599 грн" [ref=e1586] [cursor=pointer]:
+              - /url: /store/choloviche-sire-polo-springfield-222063-siryi
+              - generic [ref=e1588]:
+                - img "Чоловіче сіре поло"
+              - generic [ref=e1591]:
+                - generic [ref=e1592]: SPRINGFIELD
+                - generic [ref=e1593]: Чоловіче сіре поло SPRINGFIELD
+                - generic [ref=e1594]: 999 грн 1 599 грн
+            - link "Чоловічий темно-синій лонгслів у смужку SPRINGFIELD Чоловічий темно-синій лонгслів у смужку SPRINGFIELD 799 грн 1 399 грн" [ref=e1596] [cursor=pointer]:
+              - /url: /store/cholovichyi-temno-synii-lonhsliv-u-smuzhku-springfield-8832424-synii
+              - generic [ref=e1598]:
+                - img "Чоловічий темно-синій лонгслів у смужку"
+              - generic [ref=e1601]:
+                - generic [ref=e1602]: SPRINGFIELD
+                - generic [ref=e1603]: Чоловічий темно-синій лонгслів у смужку SPRINGFIELD
+                - generic [ref=e1604]: 799 грн 1 399 грн
+            - link "Чоловіче поло SPRINGFIELD Чоловіче поло SPRINGFIELD 999 грн 1 599 грн" [ref=e1606] [cursor=pointer]:
+              - /url: /store/choloviche-polo-springfield-222062-riznokolorovyi
+              - generic [ref=e1608]:
+                - img "Чоловіче поло"
+              - generic [ref=e1611]:
+                - generic [ref=e1612]: SPRINGFIELD
+                - generic [ref=e1613]: Чоловіче поло SPRINGFIELD
+                - generic [ref=e1614]: 999 грн 1 599 грн
+            - link "Чоловіча блакитна картата сорочка SPRINGFIELD Чоловіча блакитна картата сорочка SPRINGFIELD 999 грн 2 099 грн" [ref=e1616] [cursor=pointer]:
+              - /url: /store/cholovicha-blakytna-kartata-sorochka-springfield-1502914-blakytnyi-1
+              - generic [ref=e1618]:
+                - img "Чоловіча блакитна картата сорочка"
+              - generic [ref=e1621]:
+                - generic [ref=e1622]: SPRINGFIELD
+                - generic [ref=e1623]: Чоловіча блакитна картата сорочка SPRINGFIELD
+                - generic [ref=e1624]: 999 грн 2 099 грн
+            - link "Чоловічий бежевий плащ SPRINGFIELD Чоловічий бежевий плащ SPRINGFIELD 2 599 грн 4 999 грн" [ref=e1626] [cursor=pointer]:
+              - /url: /store/cholovichyi-bezhevyi-plashch-springfield-2832269-bezhevyi
+              - generic [ref=e1628]:
+                - img "Чоловічий бежевий плащ"
+              - generic [ref=e1631]:
+                - generic [ref=e1632]: SPRINGFIELD
+                - generic [ref=e1633]: Чоловічий бежевий плащ SPRINGFIELD
+                - generic [ref=e1634]: 2 599 грн 4 999 грн
+            - link "Чоловіча блакитна сорочка SPRINGFIELD Чоловіча блакитна сорочка SPRINGFIELD 1 199 грн 2 199 грн" [ref=e1636] [cursor=pointer]:
+              - /url: /store/cholovicha-blakytna-sorochka-springfield-273622-blakytnyi
+              - generic [ref=e1638]:
+                - img "Чоловіча блакитна сорочка"
+              - generic [ref=e1641]:
+                - generic [ref=e1642]: SPRINGFIELD
+                - generic [ref=e1643]: Чоловіча блакитна сорочка SPRINGFIELD
+                - generic [ref=e1644]: 1 199 грн 2 199 грн
+            - link "Чоловіча рожева сорочка SPRINGFIELD Чоловіча рожева сорочка SPRINGFIELD 1 199 грн 2 199 грн" [ref=e1646] [cursor=pointer]:
+              - /url: /store/cholovicha-rozheva-sorochka-springfield-273622-rozhevyi
+              - generic [ref=e1648]:
+                - img "Чоловіча рожева сорочка"
+              - generic [ref=e1651]:
+                - generic [ref=e1652]: SPRINGFIELD
+                - generic [ref=e1653]: Чоловіча рожева сорочка SPRINGFIELD
+                - generic [ref=e1654]: 1 199 грн 2 199 грн
+            - link "Чоловіче рожеве поло Regular Fit SPRINGFIELD Чоловіче рожеве поло Regular Fit SPRINGFIELD 999 грн 1 599 грн" [ref=e1656] [cursor=pointer]:
+              - /url: /store/choloviche-rozheve-polo-regular-fit-springfield-8551105-rozhevyi
+              - generic [ref=e1658]:
+                - img "Чоловіче рожеве поло Regular Fit"
+              - generic [ref=e1661]:
+                - generic [ref=e1662]: SPRINGFIELD
+                - generic [ref=e1663]: Чоловіче рожеве поло Regular Fit SPRINGFIELD
+                - generic [ref=e1664]: 999 грн 1 599 грн
+            - link "Жіночий червоний сарафан у горошок SPRINGFIELD Жіночий червоний сарафан у горошок SPRINGFIELD 999 грн 2 099 грн" [ref=e1666] [cursor=pointer]:
+              - /url: /store/zhinochyi-chervonyi-sarafan-u-horoshok-springfield-8953011-chervonyi
+              - generic [ref=e1668]:
+                - img "Жіночий червоний сарафан у горошок"
+              - generic [ref=e1671]:
+                - generic [ref=e1672]: SPRINGFIELD
+                - generic [ref=e1673]: Жіночий червоний сарафан у горошок SPRINGFIELD
+                - generic [ref=e1674]: 999 грн 2 099 грн
+            - link "Дивитися більше" [ref=e1676] [cursor=pointer]:
+              - /url: /discounts/product/6afdc58451af4
+      - generic [ref=e1680]:
+        - generic [ref=e1681]:
+          - heading "Акції" [level=6] [ref=e1682]
+          - heading "Знижка -15% у кошику на моделі Tally Weijl" [level=2] [ref=e1683]
+        - generic [ref=e1684]:
+          - generic [ref=e1685]:
+            - generic [ref=e1686]:
+              - link [ref=e1687] [cursor=pointer]:
+                - /url: /discounts/product/6af19c226482f
+                - img "20261117 Знижка -15% у кошику на моделі Tally Weijl" [ref=e1689]
+              - link "Знижка -15% у кошику на моделі Tally Weijl" [ref=e1690] [cursor=pointer]:
+                - /url: /discounts/product/6af19c226482f
+            - heading "01 / 01" [level=2] [ref=e1692]:
+              - generic [ref=e1694]:
+                - generic [ref=e1695]: "01"
+                - generic [ref=e1696]: /
+                - generic [ref=e1697]: "01"
+          - generic [ref=e1702]:
+            - link "Жіночий білий кардиган Tally Weijl Жіночий білий кардиган Tally Weijl 2 199 грн" [ref=e1704] [cursor=pointer]:
+              - /url: /store/zhinochyi-bilyi-kardyhan-tally-weijl-scaaclumira-bilyi
+              - generic [ref=e1706]:
+                - img "Жіночий білий кардиган"
+              - generic [ref=e1709]:
+                - generic [ref=e1710]: Tally Weijl
+                - generic [ref=e1711]: Жіночий білий кардиган Tally Weijl
+                - generic [ref=e1712]: 2 199 грн
+            - link "Жіноча темно-коричнева дублянка Tally Weijl Жіноча темно-коричнева дублянка Tally Weijl 3 899 грн" [ref=e1714] [cursor=pointer]:
+              - /url: /store/zhinocha-temno-korychneva-dublyanka-tally-weijl-sjaputusu-korychnevyi
+              - generic [ref=e1716]:
+                - img "Жіноча темно-коричнева дублянка"
+              - generic [ref=e1719]:
+                - generic [ref=e1720]: Tally Weijl
+                - generic [ref=e1721]: Жіноча темно-коричнева дублянка Tally Weijl
+                - generic [ref=e1722]: 3 899 грн
+            - link "Жіночий темно-синій пуловер Tally Weijl Жіночий темно-синій пуловер Tally Weijl 1 899 грн" [ref=e1724] [cursor=pointer]:
+              - /url: /store/zhinochyi-temno-synii-pulover-tally-weijl-spuackaribou-synii
+              - generic [ref=e1726]:
+                - img "Жіночий темно-синій пуловер"
+              - generic [ref=e1729]:
+                - generic [ref=e1730]: Tally Weijl
+                - generic [ref=e1731]: Жіночий темно-синій пуловер Tally Weijl
+                - generic [ref=e1732]: 1 899 грн
+            - link "Жіноча коричнева куртка Tally Weijl Жіноча коричнева куртка Tally Weijl 2 499 грн" [ref=e1734] [cursor=pointer]:
+              - /url: /store/zhinocha-korychneva-kurtka-tally-weijl-sjapavidia-korychnevyi
+              - generic [ref=e1736]:
+                - img "Жіноча коричнева куртка"
+              - generic [ref=e1739]:
+                - generic [ref=e1740]: Tally Weijl
+                - generic [ref=e1741]: Жіноча коричнева куртка Tally Weijl
+                - generic [ref=e1742]: 2 499 грн
+            - link "Жіночі фіолетові спортивні штани Tally Weijl Жіночі фіолетові спортивні штани Tally Weijl 1 699 грн" [ref=e1744] [cursor=pointer]:
+              - /url: /store/zhinochi-fioletovi-sportyvni-shtany-tally-weijl-spacowiby-fioletovyi
+              - generic [ref=e1746]:
+                - img "Жіночі фіолетові спортивні штани"
+              - generic [ref=e1749]:
+                - generic [ref=e1750]: Tally Weijl
+                - generic [ref=e1751]: Жіночі фіолетові спортивні штани Tally Weijl
+                - generic [ref=e1752]: 1 699 грн
+            - link "Жіночий білий топ Tally Weijl Жіночий білий топ Tally Weijl 1 599 грн" [ref=e1754] [cursor=pointer]:
+              - /url: /store/zhinochyi-bilyi-top-tally-weijl-sslpewasti-bilyi
+              - generic [ref=e1756]:
+                - img "Жіночий білий топ"
+              - generic [ref=e1759]:
+                - generic [ref=e1760]: Tally Weijl
+                - generic [ref=e1761]: Жіночий білий топ Tally Weijl
+                - generic [ref=e1762]: 1 599 грн
+            - link "Жіночий рожевий пуловер Tally Weijl Жіночий рожевий пуловер Tally Weijl 1 799 грн" [ref=e1764] [cursor=pointer]:
+              - /url: /store/zhinochyi-rozhevyi-pulover-tally-weijl-spuviswan-rozhevyi
+              - generic [ref=e1766]:
+                - img "Жіночий рожевий пуловер"
+              - generic [ref=e1769]:
+                - generic [ref=e1770]: Tally Weijl
+                - generic [ref=e1771]: Жіночий рожевий пуловер Tally Weijl
+                - generic [ref=e1772]: 1 799 грн
+            - link "Жіноча біла футболка Tally Weijl Жіноча біла футболка Tally Weijl 999 грн" [ref=e1774] [cursor=pointer]:
+              - /url: /store/zhinocha-bila-futbolka-tally-weijl-stscolemu-bilyi
+              - generic [ref=e1776]:
+                - img "Жіноча біла футболка"
+              - generic [ref=e1779]:
+                - generic [ref=e1780]: Tally Weijl
+                - generic [ref=e1781]: Жіноча біла футболка Tally Weijl
+                - generic [ref=e1782]: 999 грн
+            - link "Жіноче темно-коричневе худі Tally Weijl Жіноче темно-коричневе худі Tally Weijl 1 799 грн" [ref=e1784] [cursor=pointer]:
+              - /url: /store/zhinoche-temno-korychneve-khudi-tally-weijl-sswcoskima-korychnevyi
+              - generic [ref=e1786]:
+                - img "Жіноче темно-коричневе худі"
+              - generic [ref=e1789]:
+                - generic [ref=e1790]: Tally Weijl
+                - generic [ref=e1791]: Жіноче темно-коричневе худі Tally Weijl
+                - generic [ref=e1792]: 1 799 грн
+            - link "Жіноче фіолетове худі Tally Weijl Жіноче фіолетове худі Tally Weijl 1 999 грн" [ref=e1794] [cursor=pointer]:
+              - /url: /store/zhinoche-fioletove-khudi-tally-weijl-sswcojhimo-fioletovyi
+              - generic [ref=e1796]:
+                - img "Жіноче фіолетове худі"
+              - generic [ref=e1799]:
+                - generic [ref=e1800]: Tally Weijl
+                - generic [ref=e1801]: Жіноче фіолетове худі Tally Weijl
+                - generic [ref=e1802]: 1 999 грн
+            - link "Жіночий темно-синій лонгслів Tally Weijl Жіночий темно-синій лонгслів Tally Weijl 999 грн" [ref=e1804] [cursor=pointer]:
+              - /url: /store/zhinochyi-temno-synii-lonhsliv-tally-weijl-stscobelgi-synii
+              - generic [ref=e1806]:
+                - img "Жіночий темно-синій лонгслів"
+              - generic [ref=e1809]:
+                - generic [ref=e1810]: Tally Weijl
+                - generic [ref=e1811]: Жіночий темно-синій лонгслів Tally Weijl
+                - generic [ref=e1812]: 999 грн
+            - link "Жіноча темно-зелена куртка Tally Weijl Жіноча темно-зелена куртка Tally Weijl 4 699 грн" [ref=e1814] [cursor=pointer]:
+              - /url: /store/zhinocha-temno-zelena-kurtka-tally-weijl-sjapetomato-zelenyi
+              - generic [ref=e1816]:
+                - img "Жіноча темно-зелена куртка"
+              - generic [ref=e1819]:
+                - generic [ref=e1820]: Tally Weijl
+                - generic [ref=e1821]: Жіноча темно-зелена куртка Tally Weijl
+                - generic [ref=e1822]: 4 699 грн
+            - link "Жіноча темно-коричнева шуба Tally Weijl Жіноча темно-коричнева шуба Tally Weijl 4 799 грн" [ref=e1824] [cursor=pointer]:
+              - /url: /store/zhinocha-temno-korychneva-shuba-tally-weijl-sjaffvictori-korychnevyi
+              - generic [ref=e1826]:
+                - img "Жіноча темно-коричнева шуба"
+              - generic [ref=e1829]:
+                - generic [ref=e1830]: Tally Weijl
+                - generic [ref=e1831]: Жіноча темно-коричнева шуба Tally Weijl
+                - generic [ref=e1832]: 4 799 грн
+            - link "Жіноче бордове боді Tally Weijl Жіноче бордове боді Tally Weijl 1 299 грн" [ref=e1834] [cursor=pointer]:
+              - /url: /store/zhinoche-bordove-bodi-tally-weijl-sbococosym-bordovyi
+              - generic [ref=e1836]:
+                - img "Жіноче бордове боді"
+              - generic [ref=e1839]:
+                - generic [ref=e1840]: Tally Weijl
+                - generic [ref=e1841]: Жіноче бордове боді Tally Weijl
+                - generic [ref=e1842]: 1 299 грн
+            - link "Дивитися більше" [ref=e1844] [cursor=pointer]:
+              - /url: /discounts/product/6af19c226482f
+    - generic [ref=e1848]:
+      - generic [ref=e1850]:
+        - img "20261103 Новий сезон у стилі MD Fashion" [ref=e1852]
+        - generic [ref=e1853] [cursor=pointer]
+      - generic [ref=e1854]:
+        - heading "Осінь-Зима 2026" [level=6] [ref=e1855]
+        - heading "Новий сезон у стилі MD Fashion" [level=2] [ref=e1856]
+        - link "Дивитись" [ref=e1857] [cursor=pointer]:
+          - /url: /store/md-product
+    - generic [ref=e1858]:
+      - 'heading "Інтернет-магазин MD Fashion: місце для пошуку унікального стилю" [level=2] [ref=e1859]'
+      - generic [ref=e1860]: Люди звикли проявляти себе через стиль. Справити враження на оточуючих і випадкових перехожих, щоб почуватися впевнено у будь-якій ситуації — головна місія фешн-індустрії.
+      - generic [ref=e1861]:
+        - paragraph [ref=e1862]:
+          - generic [ref=e1863]: Інтернет-магазин одягу — це можливість створювати безмежну кількість варіантів для сміливих і часом екстравагантних рішень у моді. На сайті на вас чекає багато товарів, які за стилістикою відносяться до різних напрямків. Любителі casual style 100% знайдуть для себе вільні фасони універсальної палітри кольорів. Для прихильників стрітстайлу є шанс насолодитися атмосферою американського урбану — оверсайз підходить як ніколи. Звичайно ж, класичні моделі завжди будуть популярними та доречними, тому у будь-якому сезоні вибирайте традиційний костюм від преміальних торгових марок. А тепер розберемо пазл!
+        - heading "Основна концепція MD Fashion" [level=3] [ref=e1864]
+        - paragraph [ref=e1866]:
+          - generic [ref=e1867]: "Маркетплейс поділений на категорії для того, щоб клієнтам було легше знайти потрібну річ зі списку, знайти улюблений лейбл і потім визначитися з вибором. Ви маєте можливість відфільтрувати такі критерії, як:"
+        - list [ref=e1868]:
+          - listitem [ref=e1869]:
+            - generic [ref=e1870]: "новинки: розділ, де зібрані найсвіжіші та найбажаніші надходження, а також нові колекції від легендарних фірм;"
+          - listitem [ref=e1871]:
+            - generic [ref=e1872]: "брендовий одяг: мабуть, найголовніший розділ для модників, що стосується шопінгу. Тут зібрано абсолютно все, що може опинитися у вашій шафі: від курток до спідньої білизни;"
+          - listitem [ref=e1873]:
+            - generic [ref=e1874]: "взуття: не менш важлива частина на шляху формування повноцінного гардеробу. Онлайн-шоп представляє лише високоякісні, функціональні та максимально комфортні вироби;"
+          - listitem [ref=e1875]:
+            - generic [ref=e1876]: "аксесуари: концептуальні деталі, які вважаються \"вічними помічниками\" для вдосконалення образу, надаючи родзинку та залишаючи післясмак."
+        - paragraph [ref=e1877]:
+          - generic [ref=e1878]: До речі, не втрачайте нагоди скористатися фільтрами для пошуку спортивного екіпірування, а ще сейлу, який пропонує магазин MD Fashion, адже багато хто з вас знаходить там асортимент за вигідними цінами. Це добре, адже комплекти прослужать вам не один рік завдяки зносостійкості та довговічності.
+        - heading "Чому онлайн-шопінг — це так круто?" [level=3] [ref=e1879]
+        - paragraph [ref=e1881]:
+          - generic [ref=e1882]: "Ми відповімо на запитання! По-перше, купувати в Інтернеті набагато зручніше, ніж у фізичних бутіках. У вас є реальний шанс швидко придбати відразу кілька топ-луків для заходів: для вечірнього виходу, спортивних тренувань або повсякденних прогулянок. По-друге, значна економія часу — вагомий привід. Жодних заторів по дорозі додому або довготривалих походів по моллах. Купуйте безпечно та оперативно у різних точках України!"
+        - heading "Відомі бренди, які представлені на платформі" [level=3] [ref=e1883]
+        - paragraph [ref=e1885]:
+          - generic [ref=e1886]: Якщо давно мрієте про худі Tommy Hilfiger або технологічний костюм від adidas, то ви вибрали найкращий магазин одягу. Лише оригінальна продукція від виробника. Представлено безліч популярних товарних знаків, які займають лідируючу позицію на міжнародному ринку. Sportstyle активно транслює Puma. Компанію обирають селебріті та зіркові спадкоємці. Серед них є молодіжна співачка Селена Гомес та інші. Calvin Klein, G-Star RAW уособлюють преміальний, вишуканий смак. Перейдемо до норовливого за характером Diesel. Грубувата назва майже відразу залишається в пам'яті надовго. Зухвалі дизайнери в лінійках проводять паралелі з традиційним створенням аутфітів, але регулярно трансформують принти та дизайни. Так, Lacoste та Replay часто грають з минулими фасонами, додаючи змін до вуличних трендів.
+        - 'heading "Інтернет магазин MD Fashion: каталог товарів" [level=3] [ref=e1887]':
+          - strong [ref=e1888]:
+            - generic [ref=e1889]: "Інтернет магазин MD Fashion: каталог товарів"
+        - paragraph [ref=e1890]:
+          - generic [ref=e1891]: Більшість людей стилізують свої луки самостійно, а деяким необхідно більше часу, щоб зрозуміти з чим носити світшот, як краще поєднуються штани кльош або з високою посадкою. Тому на нашому сайті ви можете одразу розглянути fashion-карусель та зрозуміти виграшні сторони винаходу. Професійні знімки та зображення сто відсотків знадобляться! Дизайнерські сукні можна міксувати пасками, блейзерами. Блузи перетворюються на офісний комплект зі строгими штанинами або романтичне вбрання завдяки спідницям. Залежно від погоди, підбирайте правильний верх.
+        - paragraph [ref=e1892]:
+          - generic [ref=e1893]: Оформлюйте замовлення в інтернет-магазині MD Fashion та створюйте власні стильні комбінації!
+        - paragraph [ref=e1894]
+        - paragraph [ref=e1895]
+        - paragraph [ref=e1896]
+      - generic [ref=e1899] [cursor=pointer]: Детальніше
+    - generic [ref=e1900]:
+      - generic [ref=e1906]:
+        - generic [ref=e1907]: повернення товарів
+        - generic [ref=e1908]: протягом 14 днів
+      - generic [ref=e1916]:
+        - generic [ref=e1917]: доставка по всій Україні
+        - generic [ref=e1918]: до 5 днів
+      - generic [ref=e1926]:
+        - generic [ref=e1927]: гарантія
+        - generic [ref=e1928]: якості та автентичності
+      - generic [ref=e1935]:
+        - generic [ref=e1936]: клубна програма
+        - generic [ref=e1937]: отримуйте до 15% від суми покупки
+  - contentinfo [ref=e1938]:
+    - generic [ref=e1939]:
+      - generic [ref=e1940]:
+        - link [ref=e1941] [cursor=pointer]:
+          - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+        - link [ref=e1942] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=e1943]:
+        - generic [ref=e1944]:
+          - generic [ref=e1945]: Контакт-центр
+          - list [ref=e1946]:
+            - listitem [ref=e1947]:
+              - link "044 585 50 40" [ref=e1948] [cursor=pointer]:
+                - /url: tel:0445855040
+            - listitem [ref=e1949]: Пн-Пт 9:00 - 21:00
+            - listitem [ref=e1950]: Сб-Нд 9:00 - 19:00
+          - generic [ref=e1951]:
+            - link [ref=e1952] [cursor=pointer]:
+              - /url: /our-stores
+            - link "Магазини партнери клубної програми MD Fashion" [ref=e1954] [cursor=pointer]:
+              - /url: /our-stores
+          - generic [ref=e1955]:
+            - link [ref=e1956] [cursor=pointer]:
+              - /url: https://www.facebook.com/md.fashion.ukraine
+            - link [ref=e1958] [cursor=pointer]:
+              - /url: https://instagram.com/md_fashion.ua
+            - link [ref=e1960] [cursor=pointer]:
+              - /url: https://www.t.me/mdfashionua/
+        - generic [ref=e1962]:
+          - link [ref=e1963] [cursor=pointer]:
+            - /url: /our-stores
+          - link "Магазини партнери клубної програми MD Fashion" [ref=e1965] [cursor=pointer]:
+            - /url: /our-stores
+        - generic [ref=e1966]:
+          - generic [ref=e1967]: Особистий кабінет
+          - list [ref=e1968]:
+            - listitem [ref=e1969]:
+              - link "Історія замовлень" [ref=e1970] [cursor=pointer]:
+                - /url: /account/order
+            - listitem [ref=e1971]:
+              - link "Мої дані" [ref=e1972] [cursor=pointer]:
+                - /url: /account/details
+            - listitem [ref=e1973]:
+              - link "Адреси доставки" [ref=e1974] [cursor=pointer]:
+                - /url: /account/address
+            - listitem [ref=e1975]:
+              - link "Обране" [ref=e1976] [cursor=pointer]:
+                - /url: /favorites
+            - listitem [ref=e1977]:
+              - link "Клубна програма" [ref=e1978] [cursor=pointer]:
+                - /url: /loyalty
+            - listitem [ref=e1979]:
+              - link "Розсилки" [ref=e1980] [cursor=pointer]:
+                - /url: /account/subscription
+        - generic [ref=e1981]:
+          - generic [ref=e1982]: Покупцям
+          - list [ref=e1983]:
+            - listitem [ref=e1984]:
+              - link "Оплата та доставка" [ref=e1985] [cursor=pointer]:
+                - /url: /payment-shipping
+            - listitem [ref=e1986]:
+              - link "Повернення" [ref=e1987] [cursor=pointer]:
+                - /url: /return
+            - listitem [ref=e1988]:
+              - link "Питання та відповіді" [ref=e1989] [cursor=pointer]:
+                - /url: /questions-answers
+            - listitem [ref=e1990]:
+              - link "Клубна програма" [ref=e1991] [cursor=pointer]:
+                - /url: /loyalty
+            - listitem [ref=e1992]:
+              - link "Подарункові сертифікати" [ref=e1993] [cursor=pointer]:
+                - /url: /certificates
+            - listitem [ref=e1994]:
+              - link "Гарантія" [ref=e1995] [cursor=pointer]:
+                - /url: /guarantee
+            - listitem [ref=e1996]:
+              - link "Правила догляду за речами" [ref=e1997] [cursor=pointer]:
+                - /url: /rules-for-clothing-care
+            - listitem [ref=e1998]:
+              - link "Контакти" [ref=e1999] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e2000]:
+          - generic [ref=e2001]: Про компанію
+          - list [ref=e2002]:
+            - listitem [ref=e2003]:
+              - link "Про нас" [ref=e2004] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e2005]:
+              - link "Журнал" [ref=e2006] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e2007]:
+              - link "Кар'єра в MD" [ref=e2008] [cursor=pointer]:
+                - /url: /career
+            - listitem [ref=e2009]:
+              - link "Стати партнером маркетплейс" [ref=e2010] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=e2011]:
+              - link "Політика конфіденційності" [ref=e2012] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e2013]:
+              - link "Угода користувача" [ref=e2014] [cursor=pointer]:
+                - /url: /terms-of-use
+          - generic [ref=e2015]:
+            - link [ref=e2016] [cursor=pointer]:
+              - /url: https://itunes.apple.com/ua/app/md-fashion/id1437169985
+            - link [ref=e2017] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.omnicore.md_fashion
+      - generic [ref=e2018]:
+        - link [ref=e2019] [cursor=pointer]:
+          - /url: https://www.facebook.com/md.fashion.ukraine
+        - link [ref=e2021] [cursor=pointer]:
+          - /url: https://instagram.com/md_fashion.ua
+        - link [ref=e2023] [cursor=pointer]:
+          - /url: https://www.t.me/mdfashionua/
+      - generic [ref=e2025]: © 2026 MD Fashion. Усі права зареєстровані
