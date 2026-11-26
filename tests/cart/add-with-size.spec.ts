@@ -1,48 +1,43 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
-
-const toNumber = (s: string) => parseInt(s.replace(/[^\d]/g, ''), 10);
+import { test, expect, PRODUCTS, parsePrice } from '../../pom';
 
 test.describe('Корзина без оформления заказа', () => {
-  test('Добавление товара с выбранным размером', async ({ page }) => {
-    // 1. Открыть карточку WW0WW46138, кликнуть размер «M», нажать «Додати в кошик».
-    await page.goto('https://md-fashion.ua/store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi');
-    const sizeM = page.locator('.product_size_button[data-size="M"]');
-    await sizeM.click();
-    await expect(sizeM).toHaveClass(/active/);
-    const cardPriceText = (await page.locator('.price_current').first().innerText()).trim();
-    const cardPrice = toNumber(cardPriceText);
-    await page.locator('button:has-text("Додати в кошик")').click();
-    await expect(page).toHaveURL(/\/store\/zhinocha-chorna-suknya/);
-    await expect(page.locator('header a[href="/cart/index"]').filter({ hasText: '1' })).toBeVisible();
+  test('Добавление товара с выбранным размером', async ({ page, productPage, cartPage }) => {
+    const product = PRODUCTS.blackDress;
 
-    // 2. Открыть /cart/index (иконка корзины в шапке).
-    await page.goto('https://md-fashion.ua/cart/index');
-    await expect(page.getByRole('heading', { name: 'Кошик' }).first()).toBeVisible();
-    await expect(page.getByText('1 товар', { exact: true })).toBeVisible();
-    await expect(page.getByText('TOMMY HILFIGER', { exact: true }).first()).toBeVisible();
-    await expect(page.getByText('Жіноча чорна сукня SLIM 5X2 RIB').first()).toBeVisible();
-    await expect(page.getByText('Розмір:')).toBeVisible();
-    await expect(page.getByText('Колір:')).toBeVisible();
+    // 1. Открыть карточку WW0WW46138, кликнуть размер «M», нажать «Додати в кошик».
+    await productPage.open(product.url);
+    await productPage.selectSize('M');
+    await expect(productPage.size('M')).toHaveClass(/active/);
+    const cardPriceText = (await productPage.priceCurrent.innerText()).trim();
+    const cardPrice = parsePrice(cardPriceText);
+    await productPage.addToCart({ waitForAdded: true });
+    await expect(page).toHaveURL(/\/store\/zhinocha-chorna-suknya/);
+
+    // 2. Открыть /cart/index (иконка корзины в шапке). Счётчик надёжно проверяется только здесь.
+    await cartPage.openWithItems();
+    await expect(cartPage.cartCounter).toHaveText('1');
+    await expect(cartPage.heading).toBeVisible();
+    await expect(cartPage.itemsCountLabel('1 товар')).toBeVisible();
+    await expect(cartPage.firstItemRow.getByText(/^Tommy Hilfiger$/i)).toBeVisible();
+    await expect(page.getByText(product.name).first()).toBeVisible();
+    await expect(cartPage.sizeLabels).toBeVisible();
+    await expect(cartPage.colorLabels).toBeVisible();
     await expect(page.getByText('Чорний', { exact: true }).first()).toBeVisible();
 
     // Блок «Ваше замовлення»
-    await expect(page.getByText('Ваше замовлення')).toBeVisible();
-    const body = page.locator('body');
-    const orderText = await body.innerText();
-    const section = orderText.slice(orderText.indexOf('Ваше замовлення'));
-    const sum = toNumber(section.match(/Сума замовлення\s*\n?\s*([\d\s ]+)\s*грн/)![1]);
-    const discount = toNumber(section.match(/Загальна знижка\s*\n?\s*-\s*([\d\s ]+)\s*грн/)![1]);
-    const total = toNumber(section.match(/Всього\s*\n?\s*([\d\s ]+)\s*грн/)![1]);
-
+    await expect(cartPage.orderSummaryTitle).toBeVisible();
+    const { sum, discount, total } = await cartPage.readTotals();
     expect(total).toBe(sum - discount);
     expect(total).toBe(cardPrice);
-    await expect(page.getByText(`${cardPriceText}`).first()).toBeVisible();
+    await expect(page.getByText(cardPriceText).first()).toBeVisible();
 
-    await expect(page.getByText('Маєте промокод?')).toBeVisible();
-    await expect(page.getByText('Застосувати')).toBeVisible();
-    await expect(page.getByText('Оформити замовлення').first()).toBeVisible();
+    await expect(cartPage.promoToggle).toBeVisible();
+    // Кнопка «Застосувати» скрыта, пока не раскрыт блок «Маєте промокод?»
+    await expect(cartPage.promoApplyText).toBeAttached();
+    // Только проверка наличия — НЕ нажимать
+    await expect(cartPage.checkoutButton.first()).toBeVisible();
   });
 });

@@ -1,28 +1,26 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, env } from '../../pom';
 
 test.describe('Поиск товара', () => {
-  test('Запрос без результатов', async ({ page }) => {
-    await page.goto('https://md-fashion.ua/');
+  test('Запрос без результатов', async ({ page, homePage, searchResultsPage }) => {
+    const dress = env('SEARCH_QUERY_DRESS');
+    await homePage.open();
 
     // 1. Ввести «ффффыыыы12345» и нажать Enter.
-    const headerSearch = page.getByRole('searchbox', { name: 'Пошук', exact: true });
-    await headerSearch.fill('ффффыыыы12345');
-    await headerSearch.press('Enter');
+    await homePage.search(env('SEARCH_QUERY_NO_RESULTS'));
     await expect(page).toHaveURL(/\/store\?s=/);
-    await expect(page.getByRole('heading', { name: 'За вашим запитом нічого не знайдено' })).toBeVisible();
-    await expect(page.getByText('Перевірте правопис або спробуйте використовувати більш загальний запит')).toBeVisible();
+    await expect(searchResultsPage.noResultsHeading).toBeVisible();
+    await expect(searchResultsPage.noResultsHint).toBeVisible();
     await expect(page.getByText(/\d+\s*з\s*\d+\s*товар/)).toHaveCount(0);
-    await expect(page.getByRole('banner')).toBeVisible();
-    await expect(page.getByRole('contentinfo')).toBeVisible();
+    await expect(searchResultsPage.banner).toBeVisible();
+    await expect(searchResultsPage.footer).toBeVisible();
 
     // 2. Из этого состояния ввести «сукня» в поле поиска.
-    await headerSearch.fill('сукня');
-    await headerSearch.press('Enter');
+    await searchResultsPage.search(dress);
     await expect(page).toHaveURL(/\/store\?s=/);
-    await expect(page.getByRole('heading', { name: 'Товари за запитом «сукня»' })).toBeVisible();
-    await expect(page.getByText('За вашим запитом нічого не знайдено')).toHaveCount(0);
+    await expect(searchResultsPage.resultsHeading(dress)).toBeVisible();
+    await expect(searchResultsPage.noResultsHeading).toHaveCount(0);
   });
 });

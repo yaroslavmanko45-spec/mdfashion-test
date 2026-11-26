@@ -1,16 +1,15 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, PRODUCTS, URLS } from '../../pom';
 
 test.describe('Страница товара', () => {
-  test('Хлебные крошки', async ({ page }) => {
-    const productUrl = 'https://md-fashion.ua/store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi';
-    const breadcrumbs = page.locator('ul.breadcrumb');
+  test('Хлебные крошки', async ({ page, productPage }) => {
+    const product = PRODUCTS.blackDress;
 
     // 1. Открыть карточку и посмотреть крошки.
-    await page.goto(productUrl);
-    await expect(breadcrumbs.locator('li')).toHaveText([
+    await productPage.open(product.url);
+    await expect(productPage.breadcrumbItems).toHaveText([
       'Головна',
       'Каталог',
       'Жінкам',
@@ -18,18 +17,18 @@ test.describe('Страница товара', () => {
       'Сукні',
       'Сукні-светри',
       'Tommy Hilfiger',
-      'Жіноча чорна сукня SLIM 5X2 RIB Tommy Hilfiger WW0WW46138',
+      product.fullName,
     ]);
 
     // 2. Кликнуть по «Сукні».
-    await breadcrumbs.locator('a[href="/store/women/odyah/sukni"]').click();
-    await expect(page).toHaveURL('https://md-fashion.ua/store/women/odyah/sukni');
+    await productPage.breadcrumbLink('/store/women/odyah/sukni').click();
+    await expect(page).toHaveURL(URLS.dressesCategory);
     await expect(page.getByRole('heading', { level: 1, name: 'Сукні' })).toBeVisible();
     await expect(page.locator('a[href*="/store/"]:has(img)').first()).toBeVisible();
 
     // 3. Нажать «Головна».
-    await page.goto(productUrl);
-    await breadcrumbs.locator('a[href="/"]').click();
-    await expect(page).toHaveURL('https://md-fashion.ua/');
+    await productPage.open(product.url);
+    await productPage.breadcrumbLink('/').click();
+    await expect(page).toHaveURL(URLS.home);
   });
 });

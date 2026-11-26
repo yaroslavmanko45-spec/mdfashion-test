@@ -1,46 +1,54 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, PRODUCTS, ProductPage, URLS, env, formEncode } from '../../pom';
 
 test.describe('Страница товара', () => {
-  test('Открытие по прямому URL и поведение страницы', async ({ page, context }) => {
-    const path = '/store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi';
-    const url = 'https://md-fashion.ua' + path;
+  test('Открытие по прямому URL и поведение страницы', async ({ page, context, homePage, searchResultsPage }) => {
+    const product = PRODUCTS.blackDress;
+    const sku = env('SEARCH_QUERY_SKU');
+    const searchUrl = `${URLS.store}?s=${formEncode(sku)}`;
 
     // 1. В новой вкладке открыть прямой URL товара.
     const tab = await context.newPage();
+    const tabProduct = new ProductPage(tab);
     const appErrors: string[] = [];
     tab.on('console', (msg) => {
       if (msg.type() !== 'error') return;
       const src = msg.location().url;
+      // WebKit репортит блокировки CSP для аналитики (gtm-ss.md-fashion.ua) как error — это не ошибка страницы.
+      // Firefox: «Cookie “sc” has been rejected for invalid domain» — cookie стороннего трекера.
+      if (/gtm-ss\.md-fashion\.ua|Content[ -]Security[ -]Policy|Cookie .* rejected|doubleclick\.net/i.test(msg.text())) return;
       // Игнорируем сторонние трекеры: оставляем ошибки без URL источника или с md-fashion.ua
       if (!src || src.includes('md-fashion.ua')) appErrors.push(msg.text());
     });
-    tab.on('pageerror', (err) => appErrors.push(err.message));
+    // Firefox: «Cookie “sc” has been rejected for invalid domain» — cookie стороннего трекера; WebKit: блокировка CSP gtm-ss.
+    tab.on('pageerror', (err) => {
+      // WebKit: cross-origin frame doubleclick — тоже сторонний трекер.
+      if (/gtm-ss\.md-fashion\.ua|Cookie .* rejected|Content[ -]Security[ -]Policy|doubleclick\.net/i.test(err.message)) return;
+      appErrors.push(err.message);
+    });
 
-    const response = await tab.goto(url);
+    const response = await tabProduct.open(product.url);
     expect(response?.status()).toBe(200);
-    await expect(tab).toHaveURL(url);
-    expect(tab.url()).toBe(url);
-    await expect(tab).toHaveTitle('Жіноча чорна сукня SLIM 5X2 RIB Tommy Hilfiger WW0WW46138 — MD-Fashion');
-    await expect(tab.locator('h1')).toContainText('Жіноча чорна сукня SLIM 5X2 RIB');
-    await expect(tab.locator('.price_current')).toBeVisible();
+    await expect(tab).toHaveURL(product.url);
+    expect(tab.url()).toBe(product.url);
+    await expect(tab).toHaveTitle(product.title);
+    await expect(tabProduct.h1).toContainText(product.name);
+    await expect(tabProduct.priceCurrent).toBeVisible();
     expect(appErrors).toEqual([]);
     await tab.close();
 
     // 2. Нажать «Назад» браузера после перехода из выдачи поиска.
-    await page.goto('https://md-fashion.ua/');
-    const searchbox = page.getByRole('searchbox', { name: 'Пошук', exact: true });
-    await searchbox.fill('WW0WW46138');
-    await searchbox.press('Enter');
-    await expect(page).toHaveURL('https://md-fashion.ua/store?s=WW0WW46138');
+    await homePage.open();
+    await homePage.search(sku);
+    await expect(page).toHaveURL(searchUrl);
 
-    await page.locator('a.products-item__link[href$="ww0ww46138-chornyi"]').click();
-    await expect(page).toHaveURL(url);
+    await searchResultsPage.productLink(product.slug).click();
+    await expect(page).toHaveURL(product.url);
 
     await page.goBack();
-    await expect(page).toHaveURL('https://md-fashion.ua/store?s=WW0WW46138');
-    await expect(page.locator('a.products-item__link[href$="ww0ww46138-chornyi"]')).toBeVisible();
+    await expect(page).toHaveURL(searchUrl);
+    await expect(searchResultsPage.productLink(product.slug)).toBeVisible();
   });
 });

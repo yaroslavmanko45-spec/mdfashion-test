@@ -1,35 +1,32 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
-import { test, expect } from '@playwright/test';
+
+import { test, expect, PRODUCTS } from '../../pom';
 
 test.describe('Страница товара', () => {
-  test('Выбор размера и таблица размеров', async ({ page }) => {
+  test('Выбор размера и таблица размеров', async ({ productPage }) => {
     // 1. Открыть карточку, найти блок «Розмір» с вариантами XXS, XS, S, M, L.
-    await page.goto('https://md-fashion.ua/store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi');
-    const sizes = page.locator('.product_sizes_block .product_size_button');
-    await expect(page.locator('.product_sizes_block .product_info_title')).toContainText('Розмір');
-    await expect(sizes.first()).toBeVisible();
+    await productPage.open(PRODUCTS.blackDress.url);
+    await expect(productPage.sizesTitle).toContainText('Розмір');
+    await expect(productPage.sizes.first()).toBeVisible();
     // Ни один размер по умолчанию не выбран
-    await expect(page.locator('.product_sizes_block .product_size_button.active')).toHaveCount(0);
+    await expect(productPage.activeSizes).toHaveCount(0);
 
     // 2. Кликнуть «M».
-    const sizeM = page.locator('.product_size_button[data-size="M"]');
-    const sizeS = page.locator('.product_size_button[data-size="S"]');
-    await sizeM.click();
-    await expect(sizeM).toHaveClass(/active/);
+    await productPage.selectSize('M');
+    await expect(productPage.size('M')).toHaveClass(/active/);
 
     // Выбор другого размера снимает предыдущий
-    await sizeS.click();
-    await expect(sizeS).toHaveClass(/active/);
-    await expect(sizeM).not.toHaveClass(/active/);
+    await productPage.selectSize('S');
+    await expect(productPage.size('S')).toHaveClass(/active/);
+    await expect(productPage.size('M')).not.toHaveClass(/active/);
 
     // 3. Нажать «Таблиця розмірів».
-    await page.locator('.size-chart-btn').click();
-    const popup = page.locator('.size-popup__container');
-    await expect(popup).toBeVisible();
+    await productPage.sizeChartButton.click();
+    await expect(productPage.sizeChartPopup).toBeVisible();
 
     // Закрывается крестиком
-    await popup.locator('.close').click();
-    await expect(popup).toHaveCount(0);
+    await productPage.sizeChartClose.click();
+    await expect(productPage.sizeChartPopup).toHaveCount(0);
   });
 });
