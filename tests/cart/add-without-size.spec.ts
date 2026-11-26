@@ -1,39 +1,39 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, PRODUCTS } from '../../pom';
 
 test.describe('Корзина без оформления заказа', () => {
-  test('Попытка добавления без выбора размера (валидация)', async ({ page }) => {
-    const productUrl = 'https://md-fashion.ua/store/zhinocha-chorna-suknya-slim-5x2-rib-tommy-hilfiger-ww0ww46138-chornyi';
-    const addToCartBtn = page.locator('button.add_to_cart_product_btn');
-    const sizeError = page.locator('.product_last_label_error');
-    const cartCounter = page.locator('a.cart .counter').first();
+  test('Попытка добавления без выбора размера (валидация)', async ({ productPage, cartPage }) => {
+    const productUrl = PRODUCTS.blackDress.url;
 
     // 1. Открыть карточку WW0WW46138, не выбирая размер, нажать «Додати в кошик».
-    await page.goto(productUrl);
-    await addToCartBtn.click();
-    await expect(sizeError).toBeVisible();
-    await expect(sizeError).toHaveText('Виберіть розмір');
-    await expect(cartCounter).toHaveText('0');
+    await productPage.open(productUrl);
+    await productPage.addToCart();
+    await expect(productPage.sizeError).toBeVisible();
+    await expect(productPage.sizeError).toHaveText('Виберіть розмір');
+    await expect(productPage.cartCounter).toHaveText('0');
 
     // Подтверждение: корзина пуста
-    await page.goto('https://md-fashion.ua/cart/index');
-    await expect(cartCounter).toHaveText('0');
-    await expect(page.getByText('1 товар')).toHaveCount(0);
+    await cartPage.open();
+    await expect(cartPage.cartCounter).toHaveText('0');
+    await expect(cartPage.itemsCountLabel('1 товар')).toHaveCount(0);
 
     // 2. Выбрать «S» и снова нажать «Додати в кошик».
-    await page.goto(productUrl);
-    await addToCartBtn.click();
-    await expect(sizeError).toBeVisible();
-    await page.locator('.product_size_button[data-size="S"]').click();
-    await expect(page.locator('.product_size_button[data-size="S"]')).toHaveClass(/active/);
-    await addToCartBtn.click();
-    await expect(sizeError).toBeHidden();
+    await productPage.open(productUrl);
+    await productPage.addToCart();
+    await expect(productPage.sizeError).toBeVisible();
+    // Выбор размера должен скрыть ошибку; если скрипты страницы ещё не готовы, клик теряется — повторяем.
+    await expect(async () => {
+      if (!(await productPage.size('S').evaluate((el) => el.classList.contains('active')))) await productPage.selectSize('S');
+      await expect(productPage.size('S')).toHaveClass(/active/, { timeout: 3000 });
+      await expect(productPage.sizeError).toBeHidden({ timeout: 3000 });
+    }).toPass({ timeout: 30_000 });
+    await productPage.addToCart({ waitForAdded: true });
 
     // Подтверждение: товар добавлен с размером S
-    await page.goto('https://md-fashion.ua/cart/index');
-    await expect(page.getByText('1 товар')).toBeVisible();
-    await expect(page.locator('.enhanced-product-size[data-size="S"]').first()).toHaveText('S');
+    await cartPage.openWithItems();
+    await expect(cartPage.itemsCountLabel('1 товар')).toBeVisible();
+    await expect(cartPage.itemSize('S').first()).toHaveText('S');
   });
 });

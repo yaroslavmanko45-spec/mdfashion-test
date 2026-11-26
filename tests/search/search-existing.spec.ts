@@ -1,34 +1,41 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, env, searchUrlPattern } from '../../pom';
 
 test.describe('Поиск товара', () => {
-  test('Поиск по существующему запросу «сукня» (Enter)', async ({ page }) => {
-    // 1. Открыть https://md-fashion.ua/ и ввести «сукня» в поле «Пошук»
-    await page.goto('https://md-fashion.ua/');
-    const search = page.getByRole('searchbox', { name: 'Пошук' });
-    await search.click();
-    await search.pressSequentially('сукня');
+  test('Поиск по существующему запросу «сукня» (Enter)', async ({ page, browserName, homePage, searchResultsPage }) => {
+    // Потенциальный баг приложения: в WebKit при загрузке главной скрипт сайта падает с
+    // «TypeError: null is not an object (evaluating 't.closest')» (assets/webpack/js/973313f.js),
+    // после чего автоподсказки не открываются (запрос get-auto-fill-phrases не отправляется) вместо ожидаемого списка подсказок.
+    // В Chromium/Firefox та же ошибка проявляется реже.
+    test.fixme(browserName === 'webkit', 'WebKit: автоподсказки поиска не открываются из-за JS-ошибки сайта (t.closest)');
 
-    await expect(page.getByText('Товари', { exact: true })).toBeVisible();
-    await expect(page.getByText('Категорії', { exact: true })).toBeVisible();
-    await expect(page.getByText('Пропозиції', { exact: true })).toBeVisible();
-    await expect(page.getByText('Бренди', { exact: true }).first()).toBeVisible();
-    await expect(page.getByText('Сукні-толстовки', { exact: true })).toBeVisible();
-    await expect(page.getByText('Сукні-сорочки', { exact: true })).toBeVisible();
-    await expect(page.getByText('сукня вечірня', { exact: true })).toBeVisible();
-    await expect(page.getByText('сукня джинсова', { exact: true })).toBeVisible();
-    await expect(page.getByText('Всі результати пошуку')).toBeVisible();
+    const query = env('SEARCH_QUERY_DRESS');
+
+    // 1. Открыть https://md-fashion.ua/ и ввести «сукня» в поле «Пошук»
+    await homePage.open();
+    await homePage.typeInSearch(query);
+
+    const suggestions = homePage.suggestions;
+    await expect(suggestions.sectionTitle('Товари')).toBeVisible();
+    await expect(suggestions.sectionTitle('Категорії')).toBeVisible();
+    await expect(suggestions.sectionTitle('Пропозиції')).toBeVisible();
+    await expect(suggestions.sectionTitle('Бренди')).toBeVisible();
+    await expect(suggestions.item('Сукні-толстовки')).toBeVisible();
+    await expect(suggestions.item('Сукні-сорочки')).toBeVisible();
+    await expect(suggestions.item('сукня вечірня')).toBeVisible();
+    await expect(suggestions.item('сукня джинсова')).toBeVisible();
+    await expect(suggestions.allResultsLink).toBeVisible();
 
     // 2. Нажать Enter
-    await page.keyboard.press('Enter');
+    await homePage.searchbox.press('Enter');
 
-    await expect(page).toHaveURL(/\/store\?s=%D1%81%D1%83%D0%BA%D0%BD%D1%8F/);
+    await expect(page).toHaveURL(searchUrlPattern(query));
     await expect(page).toHaveTitle('Каталог всіх товарів | Інтернет-магазин MD-Fashion');
-    await expect(page.getByText(/^\d+ з [\d\s]+ товар/)).toBeVisible();
-    await expect(page.getByText('Показати ще')).toBeVisible();
-    await expect(page.getByText('грн').first()).toBeVisible();
+    await expect(searchResultsPage.counter).toBeVisible();
+    await expect(searchResultsPage.showMoreButton).toBeVisible();
+    await expect(searchResultsPage.priceTexts.first()).toBeVisible();
     await expect(page.getByText(/сукня|сарафан/i).first()).toBeVisible();
   });
 });

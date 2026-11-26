@@ -1,31 +1,31 @@
 // spec: specs/md-fashion-search-product-cart.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from '@playwright/test';
+import { test, expect, env, searchUrlPattern } from '../../pom';
 
 test.describe('Поиск товара', () => {
-  test('Регистр и лишние пробелы', async ({ page }) => {
-    await page.goto('https://md-fashion.ua/');
-    const search = page.getByRole('searchbox', { name: 'Пошук' });
-    const counter = page.getByText(/\d+\s*з\s*\d+\s*товар/).first();
+  test('Регистр и лишние пробелы', async ({ page, homePage, searchResultsPage }) => {
+    const upper = env('SEARCH_QUERY_DRESS_UPPER');
+    const withSpaces = env('SEARCH_QUERY_DRESS_SPACES');
+    const innerSpaces = env('SEARCH_QUERY_DRESS_BLACK_SPACES');
+
+    await homePage.open();
+    const counter = searchResultsPage.counter;
 
     // 1. Выполнить поиск «СУКНЯ».
-    await search.fill('СУКНЯ');
-    await search.press('Enter');
+    await homePage.search(upper);
     await expect(page).toHaveURL(/\/store\?s=/);
     await expect(counter).toBeVisible();
-    const upperCount = (await counter.innerText()).match(/з\s*(\d+)/)![1];
+    const upperCount = await searchResultsPage.totalCount();
 
     // 2. Выполнить поиск «  сукня  » (пробелы до и после).
-    await search.fill('  сукня  ');
-    await search.press('Enter');
-    await expect(page).toHaveURL(/\/store\?s=\+\+/);
+    await searchResultsPage.search(withSpaces);
+    await expect(page).toHaveURL(searchUrlPattern(withSpaces));
     await expect(counter).toContainText(`з ${upperCount}`);
 
     // 3. Выполнить поиск «сукня   чорна» (несколько пробелов внутри).
-    await search.fill('сукня   чорна');
-    await search.press('Enter');
-    await expect(page).toHaveURL(/\/store\?s=%D1%81%D1%83%D0%BA%D0%BD%D1%8F\+\+\+/);
+    await searchResultsPage.search(innerSpaces);
+    await expect(page).toHaveURL(searchUrlPattern(innerSpaces));
     await expect(counter).toBeVisible();
     await expect(counter).not.toContainText(`з ${upperCount}`);
   });
